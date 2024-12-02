@@ -15,16 +15,16 @@ X,Y = np.loadtxt("pizza.txt" , skiprows = 1, unpack =True)
 
 plt.plot(X , Y , "bo")
 plt.plot(X , Y , "bo")
-
+    
 # the reg line
 x= np.linspace(0 , 10000)
 w = 2
 y=x*w
-sns.lineplot(x=x , y=y)
+sns.lineplot(y=y, x=x)
 plt.title(f"y = x")
-plt.xlabel("x")
-plt.ylabel("y")
+# plt.xlabel("x")
+# plt.ylabel("y")
 
-def predict():
-    print('workig');
+def predict(res , w):
+    return res * w 
 plt.show()
