@@ -17,34 +17,34 @@ def getW(path):
         res += item
     return res
 
-def predict(res , w):
+def predict(res , w , b):
     # 3dna y = x*w
     # res = x dans ce cas la => y =res * w
     # 
-    return res * w 
+    return res * w + b  
 
-def loss(X, Y , w):
-    return np.average(predict(X, w) - Y)**2
+def loss(X, Y , w , b):
+    return np.average((predict(X, w , b) - Y)**2)
 
 def train(X , Y , iterations , lr=0.01):
-    w = 0 
+    w = b = 0 
     for i in range(iterations):
-        curr_loss = loss(X, Y, w)
-        print("Iteration %4d => Loss: %.6f" % (i, curr_loss))
-        if curr_loss > loss(X , Y , w+lr):
+        curr_loss = loss(X, Y, w ,b)
+        print("Iteration %4d => Loss: %.6f (b calue : %.6f)" % (i, curr_loss , b))
+        if curr_loss > loss(X , Y , w+lr , b):
         # ila zdna +lr w kan loss jdid 7sn mn dyal db (sghr mno) 
             w+=lr # zid +lr l weigth
-        elif curr_loss > loss(X , Y , w-lr):
+        elif curr_loss > loss(X , Y , w-lr , b):
         # ila n9sna -lr w kan loss jdid 7sn mn dyal db (sghr mno) 
             w-=lr #n9s -lr lweigth
+        elif curr_loss > loss(X , Y , w, b+lr):
+            b+=lr
+        elif curr_loss > loss(X , Y , w, b-lr):
+            b-=lr    
         else:
         # mor matsali zada wn9san wywli curr_loss mkytbdlsh return w
-            return w 
+            return w , b
     raise Exception("Couldn't converge within %d iterations" % iterations)
-
-  
-
-
 
 sns.set();
 plt.axis([0,100 , 0,100])
@@ -57,12 +57,18 @@ X,Y = np.loadtxt("pizza.txt" , skiprows = 1, unpack =True)
 plt.plot(X , Y , "bo")
 plt.plot(X , Y , "bo")
     
-# the reg line
+# the reg linewlahila malk 
+
 x= np.linspace(0 , 10000)
-w = train(X , Y , 100000 , 0.01)
-y=x * getW("pizza.txt")
+w , b= train(X , Y , 100000 , 0.01)
+y=x * getW("pizza.txt") + b
 sns.lineplot(y=y, x=x)
 plt.title(f"y = x")
 
+
+wv = predict(15 , w ,b )
+print(f"wieght => {wv}")
+
 # print(predict(20, 2))
+plt.grid(True)
 plt.show()
