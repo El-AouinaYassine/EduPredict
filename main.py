@@ -4,18 +4,6 @@ import matplotlib.pyplot as plt
 
 # getW() function bash kan3rfo l Weigth (w li kat controlli line )
 # n7awlo l9aw shnahwa a7san line li ykon 9rib ma 2amkan lga3 lpoints
-def getW(path):
-    # y et x sonts des List 
-    y , x = np.loadtxt(path , skiprows=1 , unpack = True)
-    # anredohom np.array bash n9ro ndiro x/y sinon ay3tina expection
-    y= np.array(y)
-    x= np.array(x)
-
-    all = y/x # all at5rjlk array , ex : [1.2 , 0.23 , 012]
-    res = 0 
-    for item in all :
-        res += item
-    return res
 
 def predict(res , w , b):
     # 3dna y = x*w
@@ -53,21 +41,21 @@ plt.yticks(fontsize = 10)
 plt.xlabel("Reservations" , fontsize=20)
 plt.ylabel("Pizzas" , fontsize =20)
 # skiprows => n9z str dyal lktaba li fih "reservation pizza"
-X,Y = np.loadtxt("pizza.txt" , skiprows = 1, unpack =True)
+X,Y = np.loadtxt("score.txt" , skiprows = 1, unpack =True)
 plt.plot(X , Y , "bo")
-plt.plot(X , Y , "bo")
+# plt.plot(X , Y , "bo")
     
 # the reg linewlahila malk 
 
 x= np.linspace(0 , 10000)
-w , b= train(X , Y , 100000 , 0.01)
-y=x * getW("pizza.txt") + b
+w , b= train(X , Y , 1000000 , 0.01)
+y=x * w + b
 sns.lineplot(y=y, x=x)
 plt.title(f"y = x")
 
 
-wv = predict(15 , w ,b )
-print(f"wieght => {wv}")
+# wv = predict(15 , w.12269999985915,b )
+print(f"wieght => {w}")
 
 # print(predict(20, 2))
 plt.grid(True)
