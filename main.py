@@ -15,7 +15,9 @@ def loss(X, Y , w , b):
     return np.average((predict(X, w , b) - Y)**2) 
 
 def gradient(X , Y , w ,b=0):
-    return 2 * np.average(X * (predict(X,w,b)-Y) )
+    grad_w  =  2 * np.average(X * (predict(X,w,b)-Y) )
+    grad_b =  2 * np.average((predict(X,w,b)-Y) )
+    return grad_w ,grad_b
 
 def train(X , Y , iterations , lr=0.01 ):
     w = b = 0 
@@ -39,26 +41,32 @@ def train(X , Y , iterations , lr=0.01 ):
             return w , b ,tab
     raise Exception("Couldn't converge within %d iterations" % iterations)
 
-def train_gradiant(X,Y,iterations , lr = 0.01):
+def train_gradiant(X,Y,iterations , lr = 0.001 , tabX=[] , tabY=[] , tabZ=[]):
     w = 0
     b=0
     for i in range(iterations):
+        tabX.append((w))
+        tabY.append((w))
+        tabZ.append((loss(X, Y ,w ,0)))
         print(f"iteration : {iterations}")
         print(f"w:{w}")
-        w-=gradient(X,Y,w,b) *lr
+        w_gradient, b_gradient = gradient(X, Y, w, b)
+        w -= w_gradient * lr
+        b -= b_gradient * lr
         
-    return w
+    print(tabX , tabY)
+    return w , b
 
 
 sns.set();
 plt.axis([0,100 , 0,100])
 plt.xticks(fontsize = 10)
 plt.yticks(fontsize = 10)
-plt.xlabel("Reservations" , fontsize=20)
-plt.ylabel("Pizzas" , fontsize =20)
+plt.xlabel("w" , fontsize=20)
+plt.ylabel("l" , fontsize =20)
 # skiprows => n9z str dyal lktaba li fih "reservation pizza"
 X,Y = np.loadtxt("score.txt" , skiprows = 1, unpack =True)
-plt.plot(X , Y , "bo")
+# plt.plot(X , Y , "bo")
     
 # the reg linewlahila malk 
 
@@ -67,8 +75,10 @@ tab = []
 # w , b,tab= train(X , Y , 1000000 , 0.01)
 # w = 1;
 # b=0;
-y=x * train_gradiant(X,Y,10) + 2
-sns.lineplot(y=y, x=x)
+w , tabx , taby = train_gradiant(X,Y,1000);
+plt.plot(tabx , taby , "bo")
+y=x * w + 2
+# sns.lineplot(y=y, x=x)
 plt.title(f"y = x")
 
 plt.grid(True)
