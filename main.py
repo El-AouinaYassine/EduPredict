@@ -1,6 +1,7 @@
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt 
+from mpl_toolkits.mplot3d import Axes3D
 
 # getW() function bash kan3rfo l Weigth (w li kat controlli line )
 # n7awlo l9aw shnahwa a7san line li ykon 9rib ma 2amkan lga3 lpoints
@@ -54,8 +55,7 @@ def train_gradiant(X,Y,iterations , lr = 0.001 , tabX=[] , tabY=[] , tabZ=[]):
         w -= w_gradient * lr
         b -= b_gradient * lr
         
-    print(tabX , tabY)
-    return w , b
+    return (w , b , tabX , tabY , tabZ)
 
 
 sns.set();
@@ -75,11 +75,13 @@ tab = []
 # w , b,tab= train(X , Y , 1000000 , 0.01)
 # w = 1;
 # b=0;
-w , tabx , taby = train_gradiant(X,Y,1000);
-plt.plot(tabx , taby , "bo")
-y=x * w + 2
-# sns.lineplot(y=y, x=x)
+w , b , tabx , taby , tabz = train_gradiant(X,Y,1000);
+
+plt.plot(X, Y , "bo")
+y=x * w + b
+sns.lineplot(y=y, x=x)
 plt.title(f"y = x")
 
 plt.grid(True)
 plt.show()
+
