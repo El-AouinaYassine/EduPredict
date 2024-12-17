@@ -54,10 +54,12 @@ def train_gradiant(X,Y,iterations , lr = 0.001 , tabX=[] , tabY=[] , tabZ=[]):
         w_gradient, b_gradient = gradient(X, Y, w, b)
         w -= w_gradient * lr
         b -= b_gradient * lr
-        
     return (w , b , tabX , tabY , tabZ)
 
-
+def predict_upgraded(X ,W, b):
+    return np.matmul(X , W)
+def loss(X,w):
+    return np.average( (predict_upgraded(X,w,0)-Y) ** 2)
 sns.set();
 plt.axis([0,100 , 0,100])
 plt.xticks(fontsize = 10)
@@ -65,7 +67,14 @@ plt.yticks(fontsize = 10)
 plt.xlabel("w" , fontsize=20)
 plt.ylabel("l" , fontsize =20)
 # skiprows => n9z str dyal lktaba li fih "reservation pizza"
-X,Y = np.loadtxt("score.txt" , skiprows = 1, unpack =True)
+# X,Y = np.loadtxt("score.txt" , skiprows = 1, unpack =True)
+
+X1,X2,X3,Y = np.loadtxt("pizza_3_vars.txt" , skiprows=1 , unpack=True)
+X = np.column_stack((X1,X2,X3))
+print(Y)
+Y = Y.reshape(-1,1)
+print(Y)
+
 # plt.plot(X , Y , "bo")
     
 # the reg linewlahila malk 
@@ -75,13 +84,13 @@ tab = []
 # w , b,tab= train(X , Y , 1000000 , 0.01)
 # w = 1;
 # b=0;
-w , b , tabx , taby , tabz = train_gradiant(X,Y,1000);
+# w , b , tabx , taby , tabz = train_gradiant(X,Y,1000);
 
 plt.plot(X, Y , "bo")
-y=x * w + b
+# y=x * w + b
 sns.lineplot(y=y, x=x)
 plt.title(f"y = x")
 
 plt.grid(True)
-plt.show()
+# plt.show()
 
