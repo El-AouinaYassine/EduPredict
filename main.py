@@ -3,22 +3,30 @@ import seaborn as sns
 import matplotlib.pyplot as plt 
 from mpl_toolkits.mplot3d import Axes3D
 
-# getW() function bash kan3rfo l Weigth (w li kat controlli line )
-# n7awlo l9aw shnahwa a7san line li ykon 9rib ma 2amkan lga3 lpoints
+# def predict(X , w , b):
+#     return X * w + b  
+# def mtx_predict(X, W , b=0):
+#     return np.matmul(X,W)
 
-def predict(res , w , b):
-    # 3dna y = x*w
-    # res = x dans ce cas la => y =res * w
-    # 
-    return res * w + b  
+# def mtx_loss(X, Y , w , b):
+#     return np.average((mtx_predict(X , w) - Y)**2)
+# def loss(X, Y , w , b):
+#     return np.average((predict(X, w , b) - Y)**2) 
 
-def loss(X, Y , w , b):
-    return np.average((predict(X, w , b) - Y)**2) 
+# def gradient(X , Y , w ,b=0):
+#     grad_w  =  2 * np.average(X * (predict(X,w,b)-Y) )
+#     grad_b =  2 * np.average((predict(X,w,b)-Y) )
+#     return grad_w ,grad_b
+# def mtx_gradient(X, Y, w):
+#     return 2 * np.matmul(X.T, (mtx_predict(X, w) - Y)) / X.shape[0]
 
-def gradient(X , Y , w ,b=0):
-    grad_w  =  2 * np.average(X * (predict(X,w,b)-Y) )
-    grad_b =  2 * np.average((predict(X,w,b)-Y) )
-    return grad_w ,grad_b
+def predict(X, w):
+    return np.matmul(X, w)
+def loss(X, Y, w):
+    return np.average((predict(X, w) - Y) ** 2)
+def gradient(X, Y, w):
+    return 2 * np.matmul(X.T, (predict(X, w) - Y)) / X.shape[0]
+
 
 def train(X , Y , iterations , lr=0.01 ):
     w = b = 0 
@@ -42,55 +50,37 @@ def train(X , Y , iterations , lr=0.01 ):
             return w , b ,tab
     raise Exception("Couldn't converge within %d iterations" % iterations)
 
-def train_gradiant(X,Y,iterations , lr = 0.001 , tabX=[] , tabY=[] , tabZ=[]):
-    w = 0
-    b=0
+def train_gradiant(X,Y,iterations , lr = 0.001 ):
+    w = np.zeros((X.shape[1], 1))
     for i in range(iterations):
-        tabX.append((w))
-        tabY.append((w))
-        tabZ.append((loss(X, Y ,w ,0)))
-        print(f"iteration : {iterations}")
-        print(f"w:{w}")
-        w_gradient, b_gradient = gradient(X, Y, w, b)
-        w -= w_gradient * lr
-        b -= b_gradient * lr
-    return (w , b , tabX , tabY , tabZ)
+        print(f"iteration : {i}")
+        print(f"lose:{mtx_loss(X,Y,w,0)}")
+        w -= mtx_gradient(X,Y,w) * lr
+    return w
 
-def predict_upgraded(X ,W, b):
-    return np.matmul(X , W)
-def loss(X,w):
-    return np.average( (predict_upgraded(X,w,0)-Y) ** 2)
+
 sns.set();
 plt.axis([0,100 , 0,100])
 plt.xticks(fontsize = 10)
 plt.yticks(fontsize = 10)
 plt.xlabel("w" , fontsize=20)
 plt.ylabel("l" , fontsize =20)
-# skiprows => n9z str dyal lktaba li fih "reservation pizza"
-# X,Y = np.loadtxt("score.txt" , skiprows = 1, unpack =True)
 
-X1,X2,X3,Y = np.loadtxt("pizza_3_vars.txt" , skiprows=1 , unpack=True)
-X = np.column_stack((X1,X2,X3))
-print(Y)
-Y = Y.reshape(-1,1)
-print(Y)
 
-# plt.plot(X , Y , "bo")
-    
-# the reg linewlahila malk 
+X1,X2,X3,Y = np.loadtxt("pizza_3_vars.txt" , skiprows=1 , unpack=True) #load data
+X = np.column_stack((X1,X2,X3)) # shape data as a matrix
+Y = Y.reshape(-1,1) # turn Y (1 dimensinal array) into matrix with (1,n)
 
+w = train_gradiant(X , Y , 100 , 0.1)
 x= np.linspace(0 , 10000)
-tab = []
-# w , b,tab= train(X , Y , 1000000 , 0.01)
-# w = 1;
-# b=0;
-# w , b , tabx , taby , tabz = train_gradiant(X,Y,1000);
 
 plt.plot(X, Y , "bo")
-# y=x * w + b
-sns.lineplot(y=y, x=x)
-plt.title(f"y = x")
 
+
+
+
+sns.lineplot(y=Y, x=x)
+plt.title(f"y = x")
 plt.grid(True)
-# plt.show()
+plt.show()
 
