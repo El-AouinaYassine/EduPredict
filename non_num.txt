@@ -1,16 +1,82 @@
-1.Sciences Mathématiques
-2.Sciences de la Vie et de la Terre
-3.Sciences Agronomiques
-4.Sciences Physiques
-5.Sciences et Technologies Électriques
-6.Sciences et Technologies Mécaniques
-7.Sciences Économiques
-8.Sciences de Gestion Comptable
-9.Lettres
+  Votre spécialité en 2 BAC
+1. Sciences Mathématiques
+2. Sciences de la Vie et de la Terre
+3. Sciences Agronomiques
+4. Sciences Physiques
+5. Sciences et Technologies Électriques
+6. Sciences et Technologies Mécaniques
+7. Sciences Économiques
+8. Sciences de Gestion Comptable
+9. Lettres
 10.Sciences Humaines
 ###################################
 0.homme
 1.femme
+###################################
+Ville
+1	Casablanca
+2	Rabat
+3	Fes
+4	Marrakech
+5	Tangier
+6	Agadir
+7	Meknes
+8	Oujda
+9	Kenitra
+10	Tetouan
+11	Safi
+12	Mohammedia
+13	El Jadida
+14	Nador
+15	Beni Mellal
+16	Taza
+17	Laayoune
+18	Dakhla
+19	Essaouira
+20	Al Hoceima
+21	Settat
+22	Ksar El Kebir
+23	Tiznit
+24	Errachidia
+25	Guercif
+26	Sidi Kacem
+27	Taourirt
+28	Sidi Slimane
+29	Azrou
+30	Ouarzazate
+31	Tan-Tan
+32	Guelmim
+33	Smara
+34	Larache
+35	Midelt
+36	Zagora
+37	Chefchaouen
+38	Khouribga
+39	El Kelaa des Sraghna
+40	Berkane
+41	Ifrane
+42	Martil
+43	Fnideq
+44	Temara
+45	Ait Melloul
+46	Ouazzane
+47	Imzouren
+48	Sefrou
+49	Boujdour
+50	Chichaoua
+51	Azemmour
+52	Aourir
+53	Bir Jdid
+54	Taroudant
+55	Ait Ourir
+56	Demnate
+57	Oulad Teima
+58	Skhirat
+59	Tinghir
+60	Bouarfa
+61	Khémisset
+62	Jorf El Melha
+63	Laayoune-Plage
 ###################################
 Votre niveau en Français
 1.Débutant
@@ -79,6 +145,19 @@ Spécialité:
 18.Logistique
 19.Réseau
 20.Infirmerie
+###################################
+1 Adaptabilité
+2 Créativité
+3 Résolution de problèmes
+4 Autonomie
+5 Esprit critique
+6 Leadership
+7 Empathie
+8 Écoute active
+9 Gestion du stress
+10 Communication
+11 Gestion du temps
+12 Travail en équipe
 ###################################
 satisfait:
 FROM 1 TO 10 
