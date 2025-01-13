@@ -27,7 +27,7 @@ def train_gradient(X, Y, iterations, lr):
 
 
 
-X1,X2,X3,X4,X5,X6,X7,X8,Y = np.loadtxt("students.txt" , skiprows=1 , unpack=True) #load data
+X1,X2,X3,X4,X5,X6,X7,X8,Y = np.loadtxt("fff.txt" , skiprows=1 , unpack=True) #load data
 X = np.column_stack((np.ones(X1.size), X1,X2,X3,X4,X5,X6,X7,X8)) # shape data as a matrix +  we slipped a matrix of (1,n) (bias)
 Y = Y.reshape(-1,1) # turn Y (1 dimensinal array) into matrix with (1,n)
 
