@@ -2,14 +2,14 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt 
 from mpl_toolkits.mplot3d import Axes3D
+from sklearn.preprocessing import OneHotEncoder
+
 
 def predict(X, w):
     return np.matmul(X, w) 
 def loss(X, Y, w ):
     return np.average((predict(X, w ) - Y) ** 2)
 def gradient(X, Y, w):
-    return 2 * np.matmul(X.T, (predict(X, w) - Y)) / X.shape[0]
-def gradientGpt(X, Y, w):
     m = X.shape[0]
     return (2 / m) * np.matmul(X.T, (predict(X, w) - Y))
 
@@ -18,37 +18,26 @@ def train_gradient(X, Y, iterations, lr):
     for i in range(iterations):
         prev_loss = loss(X, Y, w)
         print("Iteration %4d => Loss: %.2f" % (i, loss(X, Y, w)))
-        w -= gradientGpt(X, Y, w) * lr
+        w -= gradient(X, Y, w) * lr
         curr_loss = loss(X , Y ,w)
         if i > 0 and np.isclose(curr_loss, prev_loss, atol=1e-6):
             break
     return w
 
 
-sns.set();
-plt.axis([0,100 , 0,100])
-plt.xticks(fontsize = 10)
-plt.yticks(fontsize = 10)
-plt.xlabel("w" , fontsize=20)
-plt.ylabel("l" , fontsize =20)
 
 
-X1,X2,X3,Y = np.loadtxt("pizza_3_vars.txt" , skiprows=1 , unpack=True) #load data
-X = np.column_stack((np.ones(X1.size), X1,X2,X3)) # shape data as a matrix +  we slipped a matrix of (1,n) (bias)
+X1,X2,X3,X4,X5,X6,X7,X8,Y = np.loadtxt("students.txt" , skiprows=1 , unpack=True) #load data
+X = np.column_stack((np.ones(X1.size), X1,X2,X3,X4,X5,X6,X7,X8)) # shape data as a matrix +  we slipped a matrix of (1,n) (bias)
 Y = Y.reshape(-1,1) # turn Y (1 dimensinal array) into matrix with (1,n)
 
-w = train_gradient(X , Y , 100000 , 0.001)
-x= np.linspace(0 , 10000)
+w = train_gradient(X , Y , 1000000 , 0.001)
 
-plt.plot(X, Y , "bo")
-
-print("wieghts : {w}")
-for i in range(5):
-    print((predict(X[i],w)))
-    print(Y[i])
-
-# sns.lineplot(y=Y, x=x)
-plt.title(f"y = x")
-plt.grid(True)
-# plt.show()
+for i in range(10):
+    p = predict(X[i] , w)
+    v = Y[i]
+    print("----------------------")
+    print("prediction => %4d" % p)
+    print("value      => %4d" % v)
+    print("----------------------")
 
