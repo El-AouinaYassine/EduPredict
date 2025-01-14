@@ -1,4 +1,5 @@
 let ville_select = document.getElementById('ville')
+let submit_btn = document.getElementById('submit')
 const villes = [ 
     "Casablanca",
     "Rabat",
@@ -62,7 +63,18 @@ const villes = [
     "Bouarfa",
     "Khémisset",
     "Jorf El Melha",
-    "Laayoune-Plage"]
+    "Laayoune-Plage"
+]
+
+
+
+villes.forEach((ville , n)=>{
+    add_ville_option(ville , n)
+})
+
+submit_btn.addEventListener('click' , ()=>{
+    submit_data()
+})
 
 function add_ville_option(villeNom , value){
     let ville_option = document.createElement("option")
@@ -70,7 +82,11 @@ function add_ville_option(villeNom , value){
     ville_option.setAttribute("value" , value)
     ville_select.appendChild(ville_option)
 }
-
-villes.forEach((ville , n)=>{
-    add_ville_option(ville , n)
-})
+function submit_data(){
+    let responses = Array.from(document.getElementsByTagName("select"))
+    let user = {}
+    responses.forEach(res =>{
+        user[res.id] = res.value
+    })
+    console.log(user)
+}
