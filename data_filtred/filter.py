@@ -15,5 +15,5 @@ for item in np_data:
     print("\033[31mitem(%d):\033[0m" % i)
     j=0
     for col_val in item:
-        print("\033[32m\t(%s):{%s}\033[0m"%(col_names[j] , col_val))
+        print("\033[32m\t(%s):\033[34m{%s} \033[0m\033[0m"%(col_names[j] , col_val))
         j+=1
