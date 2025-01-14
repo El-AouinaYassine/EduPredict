@@ -8,12 +8,14 @@ data = pd.read_csv(
     engine='python',       
     )
 np_data = data.to_numpy()
-col_names = (data.columns).to_numpy()
-i = 0
-for item in np_data:
-    i+=1
-    print("\033[31mitem(%d):\033[0m" % i)
-    j=0
-    for col_val in item:
-        print("\033[32m\t(%s):\033[34m{%s} \033[0m\033[0m"%(col_names[j] , col_val))
-        j+=1
+def show_data():
+    col_names = (data.columns).to_numpy()
+    i = 0
+    for item in np_data:
+        i+=1
+        print("\033[31mitem(%d):\033[0m" % i)
+        j=0
+        for col_val in item:
+            print("\033[32m\t(%s):\033[34m{%s} \033[0m\033[0m"%(col_names[j] , col_val))
+            j+=1
+show_data()
