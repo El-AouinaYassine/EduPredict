@@ -1,6 +1,7 @@
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt 
+
 def getW(path):
     y , x = np.loadtxt(path , skiprows=1 , unpack = True)
     
