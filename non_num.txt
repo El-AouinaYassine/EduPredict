@@ -1,4 +1,4 @@
-  Votre spécialité en 2 BAC
+Votre spécialité en 2 BAC:
 1. Sciences Mathématiques
 2. Sciences de la Vie et de la Terre
 3. Sciences Agronomiques
@@ -10,10 +10,11 @@
 9. Lettres
 10.Sciences Humaines
 ###################################
+sexe:
 0.homme
 1.femme
 ###################################
-Ville
+Ville:
 1	Casablanca
 2	Rabat
 3	Fes
@@ -78,13 +79,13 @@ Ville
 62	Jorf El Melha
 63	Laayoune-Plage
 ###################################
-Votre niveau en Français
+Votre niveau en anglais:
 1.Débutant
 2.Intermédiaire
 3.Avancé
 4.Fluent
 ###################################
-Votre niveau en Français
+Votre niveau en Français:
 1.Débutant
 2.Intermédiaire
 3.Avancé
@@ -101,7 +102,7 @@ Votre  matière detesete:
 8-Biologie
 0-none
 ###################################
-Votre Loisirs
+Votre Loisirs:
 1-Lecture
 2-Sport
 3-Musique
@@ -114,7 +115,7 @@ Votre Loisirs
 10-Ecriture
 11-Photographie
 ###################################
-Votre  matière préférée
+Votre  matière préférée:
 1-Mathématiques
 2-Physique
 3-Chimie
@@ -146,6 +147,7 @@ Spécialité:
 19.Réseau
 20.Infirmerie
 ###################################
+Votre Soft Skills:
 1 Adaptabilité
 2 Créativité
 3 Résolution de problèmes

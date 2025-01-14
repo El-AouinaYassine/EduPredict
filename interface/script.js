@@ -1,0 +1,76 @@
+let ville_select = document.getElementById('ville')
+const villes = [ 
+    "Casablanca",
+    "Rabat",
+    "Fes",
+    "Marrakech",
+    "Tangier",
+    "Agadir",
+    "Meknes",
+    "Oujda",
+    "Kenitra",
+    "Tetouan",
+    "Safi",
+    "Mohammedia",
+    "El Jadida",
+    "Nador",
+    "Beni Mellal",
+    "Taza",
+    "Laayoune",
+    "Dakhla",
+    "Essaouira",
+    "Al Hoceima",
+    "Settat",
+    "Ksar El Kebir",
+    "Tiznit",
+    "Errachidia",
+    "Guercif",
+    "Sidi Kacem",
+    "Taourirt",
+    "Sidi Slimane",
+    "Azrou",
+    "Ouarzazate",
+    "Tan-Tan",
+    "Guelmim",
+    "Smara",
+    "Larache",
+    "Midelt",
+    "Zagora",
+    "Chefchaouen",
+    "Khouribga",
+    "El Kelaa des Sraghna",
+    "Berkane",
+    "Ifrane",
+    "Martil",
+    "Fnideq",
+    "Temara",
+    "Ait Melloul",
+    "Ouazzane",
+    "Imzouren",
+    "Sefrou",
+    "Boujdour",
+    "Chichaoua",
+    "Azemmour",
+    "Aourir",
+    "Bir Jdid",
+    "Taroudant",
+    "Ait Ourir",
+    "Demnate",
+    "Oulad Teima",
+    "Skhirat",
+    "Tinghir",
+    "Bouarfa",
+    "Khémisset",
+    "Jorf El Melha",
+    "Laayoune-Plage"]
+
+function add_ville_option(villeNom , value){
+    let ville_option = document.createElement("option")
+    ville_option.textContent = villeNom
+    ville_option.setAttribute("value" , value)
+    ville_select.appendChild(ville_option)
+}
+
+villes.forEach((ville , n)=>{
+    add_ville_option(ville , n)
+})
