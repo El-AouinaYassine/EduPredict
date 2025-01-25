@@ -1,0 +1,264 @@
+Timestamp	Age	Ville_maj	Ville	Sexe	  specialite_BAC	 Nationale 	Regional	Generale	Francais	 Anglais	Loisirs	preferee 	detestee 	Skills	specialite	performance	satisfaction	  Quelle est votre filiere d cette specialite ?  						
+	30	larache	larache	Femme	SE	15	6.86	11.45	Intermediaire	Intermediaire	Cinema	Physique	Mathematiques	Resolution de problemes	Economie	8	4							
+	20	fes	fes	Homme	SP	14.05	10.75	14.5	Intermediaire	Avance	"Musique, Jeux video, Technologie , Photographie"	Informatique	Physique	"Resolution de problemes, Esprit critique"	Informatique	9	5							
+	19	sale 	sale 	Homme	SVT	9.06	13.85	11.44	Intermediaire	Avance	"Sport, Jeux video, Technologie , Photographie"	Histoire	Biologie	"Communication, Travail en equipe, Gestion du temps, Adaptabilite, Creativite, Resolution de problemes, Leadership, Empathie, Esprit critique"	Biologie	4	2							
+	20	FES	fes	Homme	STE	15.76	16.55	15.75	Avance	Avance	"Sport, Jeux video, Technologie "	Informatique	Histoire	"Gestion du temps, Leadership"	Informatique	8	5							
+	24	Temara 	temara 	Homme	SP	14	10	12	Intermediaire	Intermediaire	Technologie	Informatique	Kolchi apart info	"Communication, Travail en equipe, Gestion du temps, Adaptabilite, Creativite, Resolution de problemes, Leadership"	Informatique	7	5							
+	19	Sale	sale	Homme	SP	11	15	13	Avance	Fluent	Technologie 	Physique	None	"Communication, Travail en equipe, Gestion du temps, Adaptabilite, Creativite, Resolution de problemes, Leadership, Esprit critique"	Physique	8	4							
+	19	oujda	oujda	Femme	SP	12.1	13	12.1	Avance	Avance	"Lecture, Sport, Musique, Voyage, Cinema, Arts plastiques , Technologie "	Mathematiques	Biologie	"Creativite, Resolution de problemes, Leadership"	education	9	3							
+	19	sale	sale	Homme	SP	11.61	17.45	13.76	Avance	Avance	Sport	Biologie	Histoire	"Adaptabilite, Creativite, Resolution de problemes, Autonomie"	Medecine	7	4							
+	20	Midelt 	midelt 	Homme	SP	16.47	16.5	16.7	Avance	Intermediaire	"Sport, Voyage, Jeux video, Technologie "	Physique	Mathematiques	"Communication, Travail en equipe, Gestion du temps, Creativite, Esprit critique"	Informatique	7	3							
+	43	Qatar 	qatar 	Homme	Lettres	12	13	11.82	Avance	Intermediaire	"Lecture, Sport, Musique, Voyage, Cinema, Photographie"	Philosophie et litterature 	Toutes les matieres scientifiques 	"Communication, Travail en equipe, Adaptabilite, Creativite, Resolution de problemes"	Sciences humaines et sociales	8	5							
+	22	Rabat	rabat	Homme	SP	16.02	10.65	14.38	Avance	Intermediaire	"Lecture, Voyage, Cinema"	Physique	None	"Communication, Travail en equipe, Esprit critique"	Physique	9	5							
+	20	Tetouan	tetouan	Homme	SP	10	11	10.27	Intermediaire	Intermediaire	"Sport, Voyage, Technologie "	Informatique	Litterature	"Communication, Travail en equipe, Resolution de problemes"	Economie	7	2							
+	31	casa	casa	Homme	Lettres	14	9	12	Intermediaire	Fluent	"Lecture, Sport, Musique, Photographie"	Langues	None	"Communication, Adaptabilite, Creativite, Autonomie"	Langues etrangeres	8	3							
+	22	Taroudant	taroudant	Homme	SP	16.42	16.92	16.67	Intermediaire	Intermediaire	"Sport, Voyage, Benevolat"	Informatique	Litterature	"Communication, Travail en equipe, Gestion du temps, Adaptabilite, Creativite, Resolution de problemes, Leadership, Empathie, Esprit critique, Autonomie"	Informatique	8	5							
+	24	Rabat	rabat	Femme	SP	16.98	13.9	16.14	Avance	Avance	"Lecture, Musique, Voyage, Cinema, Jeux video, Benevolat, Technologie , Ecriture, Photographie"	Mathematiques	Histoire	"Communication, Travail en equipe, Gestion du temps, Adaptabilite, Creativite, Resolution de problemes, Leadership, Empathie, Esprit critique, Autonomie"	Ingenierie	10	5							
+	23	Ouazzane 	ouazzane 	Homme	SP	18.03	13.5	16.81	Intermediaire	Intermediaire	"Lecture, Musique"	Physique	Histoire	"Communication, Travail en equipe, Gestion du temps, Adaptabilite, Creativite, Resolution de problemes, Leadership, Esprit critique, Autonomie"	Ingenierie	8	5							
+	19	sale 	sale 	Homme	SP	9	16	9	Intermediaire	Avance	"Lecture, Technologie , Ecriture, Photographie"	Philosophie 	Mathematiques	"Communication, Travail en equipe, Adaptabilite, Creativite, Resolution de problemes, Leadership"	Informatique	5	4							
+	22	Fes	fes	Femme	SP	16.77	15.65	16.67	Avance	Avance	"Arts plastiques , Benevolat, Photographie"	Mathematiques	Histoire	"Travail en equipe, Gestion du temps, Creativite, Autonomie"	Ingenierie	9	5							
+	21	sale 	sale 	Femme	SP	16.7	17.85	17	Fluent	Avance	"Lecture, Musique, Voyage, Cinema, Benevolat"	Mathematiques	Histoire	"Communication, Travail en equipe, Gestion du temps, Adaptabilite, Leadership, Autonomie"	Ingenierie	10	5							
+	18	Fes	fes	Femme	SP	13.56	16.2	15.33	Avance	Intermediaire	"Sport, Voyage, Arts plastiques "	Informatique	None	"Travail en equipe, Adaptabilite, Creativite, Resolution de problemes"	Informatique	7	5							
+	22	Fes	fes	Homme	SM	10.92	13.9	12.65	Intermediaire	Intermediaire	"Sport, Voyage, Technologie , Photographie"	Informatique	Biologie	"Travail en equipe, Resolution de problemes, Empathie"	Informatique	7	3							
+	23	Fes 	fes 	Femme	SP	16.49	17.68	17.06	Fluent	Intermediaire	"Musique, Voyage"	Physique	None	"Communication, Travail en equipe, Gestion du temps, Leadership, Autonomie"	Ingenierie	9	5							
+	26	Fes	fes	Homme	SP	14.52	13.9	14.77	Fluent	Avance	"Sport, Voyage, Jeux video, Benevolat"	Mathematiques	None	"Travail en equipe, Gestion du temps, Adaptabilite, Resolution de problemes, Leadership, Autonomie"	Ingenierie	9	4							
+	24	Fes	fes	Femme	SP	19.21	17.75	18.6	Intermediaire	Debutant	"Lecture, Ecriture"	Medecine 	None	"Communication, Travail en equipe, Adaptabilite, Resolution de problemes, Empathie"	Medecine	8	5							
+	23	Rabat	rabat	Homme	SM	11	14	12	Avance	Avance	"Musique, Voyage, Jeux video, Technologie "	Mathematiques	Biologie	"Travail en equipe, Adaptabilite, Creativite, Resolution de problemes, Leadership, Autonomie"	Informatique	9	5							
+	19	fes	fes	Femme	SP	10.49	14.8	13.27	Intermediaire	Debutant	"Lecture, Musique, Voyage"	Comptabilite 	None	"Communication, Travail en equipe, Esprit critique"	Economie	5	3							
+	19	FES	fes	Femme	SM	11.9	18.6	15.42	Fluent	Fluent	"Lecture, Musique, Voyage, Arts plastiques , Ecriture, Photographie"	Biologie	None	"Communication, Travail en equipe, Adaptabilite, Creativite, Leadership, Esprit critique, Autonomie"	Informatique	6	5							
+	18	Fes	fes	Homme	SP	14.48	14.75	14.86	Intermediaire	Intermediaire	Jeux video	Biologie	Mathematiques	"Communication, Travail en equipe, Adaptabilite, Resolution de problemes, Esprit critique"	Medecine	10	5							
+	23	Beni Mellal 	beni mellal 	Homme	Lettres	16.73	16	16	Intermediaire	Intermediaire	"Lecture, Sport, Musique, Voyage, Cinema"	Litterature	Litterature	"Travail en equipe, Resolution de problemes, Esprit critique"	Sciences humaines et sociales	7	3							
+	19	Meknes	meknes	Homme	SP	15.14	13.5	15.04	Intermediaire	Debutant	"Sport, Jeux video, Arts plastiques , Technologie "	Informatique	Langues	"Gestion du temps, Adaptabilite, Creativite, Resolution de problemes"	Informatique	6	4							
+	21	Rabat 	rabat 	Femme	SM	12.75	16.17	14.75	Avance	Intermediaire	"Sport, Voyage, Arts plastiques , Photographie"	Mathematiques	Histoire	"Communication, Travail en equipe, Gestion du temps, Creativite, Leadership"	Ingenierie	8	4							
+	19	sale	sale	Homme	SP	11.51	15.55	13	Intermediaire	Avance	"Voyage, Technologie , chess"	Informatique	Biologie	"Adaptabilite, Resolution de problemes, Leadership"	Informatique	8	5							
+	22	Rabat	rabat	Homme	SP	12	12	12.64	Intermediaire	Avance	"Musique, Voyage, Jeux video, Benevolat, Photographie"	Langues	Physique	"Communication, Travail en equipe, Leadership"	Economie	7	5							
+	19	sale	sale	Homme	SP	10	17	13	Intermediaire	Debutant	"Sport, Musique, Voyage, Benevolat"	Marketing 	Physique	"Communication, Travail en equipe, Gestion du temps, Adaptabilite"	Economie	5	5							
+	20	RABAT	rabat	Femme	SP	17	18	18	Avance	Intermediaire	"Lecture, Arts plastiques , Benevolat, Ecriture"	Mathematiques.Litterature.Langues.Histoire	None	"Adaptabilite, Creativite, Resolution de problemes, Esprit critique, Autonomie"	Ingenierie	7	4							
+	20	Fes	fes	Femme	SM	13	17.9	15.36	Avance	Avance	"Lecture, Musique, Voyage, Arts plastiques , Technologie , Ecriture, Photographie"	Biologie	Histoire	"Communication, Gestion du temps, Adaptabilite, Leadership, Empathie, Esprit critique, Autonomie"	Medecine	8	5							
+	23	el hajeb	el hajeb	Femme	SP	17	14.4	16.65	Intermediaire	Intermediaire	"Sport, Voyage, Photographie"	Physique	Langues	"Travail en equipe, Adaptabilite"	Ingenierie	7	4							
+	32	Immouzzer 	immouzzer 	Femme	SP	12.4	10	11.8	Avance	Intermediaire	"Lecture, Sport, Cuisson"	Physique	Chimie	"Resolution de problemes, Esprit critique"	Physique	7	4							
+	31	fes	fes	Femme	SM	12.5	12	12.5	Fluent	Intermediaire	"Sport, Jeux video"	Informatique	Mathematiques	"Communication, Travail en equipe, Adaptabilite, Resolution de problemes, Leadership, Esprit critique"	Informatique	8	4							
+	24	Rabat	rabat	Femme	SP	15.01	16.31	15.51	Avance	Intermediaire	"Voyage, Arts plastiques , Benevolat, Technologie "	Informatique	Histoire	"Communication, Travail en equipe, Gestion du temps, Creativite, Leadership"	Economie	8	5							
+	19	sale al jadida	sale al jadida	Homme	SE	8.4	13.83	10.9	Intermediaire	Avance	"Sport, Musique"	Langues	Mathematiques	"Communication, Adaptabilite, Creativite"	Langues etrangeres	6	2							
+	21	TanTan	tantan	Homme	SM	15	14:50	15:30	Debutant	Debutant	Sport	Mathematiques	Litterature	Resolution de problemes	Mathematiques appliquees	6	3							
+	20	fes	fes	Homme	SM	9.31	17.5	13.27	Avance	Avance	"Lecture, Sport, Musique, Voyage, Cinema, Jeux video, Arts plastiques , Technologie , Ecriture, Photographie"	Physique	None	"Adaptabilite, Resolution de problemes, Esprit critique, Autonomie"	Ingenierie	2	5							
+	19	Fes	fes	Homme	SP	13.5	16.9	14.6	Intermediaire	Intermediaire	"Sport, Musique, Jeux video, Technologie "	Informatique	Mathematiques	"Communication, Travail en equipe, Creativite"	Informatique	6	5							
+	22	Alhoceima	alhoceima	Femme	SP	16.63	16.1	16.97	Avance	Intermediaire	"Lecture, Arts plastiques , Technologie "	Mathematiques	None	"Communication, Travail en equipe, Creativite, Resolution de problemes, Leadership, Esprit critique"	Ingenierie	7	4							
+	19	Fes	fes	Homme	SP	12.66	16.5	15	Intermediaire	Intermediaire	"Sport, Musique, Voyage"	Physique	Litterature	"Communication, Esprit critique, Autonomie"	Informatique	3	2							
+	22	Mohammedia	mohammedia	Femme	SP	15.6	13.6	15.64	Intermediaire	Intermediaire	"Lecture, Sport, Voyage, Arts plastiques "	Mathematiques	None	"Adaptabilite, Creativite"	Physique	5	2							
+	22	Agadir	agadir	Homme	SP	17.21	17.31	17.15	Intermediaire	Avance	"Sport, Musique, Voyage, Cinema, Jeux video, Technologie "	Physique	Litterature	"Travail en equipe, Gestion du temps, Creativite, Esprit critique"	Informatique	8	4							
+	19	Fes	fes	Femme	SP	12.01	16.97	14.1	Avance	Intermediaire	"Lecture, Musique, Voyage, Jeux video, Arts plastiques , Technologie "	Informatique	Biologie	"Communication, Adaptabilite, Esprit critique"	Informatique	7	4							
+	20	fes	fes	Homme	SP	14.5	15.5	15	Intermediaire	Intermediaire	"Lecture, Sport"	Informatique	None	"Travail en equipe, Resolution de problemes, Esprit critique"	Informatique	8	5							
+	21	sale	sale	Femme	SVT	15.14	17.2	16.4	Avance	Avance	"Sport, Voyage, Benevolat, Photographie"	Biologie	None	"Travail en equipe, Adaptabilite, Empathie"	Biologie	8	4							
+	30	Elhajeb	elhajeb	Femme	SVT	11	12	11	Intermediaire	Debutant	"Lecture, Voyage, Photographie, Cuisson"	Biologie	Physique	"Adaptabilite, Empathie, Ecoute,Gestion du stress"	education	6	1							
+	20	Midelt	midelt	Femme	SP	15.37	15.95	15.77	Avance	Intermediaire	"Lecture, Musique, Voyage"	Informatique	Histoire	Resolution de problemes	Reseau	9	4							
+	31	Meknes 	meknes 	Femme	SP	17.4	13.4	16.11	Avance	Intermediaire	Dormir	Chimie	Histoire	"Communication, Travail en equipe, Gestion du temps, Adaptabilite, Empathie, Autonomie"	Chimie	8	4							
+	24	Fes	fes	Femme	SP	15.84	11.08	14.65	Intermediaire	Intermediaire	"Lecture, Sport, Musique, Voyage, Technologie "	Mathematiques	Histoire	"Travail en equipe, Adaptabilite, Resolution de problemes, Leadership, Empathie"	Ingenierie	8	4							
+	21	Sidi slimane 	sidi slimane 	Homme	SP	16.97	17.45	17.24	Avance	Avance	Sport	Physique	Histoire	"Communication, Adaptabilite, Creativite, Resolution de problemes"	Ingenierie	8	4							
+	19	Rich	rich	Homme	SP	12	15	14	Intermediaire	Intermediaire	"Sport, Musique, Voyage, Jeux video"	Informatique	Litterature	"Travail en equipe, Resolution de problemes"	Informatique	7	5							
+	25	Fes	fes	Femme	SP	12.2	14.85	11.6	Intermediaire	Debutant	Arts plastiques 	Langues	Physique	Creativite	Arts et design	7	5							
+	22	Oujda	oujda	Homme	STE	14.34	15.3	14.58	Avance	Avance	"Sport, Musique, Jeux video, One piece"	Physique	Litterature	"Communication, Travail en equipe, Gestion du temps, Adaptabilite, Creativite, Resolution de problemes, Leadership, Empathie"	Ingenierie	8	4							
+	29	Azrou 	azrou 	Femme	SP	15.15	13.25	15.37	Intermediaire	Debutant	"Sport, Musique, Voyage, Arts plastiques , Ecriture"	Mathematiques	Langues	"Communication, Gestion du temps"	Ingenierie	7	4							
+	23	Fes	fes	Homme	SP	13.5	13.5	13.5	Avance	Intermediaire	"Sport, Musique, Voyage, Cinema, Jeux video"	Informatique	Biologie	"Empathie, Esprit critique"	Physique	7	2							
+	20	sale 	sale 	Homme	SE	14	13	15	Avance	Intermediaire	Sport	Mathematiques	Litterature	Travail en equipe	Economie	8	4							
+	31	El Hajeb	el hajeb	Femme	SVT	14	12	13	Intermediaire	Debutant	"Lecture, Musique, Cinema"	Informatique	Histoire	Travail en equipe	Biologie	5	2							
+	22	Tetouan 	tetouan 	Homme	STE	16.35	16	16.35	Fluent	Intermediaire	"Voyage, Arts plastiques , Technologie , Photographie"	Sciences d'ingenieur	Chimie	"Travail en equipe, Creativite, Resolution de problemes, Leadership"	Ingenierie	9	5							
+	19	Fes	fes	Femme	SP	12.14	14.43	14.02	Intermediaire	Avance	"Lecture, Musique, Cinema"	Informatique	Histoire	Communication	Informatique	5	3							
+	20	Taza	taza	Homme	SM	14.37	14.3	15.37	Intermediaire	Avance	"Lecture, Musique, Jeux video, Technologie "	Informatique	Litterature	"Travail en equipe, Adaptabilite, Resolution de problemes, Esprit critique, Autonomie"	Informatique	8	5							
+	31	Sale	sale	Homme	Lettres	11	10	11	Intermediaire	Avance	"Musique, Voyage"	Langues	None	"Travail en equipe, Leadership"	Droit	4	3							
+	21	Tanger	tanger	Femme	SP	14.28	17.75	19.39	Avance	Intermediaire	"Lecture, Voyage, Technologie , Ecriture, Photographie"	Mathematiques	Chimie	"Travail en equipe, Adaptabilite, Creativite, Leadership, Autonomie"	Ingenierie	8	4							
+	20	Casa	casa	Homme	SM	13	11	13	Intermediaire	Avance	"Lecture, Technologie "	Informatique	None	"Travail en equipe, Leadership"	Informatique	7	5							
+	21	Rabat	rabat	Homme	SP	13.16	15.3	14.61	Intermediaire	Avance	"Musique, Voyage, Cinema, Jeux video, Technologie , Photographie"	Informatique	Litterature	"Communication, Travail en equipe, Adaptabilite, Resolution de problemes, Leadership, Esprit critique, Autonomie"	Informatique	9	5							
+	22	Oujda	oujda	Homme	SP	12	9.96	12.93	Debutant	Intermediaire	"Sport, Voyage, Cinema, Jeux video, Benevolat, Photographie"	Informatique	Mathematiques	"Travail en equipe, Adaptabilite, Esprit critique"	Physique	5	1							
+	20	Berkane 	berkane 	Femme	SP	13.58	13.9	14.58	Intermediaire	Intermediaire	"Lecture, Sport"	Mathematiques	Histoire	"Travail en equipe, Adaptabilite, Creativite, Resolution de problemes"	Informatique	5	4							
+	20	Meknes	meknes	Homme	SP	14.27	15.2	15.58	Intermediaire	Intermediaire	"Lecture, Musique, Jeux video"	Informatique	Langues	"Adaptabilite, Empathie, Autonomie"	Informatique	8	5							
+	22	Marrakech 	marrakech 	Homme	SP	12	15.25	13.71	Intermediaire	Avance	"Sport, Voyage, Technologie "	Informatique	Physique	"Adaptabilite, Creativite, Resolution de problemes"	Informatique	4	5							
+	20	Taza	taza	Femme	SP	15.78	17.4	16.62	Avance	Avance	"Sport, Technologie "	Informatique	None	"Communication, Creativite, Resolution de problemes"	Informatique	9	5							
+	20	Berkane 	berkane 	Femme	SP	12.82	17.66	15.5	Avance	Debutant	"Lecture, Sport, Voyage, Arts plastiques , Photographie"	Informatique	Histoire	"Communication, Travail en equipe, Gestion du temps, Adaptabilite, Creativite, Resolution de problemes, Leadership, Autonomie"	Informatique	8	5							
+	21	BERKANE	berkane	Homme	SP	15.57	15.5	15.54	Avance	Intermediaire	Sport	Informatique	Litterature	"Travail en equipe, Adaptabilite"	Informatique	7	4							
+	21	Taourirt	taourirt	Homme	SP	14	15	15	Avance	Intermediaire	"Sport, Jeux video"	Informatique	Langues	"Adaptabilite, Creativite, Resolution de problemes"	Informatique	7	4							
+	18	Marrakech	marrakech	Femme	SP	14	14.6	15	Intermediaire	Intermediaire	"Lecture, Voyage, Benevolat, Technologie "	Informatique	Biologie	"Adaptabilite, Creativite, Esprit critique"	Informatique	4	4							
+	21	sale	sale	Homme	SP	16.4	17.2	16.8	Avance	Fluent	"Lecture, Musique, Cinema, Jeux video"	Mathematiques	Biologie	"Communication, Travail en equipe, Adaptabilite, Resolution de problemes, Esprit critique"	Ingenierie	7	4							
+	19	Fes	fes	Femme	STM	13	14.7	13	Avance	Avance	"Lecture, Musique, Voyage, Technologie , Photographie"	Mathematiques	None	"Communication, Travail en equipe, Creativite, Resolution de problemes, Leadership"	Ingenierie	8	5							
+	33	Mrirt	mrirt	Femme	SP	12	10	11	Avance	Intermediaire	"Lecture, Sport, Voyage, Arts plastiques , Technologie , Ecriture"	Histoire	Biologie	"Communication, Travail en equipe, Gestion du temps, Adaptabilite, Creativite, Resolution de problemes, Leadership, Empathie, Esprit critique, Autonomie"	Chimie	10	4							
+	28	Rabat	rabat	Femme	SP	14	16	14	Avance	Intermediaire	"Sport, Voyage, Benevolat, Photographie"	Biologie	Physique	"Communication, Creativite, Resolution de problemes, Empathie"	Biologie	6	3							
+	31	Meknes 	meknes 	Homme	SM	12.5	10.5	11.85	Intermediaire	Intermediaire	"Sport, Technologie "	Mathematiques	Litterature	Leadership	Ingenierie	7	4							
+	31	Khenifra	khenifra	Femme	SP	12	14.05	13.49	Avance	Intermediaire	"Lecture, Sport, Musique, Voyage"	Physique	Biologie	"Communication, Travail en equipe, Adaptabilite, Resolution de problemes"	Physique	7	2							
+	21	Fes	fes	Homme	SP	15.28	16.5	16.41	Avance	Avance	"Sport, Musique, Voyage, Cinema, Jeux video, Benevolat"	Politiques internationales et publiques	None	"Communication, Travail en equipe, Gestion du temps, Adaptabilite, Creativite, Resolution de problemes, Leadership, Empathie, Esprit critique"	Sciences politiques	8	4							
+	21	Larache	larache	Femme	SP	13.89	16.25	15.75	Avance	Intermediaire	"Musique, Voyage, Cinema"	Langues	Histoire	"Travail en equipe, Gestion du temps, Creativite, Resolution de problemes, Leadership"	Informatique	1	2							
+	25	Meknes	meknes	Femme	SP	10	17	13	Fluent	Avance	"Lecture, Benevolat, Ecriture"	Chimie	Mathematiques	"Adaptabilite, Creativite, Autonomie"	Biologie	8	5							
+	18	Agadir	agadir	Femme	SP	12	15	12	Fluent	Fluent	"Lecture, Sport, Musique, Voyage, Cinema, Benevolat, Technologie , Ecriture"	Langues	Physique	"Communication, Travail en equipe, Gestion du temps, Adaptabilite, Creativite, Resolution de problemes, Leadership, Empathie, Esprit critique, Autonomie"	Ingenierie	8	3							
+	24	Rabat	rabat	Femme	SM	14	16	15	Avance	Debutant	"Lecture, Ecriture"	Litterature	Histoire	"Travail en equipe, Gestion du temps"	Ingenierie	8	4							
+	19	Fez	fez	Homme	SM	15	17	16.67	Fluent	Avance	"Lecture, Sport, Voyage, Jeux video, Arts plastiques , Technologie "	Histoire	Physique	"Communication, Travail en equipe, Gestion du temps, Adaptabilite, Esprit critique, Autonomie"	Economie	8	5							
+	20	Tetouan 	tetouan 	Femme	SVT	7.98	15.7	11.92	Avance	Intermediaire	Voyage	Hydraulique 	Statistiques 	Creativite	Ingenierie	6	4							
+	16	Fes	fes	Femme	SM	16	17.5	16	Avance	Avance	"Sport, Musique, Voyage, Cinema, Jeux video, Benevolat, Technologie , Photographie"	Chimie	None	"Communication, Travail en equipe, Gestion du temps, Adaptabilite, Creativite, Resolution de problemes, Leadership, Esprit critique, Autonomie"	Ingenierie	8	4							
+	21	Fes	fes	Femme	SP	15.17	17.1	16.13	Avance	Avance	"Arts plastiques , Technologie "	Informatique	Histoire	Travail en equipe	Ingenierie	8	4							
+	20	Ain taoujdate	ain taoujdate	Femme	Lettres	16.83	12.86	15.86	Intermediaire	Avance	"Musique, Arts plastiques , Photographie"	Histoire	Mathematiques	"Creativite, Resolution de problemes, Esprit critique"	Arts et design	2	1							
+	18	casa 	casa 	Homme	SE	17	15.98	17.5	Avance	Intermediaire	"Lecture, Sport, Cinema, Ecriture"	Litterature	Physique	"Adaptabilite, Creativite, Resolution de problemes, Esprit critique"	Economie	8	5							
+	21	Fes	fes	Homme	SE	14	14	15	Avance	Avance	"Sport, Jeux video, Benevolat"	Histoire	Mathematiques	"Travail en equipe, Gestion du temps, Adaptabilite, Resolution de problemes, Leadership"	Economie	7	4							
+	18	El hajeb	el hajeb	Homme	SE	10.15	13.45	11.77	Intermediaire	Avance	"Musique, Jeux video, Arts plastiques "	Art	Histoire	"Creativite, Esprit critique, Aghlab hadchy maandish w 3ndi rohab jtima3i hhhhh"	Economie	3	2							
+	20	fes	fes	Homme	SM	16	19.15	17.59	Avance	Avance	"Sport, Musique, Jeux video, Ecriture"	Physique	None	"Communication, Travail en equipe, Adaptabilite, Leadership, Esprit critique"	Ingenierie	7	4							
+	18	fes	fes	Femme	SP	16.89	17.75	16.34	Intermediaire	Debutant	"Musique, Benevolat, Photographie"	Langues	Biologie	"Communication, Travail en equipe, Adaptabilite, Creativite, Resolution de problemes"	Economie	7	4							
+	25	Fes	fes	Homme	SVT	12.7	16.5	12	Fluent	Fluent	"Lecture, Sport, Musique, Voyage, Ecriture"	Biologie	Mathematiques	"Communication, Travail en equipe, Creativite, Resolution de problemes, Leadership, Esprit critique, Autonomie"	Droit	6	3							
+	20	Mohammedia 	mohammedia 	Homme	SP	13	14.8	14	Avance	Debutant	Sport	Physique	Litterature	"Travail en equipe, Gestion du temps, Autonomie"	Ingenierie	6	4							
+	18	Fes	fes	Femme	SM	11.27	17.45	14.57	Fluent	Intermediaire	"Voyage, Benevolat, Ecriture, Debat - public speaking "	Mathematiques	Informatique	"Communication, Travail en equipe, Adaptabilite, Creativite, Resolution de problemes, Empathie, Esprit critique, Autonomie"	Economie	8	4							
+	20	fes	fes	Femme	SP	10	16	13	Avance	Intermediaire	"Sport, Voyage, Cinema, Photographie"	Physique	Mathematiques	"Communication, Travail en equipe, Creativite, Leadership"	Economie	7	5							
+	23	sale	sale	Homme	SVT	14.21	9	13.25	Intermediaire	Intermediaire	"Musique, Voyage, Benevolat"	Mathematiques	None	"Communication, Travail en equipe, Creativite"	Economie	7	4							
+	28	Fes	fes	Homme	SVT	13	15	14	Intermediaire	Fluent	"Lecture, Cinema, Jeux video"	Langues	Physique	"Gestion du temps, Adaptabilite, Leadership"	Sciences humaines et sociales	7	5							
+	18	Rabat 	rabat 	Femme	SVT	7.6	16.9	12.54	Intermediaire	Intermediaire	"Lecture, Sport, Musique"	Histoire	Mathematiques	"Communication, Travail en equipe, Adaptabilite, Creativite, Leadership, Empathie"	Economie	4	2							
+	19	Tanger	tanger	Femme	SE	11.77	13.65	12	Avance	Avance	"Lecture, Musique, Technologie , Photographie"	Langues	Mathematiques	"Communication, Creativite, Leadership, Autonomie"	Economie	4	4							
+	21	Rabat	rabat	Femme	SP	17	17	17.8	Avance	Intermediaire	"Lecture, Sport, Voyage, Benevolat, Technologie , Photographie"	Informatique	Histoire	"Communication, Travail en equipe, Creativite, Resolution de problemes, Leadership, Empathie, Esprit critique, Autonomie"	Ingenierie	8	4							
+	22	Meknes	meknes	Homme	SP	11	15.75	13.37	Avance	Intermediaire	"Voyage, Jeux video, Benevolat"	Biologie	Mathematiques	"Communication, Travail en equipe, Gestion du temps"	Droit	9	5							
+	24	khouribga	khouribga	Femme	SP	17	17	17	Avance	Avance	"Lecture, Musique, Technologie "	Informatique	Physique	"Communication, Travail en equipe, Gestion du temps, Creativite, Resolution de problemes, Leadership, Autonomie"	Informatique	9	5							
+	24	Agadir	agadir	Homme	SVT	9.26	12.6	10.76	Intermediaire	Intermediaire	"Sport, Technologie "	Biologie	Histoire	"Communication, Gestion du temps, Resolution de problemes, Esprit critique"	Biologie	1	3							
+	23	Fes	fes	Homme	SP	13.5	15.5	13	Avance	Intermediaire	"Lecture, Sport, Musique, Voyage, Photographie"	Physique	Mathematiques	"Communication, Travail en equipe, Resolution de problemes, Leadership, Empathie, Esprit critique, Autonomie"	Ingenierie	6	4							
+	20	Mohammedia	mohammedia	Homme	SM	12.35	18.5	14.89	Intermediaire	Intermediaire	"Musique, Cinema, Technologie "	Informatique	Chimie	"Travail en equipe, Adaptabilite, Esprit critique"	Ingenierie	6	2							
+	22	Sefrou	sefrou	Femme	SE	12.6	13.25	13.51	Avance	Debutant	"Musique, Voyage"	Langues	Histoire	"Communication, Travail en equipe, Gestion du temps, Adaptabilite, Resolution de problemes, Leadership"	Economie	8	4							
+	18	Safi	safi	Homme	SP	17.2	16.8	17.32	Avance	Intermediaire	"Sport, Cinema, Jeux video"	Physique	None	"Communication, Resolution de problemes, Leadership"	Medecine	8	5							
+	25	Khouribga 	khouribga 	Femme	SP	12	16.9	13.23	Avance	Intermediaire	"Musique, Voyage, Cinema, Photographie"	Biologie	None	"Creativite, Empathie, Autonomie"	Biologie	7	3							
+	20	Oujda	oujda	Femme	SP	16	17	16	Avance	Avance	"Cinema, Photographie"	Biologie	Mathematiques	"Communication, Gestion du temps, Adaptabilite, Leadership"	Economie	7	3							
+	21	casa 	casa 	Homme	SH	16	15	15	Avance	Avance	"Sport, Musique, Voyage, Jeux video, Ecriture"	Langues	Physique	"Communication, Travail en equipe, Gestion du temps, Resolution de problemes, Leadership, Esprit critique"	Sciences politiques	6	3							
+	18	RABAT	rabat	Homme	SE	12.52	15.95	14.08	Intermediaire	Avance	"Sport, Musique, Voyage"	Histoire	Mathematiques	"Travail en equipe, Leadership, Empathie"	Economie	8	5							
+	18	fes	fes	Femme	SE	15.58	16.98	16	Avance	Intermediaire	"Voyage, Jeux video, Arts plastiques , Photographie"	Informatique	Mathematiques	"Travail en equipe, Adaptabilite, Autonomie"	Economie	7	4							
+	18	fes	fes	Femme	SP	14.2	16.15	15.76	Avance	Intermediaire	"Lecture, Musique, Voyage"	Mathematiques	Biologie	"Travail en equipe, Gestion du temps, Adaptabilite"	Economie	8	4							
+	18	Fes	fes	Homme	SM	11.5	15.8	12.42	Avance	Fluent	"Sport, Jeux video, Technologie "	Mathematiques	Philosophie 	"Adaptabilite, Creativite, Resolution de problemes, Leadership, Empathie, Esprit critique, Autonomie, Za wordo"	Economie	7	2							
+	18	Fes	fes	Femme	SP	14.58	17.1	16.06	Avance	Intermediaire	"Lecture, Musique, Photographie"	Biologie	Mathematiques	"Travail en equipe, Gestion du temps, Esprit critique"	Economie	7	4							
+	18	fes	fes	Femme	SP	15.76	16.35	16.63	Avance	Intermediaire	"Musique, Voyage, Cinema"	Biologie	Mathematiques	"Communication, Travail en equipe, Adaptabilite, Leadership, Esprit critique, Autonomie"	Economie	5	2							
+	18	Sefrou	sefrou	Femme	SGC	14.67	16.48	15.52	Avance	Intermediaire	"Musique, Voyage, Photographie"	Comptabilite	Mathematiques	Travail en equipe	Economie	8	4							
+	18	Fes	fes	Homme	SM	12.5	18	15.5	Avance	Intermediaire	"Sport, Musique, Voyage, Cinema, Jeux video, Benevolat"	Physique	Biologie	"Communication, Travail en equipe, Gestion du temps, Adaptabilite, Creativite, Resolution de problemes, Leadership, Empathie, Esprit critique, Autonomie"	Economie	8	3							
+	19	ouezzane 	ouezzane 	Homme	SP	13.6	17.75	15.41	Intermediaire	Intermediaire	"Sport, Jeux video, Arts plastiques , Ecriture, Chess"	Mathematiques	Biologie	"Creativite, Resolution de problemes, Leadership, Esprit critique"	Economie	4	2							
+	19	Fes	fes	Femme	SP	14.35	16.5	15.31	Avance	Intermediaire	"Sport, Musique, Voyage, Technologie , Photographie"	Mathematiques	Histoire	"Gestion du temps, Adaptabilite, Creativite, Resolution de problemes, Autonomie"	Economie	8	5							
+	19	meknes 	meknes 	Femme	SE	16.18	15.63	16.45	Intermediaire	Intermediaire	auto sport 	comptabilite 	Langues	"Travail en equipe, Gestion du temps, Resolution de problemes, Esprit critique, Autonomie"	Economie	7	5							
+	18	casa 	casa 	Femme	SE	15.46	16.6	16.34	Avance	Fluent	"Lecture, Musique, Cinema, Jeux video, Ecriture, Photographie"	Langues	Mathematiques	"Travail en equipe, Gestion du temps, Resolution de problemes, Esprit critique, Autonomie"	Economie	8	5							
+	18	casa	casa	Homme	SP	13	15.05	14	Avance	Intermediaire	"Sport, Musique, Voyage, Jeux video, Technologie "	Mathematiques	Litterature	Communication	Informatique	5	4							
+	17	Marrakech 	marrakech 	Homme	SP	15.55	16.65	16.71	Avance	Intermediaire	"Lecture, Cinema, Arts plastiques "	Biologie	Mathematiques	Communication	Biologie	4	1							
+	21	casa	casa	Femme	SM	17.18	19.1	18.17	Avance	Fluent	"Lecture, Ecriture"	Informatique	None	"Travail en equipe, Adaptabilite, Empathie, Esprit critique"	Informatique	7	5							
+	21	Tetouan	tetouan	Homme	SP	16	15	15.5	Intermediaire	Avance	Rien	Informatique	None	"Communication, Empathie"	Informatique	7	5							
+	19	Nador	nador	Femme	SP	10.98	15	13.16	Intermediaire	Intermediaire	Ecriture	Chimie	None	"Communication, Gestion du temps, Resolution de problemes"	Chimie	8	5							
+	21	casa	casa	Femme	SGC	11.82	12.12	11	Avance	Intermediaire	Lecture	philosofie	None	"Gestion du temps, Adaptabilite, Creativite, Resolution de problemes, Autonomie"	Economie	5	3							
+	23	Rabat	rabat	Homme	SP	12.88	13.1	12.8	Debutant	Debutant	"Sport, Voyage, Jeux video, Technologie "	Informatique	Informatique	Gestion du temps	Informatique	8	5							
+	25	Oujda	oujda	Femme	SP	11	13.5	12.78	Avance	Avance	"Lecture, Photographie"	Langues	None	"Communication, Travail en equipe, Adaptabilite, Creativite, Resolution de problemes"	Informatique	4	3							
+	18	Nador	nador	Homme	SP	13	14	14	Intermediaire	Intermediaire	"Musique, Jeux video, Technologie "	Informatique	Biologie	Gestion du temps	Informatique	8	4							
+	18	Ksar el kebir	ksar el kebir	Femme	SM	14	17.85	16.26	Avance	Intermediaire	"Lecture, Sport, Voyage, Benevolat, Technologie "	Mathematiques	Physique	"Communication, Gestion du temps, Adaptabilite, Creativite, Resolution de problemes, Leadership, Autonomie"	Ingenierie	8	5							
+	20	casa 	casa 	Homme	SP	16	18	16	Intermediaire	Intermediaire	"Lecture, Sport, Technologie "	Physique	Biologie	"Communication, Travail en equipe"	Informatique	6	3							
+	22	casa 	casa 	Femme	SP	13.13	17.8	15.11	Avance	Avance	"Lecture, Musique, Cinema, Technologie , Ecriture"	Mathematiques	Histoire	"Creativite, Esprit critique"	Informatique	7	4	Intelligence Artificielle 						
+	23	sale	sale	Femme	SP	16.73	16	16.67	Avance	Avance	"Lecture, Sport, Benevolat, Technologie "	Mathematiques	Chimie	"Travail en equipe, Adaptabilite, Creativite, Resolution de problemes, Esprit critique"	Ingenierie	7	3	Informatique 						
+	30	casa	casa	Femme	SM	14.3	16	14.7	Fluent	Fluent	"Sport, Voyage, Ecriture"	Informatique	Histoire	"Communication, Travail en equipe, Gestion du temps, Adaptabilite, Creativite, Resolution de problemes, Leadership"	Ingenierie	3	1	Genie mecanique						
+	21	marrakech	marrakech	Homme	SP	14.25	16.25	15.25	Intermediaire	Intermediaire		Informatique	Mathematiques	Adaptabilite	Informatique	7	5	Systemes d'Informations Repartis						
+	24	Agadir	agadir	Femme	SM	12	15	13	Avance	Avance	"Lecture, Sport, Technologie , Photographie"	Mathematiques	None	"Communication, Travail en equipe, Adaptabilite, Creativite, Resolution de problemes, Empathie, Esprit critique, Autonomie"	Informatique	8	5	Intelligence artificielle 						
+	21	fes	fes	Homme	SP	14.75	18.2	16.53	Intermediaire	Intermediaire	"Sport, Musique, Jeux video, Technologie "	Informatique	Mathematiques	"Travail en equipe, Adaptabilite, Esprit critique"	Ingenierie	7	4	Robotique						
+	22	Taroudant	taroudant	Femme	SM	9.5	15	11.5	Avance	Intermediaire	"Sport, Voyage, Cinema, Benevolat, Technologie , Photographie"	Informatique	Histoire	"Communication, Travail en equipe, Adaptabilite, Resolution de problemes, Empathie, Autonomie"	Ingenierie	6	4	Cybersecurite						
+	20	Tetouan	tetouan	Homme	SM	12	17	14	Avance	Avance	"Sport, Voyage, Jeux video, Technologie "	Informatique	Biologie	"Communication, Travail en equipe, Gestion du temps, Creativite, Resolution de problemes, Leadership, Esprit critique"	Informatique	9	5	Big Data & AI						
+	20	Marrakech 	marrakech 	Homme	SP	13.27	16.9	15.27	Intermediaire	Debutant	"Sport, Voyage"	Physique	None	"Communication, Travail en equipe, Adaptabilite, Leadership, Esprit critique, Autonomie"	Medecine	9	5	Technicien de radiologie medicale 						
+	17	Benguerir 	benguerir 	Femme	SP	17	17.65	17.2	Intermediaire	Intermediaire	"Lecture, Sport, Arts plastiques , Technologie , Ecriture, Photographie"	Physique	Langues	"Communication, Travail en equipe, Gestion du temps, Creativite, Resolution de problemes, Leadership, Esprit critique, Autonomie"	Medecine	10	5	Obstetricien et gynecologue						
+	18	Fes	fes	Femme	SP	12	17.3	14.5	Avance	Intermediaire	"Sport, Musique, Voyage, Photographie"	Informatique	None	"Communication, Travail en equipe, Resolution de problemes, Esprit critique, Autonomie"	Informatique	7	5	Ingenieurie des donnees 						
+	18	Agadir 	agadir 	Femme	SE	14.36	13.51	15.01	Avance	Intermediaire	"Sport, Musique, Voyage, Photographie"	Langues	Mathematiques	"Communication, Travail en equipe, Leadership"	Economie	6	4	Entreprenariat digital et communication 						
+	21	Safi	safi	Homme	SP	12.75	15.7	15.76	Avance	Avance	"Musique, Voyage, Arts plastiques "	Informatique	Chimie	Travail en equipe	Informatique	10	5	Ingenierie informatique 						
+	18	Agadir	agadir	Femme	SE	13.7	12.6	15	Intermediaire	Debutant	"Sport, Musique, Voyage"	Comptabilite 	Mathematiques	"Travail en equipe, Gestion du temps, Creativite"	Economie	6	5	Techniques de management 						
+	18	Agadir	agadir	Femme	SE	13.7	12.6	15	Intermediaire	Debutant	"Sport, Musique, Voyage"	Comptabilite 	Mathematiques	"Travail en equipe, Gestion du temps, Creativite"	Economie	6	5	Techniques de management 						
+	19	sale	sale	Homme	SP	9	14.9	11.82	Avance	Debutant	"Sport, Musique, Voyage, Jeux video"	Mathematiques	Langues	"Communication, Travail en equipe, Resolution de problemes"	Infirmerie	8	3	infirmiere polyvalent 						
+	19	sale 	sale 	Femme	SP	10	15.67	11.66	Avance	Debutant	"Musique, Voyage, Cinema"	Physique	Informatique	"Communication, Travail en equipe, Gestion du temps, Creativite, Resolution de problemes"	Infirmerie	8	4	Sante mentale 						
+	20	sale 	sale 	Femme	SP	10.45	16.4	11.3	Fluent	Avance	"Lecture, Musique, Voyage, Cinema, Arts plastiques , Benevolat"	Biologie	Mathematiques	"Communication, Creativite, Empathie, Esprit critique, Autonomie"	Infirmerie	9	5	Infirmiere polyvalente 						
+	18	sale 	sale 	Homme	SP	8	15.05	10.73	Intermediaire	Avance	"Sport, Voyage, Cinema, Jeux video"	Informatique	Mathematiques	Empathie	Reseau	6	4	Infrastructure digitale system et reseaux 						
+	19	sale	sale	Femme	SP	10	15	12	Avance	Fluent	"Lecture, Musique, Voyage, Cinema, Photographie"	Physique	Mathematiques	"Communication, Adaptabilite, Resolution de problemes, Empathie"	Infirmerie	9	5	Polyvalente 						
+	18	sale	sale	Homme	SP	9	16	11	Intermediaire	Avance	"Lecture, Sport, Musique, Voyage, Cinema, Jeux video, "	Langues	Biologie	"Communication, Travail en equipe, Gestion du temps, Adaptabilite, Creativite, Resolution de problemes, Leadership, Empathie, Esprit critique, Autonomie"	Infirmerie	10	1	Polyvalent 						
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								

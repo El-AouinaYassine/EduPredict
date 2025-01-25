@@ -15,8 +15,8 @@ def convert_cat(col , merged):
     merged  = pd.concat([data,dummie] , axis='columns')
     merged.drop([col] , axis='columns' , inplace=True)
 
-# convert_cat('Ville' ,  data)
-print(data["Ville"])
+convert_cat('Ville' ,  data)
+# print(data["Age"])
 # np_data = data.to_numpy()
 
 def show_data():
