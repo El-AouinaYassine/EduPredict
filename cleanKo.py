@@ -40,4 +40,4 @@ numeric_cols = ['Nationale', 'Regional', 'Generale']
 for col in numeric_cols:
     df_encoded[col] = df_encoded[col].str.replace(',', '.').astype(float)
 
-df.to_csv("newFuckingShit.csv" , index=False)
+df_encoded.to_csv("lastV1.csv" , index=False)
