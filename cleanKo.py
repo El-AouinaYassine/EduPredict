@@ -1,41 +1,43 @@
 import pandas as pd
-from sklearn.preprocessing import LabelEncoder
+from sklearn.preprocessing import MultiLabelBinarizer
 
-# Load dataset (replace ',' with '.' in numerical values)
-df = pd.read_csv('ko_v1.csv', delimiter=',')
-df.replace(',', '.', regex=True, inplace=True)  # Fix numeric values with commas
 
-# Label encoding for binary values (Gender)
-label_encoder = LabelEncoder()
-df['Sexe'] = label_encoder.fit_transform(df['Sexe'])  # 'Homme' -> 0, 'Femme' -> 1
+df = pd.read_csv("ko_v1.csv")  # Load your actual CSV file
 
-# One-hot encoding for categorical columns
-df = pd.get_dummies(df, columns=['Ville', 'specialite_BAC', 'specialite', 'preferee', 'detestee'])
+loisir_categories = ["chess","Lecture", "Sport", "Musique", "Voyage", "Cinema", 
+                    "Jeuxvideo", "Artsplastiques", "Benevolat", "Technologie", 
+                    "Ecriture", "Photographie"]
 
-# Ordinal encoding for language proficiency levels
-ordinal_mapping = {'Debutant': 0, 'Intermediaire': 1, 'Avance': 2}
-df['Francais'] = df['Francais'].map(ordinal_mapping)
-df['Anglais'] = df['Anglais'].map(ordinal_mapping)
+skill_categories = ["Communication", "Travailenequipe", "Gestiondutemps", 
+                   "Adaptabilite", "Creativite", "Resolutiondeproblemes", 
+                   "Leadership", "Empathie", "Espritcritique", "Autonomie"]
 
-# Multi-label binarization for hobbies and skills (splitting by ', ')
-unique_hobbies = set()
-df['Loisirs'].dropna().str.split(', ').apply(unique_hobbies.update)
-df_hobbies = pd.DataFrame(0, index=df.index, columns=[f'Loisir_{hobby}' for hobby in unique_hobbies])
-for hobby in unique_hobbies:
-    df_hobbies[f'Loisir_{hobby}'] = df['Loisirs'].apply(lambda x: 1 if pd.notna(x) and hobby in x else 0)
-df = pd.concat([df, df_hobbies], axis=1).drop(columns=['Loisirs'])
+df['Loisirs'] = df['Loisirs'].str.split(',')
+df['Skills'] = df['Skills'].str.split(',')
 
-unique_skills = set()
-df['Skills'].dropna().str.split(', ').apply(unique_skills.update)
-df_skills = pd.DataFrame(0, index=df.index, columns=[f'Skill_{skill}' for skill in unique_skills])
-for skill in unique_skills:
-    df_skills[f'Skill_{skill}'] = df['Skills'].apply(lambda x: 1 if pd.notna(x) and skill in x else 0)
-df = pd.concat([df, df_skills], axis=1).drop(columns=['Skills'])
+# Create binary features for Loisirs
+mlb_loisirs = MultiLabelBinarizer(classes=loisir_categories)
+loisir_encoded = pd.DataFrame(mlb_loisirs.fit_transform(df['Loisirs']),
+                             columns=[f"Loisir_{cat}" for cat in loisir_categories],
+                             index=df.index)
 
-# Convert numerical columns to float after replacement
-df[['Nationale', 'Regional', 'Generale']] = df[['Nationale', 'Regional', 'Generale']].astype(float)
+mlb_skills = MultiLabelBinarizer(classes=skill_categories)
+skills_encoded = pd.DataFrame(mlb_skills.fit_transform(df['Skills']),
+                             columns=[f"Skill_{cat}" for cat in skill_categories],
+                             index=df.index)
 
-# Save processed data
-df.to_csv('processed_data.csv', index=False)
+# Merge encoded features with original dataframe
+df_encoded = pd.concat([df, loisir_encoded, skills_encoded], axis=1)
 
-print("Data preprocessing completed successfully!")
+# Drop original text columns
+df_encoded = df_encoded.drop(['Loisirs', 'Skills'], axis=1)
+
+# Handle other categorical columns (example for 'Sexe' and 'Ville')
+df_encoded = pd.get_dummies(df_encoded, columns=['Sexe', 'Ville', 'specialite_BAC'])
+
+# Convert numeric columns with commas to floats
+numeric_cols = ['Nationale', 'Regional', 'Generale']
+for col in numeric_cols:
+    df_encoded[col] = df_encoded[col].str.replace(',', '.').astype(float)
+
+df.to_csv("newFuckingShit.csv" , index=False)

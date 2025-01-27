@@ -1,161 +1,161 @@
 Age,Ville,Sexe,specialite_BAC,Nationale,Regional,Generale,Francais,Anglais,Loisirs,preferee,detestee,Skills,specialite,performance,satisfaction
-30,larache,Femme,SE,15,"6,86","11,45",Intermediaire,Intermediaire,Cinema,Physique,Mathematiques,Resolutiondeproblmes,Economie,8,4
-20,fes,Homme,SP,"14,05","10,75","14,5",Intermediaire,Avance,"Musique,Jeuxvideo,Technologie,Photographie",Informatique,Physique,"Resolutiondeproblmes,Espritcritique",Informatique,9,5
-19,sale,Homme,SVT,"9,06","13,85","11,44",Intermediaire,Avance,"Sport,Jeuxvideo,Technologie,Photographie",Histoire,Biologie,"Communication,Travailenequipe,Gestiondutemps,Adaptabilite,Creativite,Resolutiondeproblmes,Leadership,Empathie,Espritcritique",Biologie,4,2
+30,larache,Femme,SE,15,"6,86","11,45",Intermediaire,Intermediaire,Cinema,Physique,Mathematiques,Resolutiondeproblemes,Economie,8,4
+20,fes,Homme,SP,"14,05","10,75","14,5",Intermediaire,Avance,"Musique,Jeuxvideo,Technologie,Photographie",Informatique,Physique,"Resolutiondeproblemes,Espritcritique",Informatique,9,5
+19,sale,Homme,SVT,"9,06","13,85","11,44",Intermediaire,Avance,"Sport,Jeuxvideo,Technologie,Photographie",Histoire,Biologie,"Communication,Travailenequipe,Gestiondutemps,Adaptabilite,Creativite,Resolutiondeproblemes,Leadership,Empathie,Espritcritique",Biologie,4,2
 20,fes,Homme,STE,"15,76","16,55","15,75",Avance,Avance,"Sport,Jeuxvideo,Technologie",Informatique,Histoire,"Gestiondutemps,Leadership",Informatique,8,5
-19,oujda,Femme,SP,"12,1",13,"12,1",Avance,Avance,"Lecture,Sport,Musique,Voyage,Cinema,Artsplastiques,Technologie",Mathematiques,Biologie,"Creativite,Resolutiondeproblmes,Leadership",education,9,3
-19,sale,Homme,SP,"11,61","17,45","13,76",Avance,Avance,Sport,Biologie,Histoire,"Adaptabilite,Creativite,Resolutiondeproblmes,Autonomie",Medecine,7,4
+19,oujda,Femme,SP,"12,1",13,"12,1",Avance,Avance,"Lecture,Sport,Musique,Voyage,Cinema,Artsplastiques,Technologie",Mathematiques,Biologie,"Creativite,Resolutiondeproblemes,Leadership",education,9,3
+19,sale,Homme,SP,"11,61","17,45","13,76",Avance,Avance,Sport,Biologie,Histoire,"Adaptabilite,Creativite,Resolutiondeproblemes,Autonomie",Medecine,7,4
 20,midelt,Homme,SP,"16,47","16,5","16,7",Avance,Intermediaire,"Sport,Voyage,Jeuxvideo,Technologie",Physique,Mathematiques,"Communication,Travailenequipe,Gestiondutemps,Creativite,Espritcritique",Informatique,7,3
-43,qatar,Homme,Lettres,12,13,"11,82",Avance,Intermediaire,"Lecture,Sport,Musique,Voyage,Cinema,Photographie",Philosophie et litterature,Toutes les matières scientifiques,"Communication,Travailenequipe,Adaptabilite,Creativite,Resolutiondeproblmes",Sciences humaines et sociales,8,5
+43,qatar,Homme,Lettres,12,13,"11,82",Avance,Intermediaire,"Lecture,Sport,Musique,Voyage,Cinema,Photographie",Philosophie et litterature,Toutes les matières scientifiques,"Communication,Travailenequipe,Adaptabilite,Creativite,Resolutiondeproblemes",Sciences humaines et sociales,8,5
 22,rabat,Homme,SP,"16,02","10,65","14,38",Avance,Intermediaire,"Lecture,Voyage,Cinema",Physique,,"Communication,Travailenequipe,Espritcritique",Physique,9,5
-20,tetouan,Homme,SP,10,11,"10,27",Intermediaire,Intermediaire,"Sport,Voyage,Technologie",Informatique,Litterature,"Communication,Travailenequipe,Resolutiondeproblmes",Economie,7,2
+20,tetouan,Homme,SP,10,11,"10,27",Intermediaire,Intermediaire,"Sport,Voyage,Technologie",Informatique,Litterature,"Communication,Travailenequipe,Resolutiondeproblemes",Economie,7,2
 31,casa,Homme,Lettres,14,9,12,Intermediaire,Fluent,"Lecture,Sport,Musique,Photographie",Langues,,"Communication,Adaptabilite,Creativite,Autonomie",Langues etrangères,8,3
-22,taroudant,Homme,SP,"16,42","16,92","16,67",Intermediaire,Intermediaire,"Sport,Voyage,Benevolat",Informatique,Litterature,"Communication,Travailenequipe,Gestiondutemps,Adaptabilite,Creativite,Resolutiondeproblmes,Leadership,Empathie,Espritcritique,Autonomie",Informatique,8,5
-24,rabat,Femme,SP,"16,98","13,9","16,14",Avance,Avance,"Lecture,Musique,Voyage,Cinema,Jeuxvideo,Benevolat,Technologie,Ecriture,Photographie",Mathematiques,Histoire,"Communication,Travailenequipe,Gestiondutemps,Adaptabilite,Creativite,Resolutiondeproblmes,Leadership,Empathie,Espritcritique,Autonomie",Ingenierie,10,5
-23,ouazzane,Homme,SP,"18,03","13,5","16,81",Intermediaire,Intermediaire,"Lecture,Musique",Physique,Histoire,"Communication,Travailenequipe,Gestiondutemps,Adaptabilite,Creativite,Resolutiondeproblmes,Leadership,Espritcritique,Autonomie",Ingenierie,8,5
-19,sale,Homme,SP,9,16,9,Intermediaire,Avance,"Lecture,Technologie,Ecriture,Photographie",Philosophie,Mathematiques,"Communication,Travailenequipe,Adaptabilite,Creativite,Resolutiondeproblmes,Leadership",Informatique,5,4
+22,taroudant,Homme,SP,"16,42","16,92","16,67",Intermediaire,Intermediaire,"Sport,Voyage,Benevolat",Informatique,Litterature,"Communication,Travailenequipe,Gestiondutemps,Adaptabilite,Creativite,Resolutiondeproblemes,Leadership,Empathie,Espritcritique,Autonomie",Informatique,8,5
+24,rabat,Femme,SP,"16,98","13,9","16,14",Avance,Avance,"Lecture,Musique,Voyage,Cinema,Jeuxvideo,Benevolat,Technologie,Ecriture,Photographie",Mathematiques,Histoire,"Communication,Travailenequipe,Gestiondutemps,Adaptabilite,Creativite,Resolutiondeproblemes,Leadership,Empathie,Espritcritique,Autonomie",Ingenierie,10,5
+23,ouazzane,Homme,SP,"18,03","13,5","16,81",Intermediaire,Intermediaire,"Lecture,Musique",Physique,Histoire,"Communication,Travailenequipe,Gestiondutemps,Adaptabilite,Creativite,Resolutiondeproblemes,Leadership,Espritcritique,Autonomie",Ingenierie,8,5
+19,sale,Homme,SP,9,16,9,Intermediaire,Avance,"Lecture,Technologie,Ecriture,Photographie",Philosophie,Mathematiques,"Communication,Travailenequipe,Adaptabilite,Creativite,Resolutiondeproblemes,Leadership",Informatique,5,4
 22,fes,Femme,SP,"16,77","15,65","16,67",Avance,Avance,"Artsplastiques,Benevolat,Photographie",Mathematiques,Histoire,"Travailenequipe,Gestiondutemps,Creativite,Autonomie",Ingenierie,9,5
 21,sale,Femme,SP,"16,7","17,85",17,Fluent,Avance,"Lecture,Musique,Voyage,Cinema,Benevolat",Mathematiques,Histoire,"Communication,Travailenequipe,Gestiondutemps,Adaptabilite,Leadership,Autonomie",Ingenierie,10,5
-18,fes,Femme,SP,"13,56","16,2","15,33",Avance,Intermediaire,"Sport,Voyage,Artsplastiques",Informatique,,"Travailenequipe,Adaptabilite,Creativite,Resolutiondeproblmes",Informatique,7,5
-22,fes,Homme,SM,"10,92","13,9","12,65",Intermediaire,Intermediaire,"Sport,Voyage,Technologie,Photographie",Informatique,Biologie,"Travailenequipe,Resolutiondeproblmes,Empathie",Informatique,7,3
+18,fes,Femme,SP,"13,56","16,2","15,33",Avance,Intermediaire,"Sport,Voyage,Artsplastiques",Informatique,,"Travailenequipe,Adaptabilite,Creativite,Resolutiondeproblemes",Informatique,7,5
+22,fes,Homme,SM,"10,92","13,9","12,65",Intermediaire,Intermediaire,"Sport,Voyage,Technologie,Photographie",Informatique,Biologie,"Travailenequipe,Resolutiondeproblemes,Empathie",Informatique,7,3
 23,fes,Femme,SP,"16,49","17,68","17,06",Fluent,Intermediaire,"Musique,Voyage",Physique,,"Communication,Travailenequipe,Gestiondutemps,Leadership,Autonomie",Ingenierie,9,5
-26,fes,Homme,SP,"14,52","13,9","14,77",Fluent,Avance,"Sport,Voyage,Jeuxvideo,Benevolat",Mathematiques,,"Travailenequipe,Gestiondutemps,Adaptabilite,Resolutiondeproblmes,Leadership,Autonomie",Ingenierie,9,4
-24,fes,Femme,SP,"19,21","17,75","18,6",Intermediaire,Debutant,"Lecture,Ecriture",Medecine,,"Communication,Travailenequipe,Adaptabilite,Resolutiondeproblmes,Empathie",Medecine,8,5
-23,rabat,Homme,SM,11,14,12,Avance,Avance,"Musique,Voyage,Jeuxvideo,Technologie",Mathematiques,Biologie,"Travailenequipe,Adaptabilite,Creativite,Resolutiondeproblmes,Leadership,Autonomie",Informatique,9,5
+26,fes,Homme,SP,"14,52","13,9","14,77",Fluent,Avance,"Sport,Voyage,Jeuxvideo,Benevolat",Mathematiques,,"Travailenequipe,Gestiondutemps,Adaptabilite,Resolutiondeproblemes,Leadership,Autonomie",Ingenierie,9,4
+24,fes,Femme,SP,"19,21","17,75","18,6",Intermediaire,Debutant,"Lecture,Ecriture",Medecine,,"Communication,Travailenequipe,Adaptabilite,Resolutiondeproblemes,Empathie",Medecine,8,5
+23,rabat,Homme,SM,11,14,12,Avance,Avance,"Musique,Voyage,Jeuxvideo,Technologie",Mathematiques,Biologie,"Travailenequipe,Adaptabilite,Creativite,Resolutiondeproblemes,Leadership,Autonomie",Informatique,9,5
 19,fes,Femme,SP,"10,49","14,8","13,27",Intermediaire,Debutant,"Lecture,Musique,Voyage",Comptabilite,,"Communication,Travailenequipe,Espritcritique",Economie,5,3
 19,fes,Femme,SM,"11,9","18,6","15,42",Fluent,Fluent,"Lecture,Musique,Voyage,Artsplastiques,Ecriture,Photographie",Biologie,,"Communication,Travailenequipe,Adaptabilite,Creativite,Leadership,Espritcritique,Autonomie",Informatique,6,5
-18,fes,Homme,SP,"14,48","14,75","14,86",Intermediaire,Intermediaire,Jeuxvideo,Biologie,Mathematiques,"Communication,Travailenequipe,Adaptabilite,Resolutiondeproblmes,Espritcritique",Medecine,10,5
-23,beni mellal,Homme,Lettres,"16,73",16,16,Intermediaire,Intermediaire,"Lecture,Sport,Musique,Voyage,Cinema",Litterature,Litterature,"Travailenequipe,Resolutiondeproblmes,Espritcritique",Sciences humaines et sociales,7,3
-19,meknes,Homme,SP,"15,14","13,5","15,04",Intermediaire,Debutant,"Sport,Jeuxvideo,Artsplastiques,Technologie",Informatique,Langues,"Gestiondutemps,Adaptabilite,Creativite,Resolutiondeproblmes",Informatique,6,4
+18,fes,Homme,SP,"14,48","14,75","14,86",Intermediaire,Intermediaire,Jeuxvideo,Biologie,Mathematiques,"Communication,Travailenequipe,Adaptabilite,Resolutiondeproblemes,Espritcritique",Medecine,10,5
+23,beni mellal,Homme,Lettres,"16,73",16,16,Intermediaire,Intermediaire,"Lecture,Sport,Musique,Voyage,Cinema",Litterature,Litterature,"Travailenequipe,Resolutiondeproblemes,Espritcritique",Sciences humaines et sociales,7,3
+19,meknes,Homme,SP,"15,14","13,5","15,04",Intermediaire,Debutant,"Sport,Jeuxvideo,Artsplastiques,Technologie",Informatique,Langues,"Gestiondutemps,Adaptabilite,Creativite,Resolutiondeproblemes",Informatique,6,4
 21,rabat,Femme,SM,"12,75","16,17","14,75",Avance,Intermediaire,"Sport,Voyage,Artsplastiques,Photographie",Mathematiques,Histoire,"Communication,Travailenequipe,Gestiondutemps,Creativite,Leadership",Ingenierie,8,4
-19,sale,Homme,SP,"11,51","15,55",13,Intermediaire,Avance,"Voyage,Technologie,chess",Informatique,Biologie,"Adaptabilite,Resolutiondeproblmes,Leadership",Informatique,8,5
+19,sale,Homme,SP,"11,51","15,55",13,Intermediaire,Avance,"Voyage,Technologie,chess",Informatique,Biologie,"Adaptabilite,Resolutiondeproblemes,Leadership",Informatique,8,5
 22,rabat,Homme,SP,12,12,"12,64",Intermediaire,Avance,"Musique,Voyage,Jeuxvideo,Benevolat,Photographie",Langues,Physique,"Communication,Travailenequipe,Leadership",Economie,7,5
 19,sale,Homme,SP,10,17,13,Intermediaire,Debutant,"Sport,Musique,Voyage,Benevolat",Marketing,Physique,"Communication,Travailenequipe,Gestiondutemps,Adaptabilite",Economie,5,5
-20,rabat,Femme,SP,17,18,18,Avance,Intermediaire,"Lecture,Artsplastiques,Benevolat,Ecriture","Mathematiques,Litterature,Langues,Histoire",,"Adaptabilite,Creativite,Resolutiondeproblmes,Espritcritique,Autonomie",Ingenierie,7,4
+20,rabat,Femme,SP,17,18,18,Avance,Intermediaire,"Lecture,Artsplastiques,Benevolat,Ecriture","Mathematiques,Litterature,Langues,Histoire",,"Adaptabilite,Creativite,Resolutiondeproblemes,Espritcritique,Autonomie",Ingenierie,7,4
 20,fes,Femme,SM,13,"17,9","15,36",Avance,Avance,"Lecture,Musique,Voyage,Artsplastiques,Technologie,Ecriture,Photographie",Biologie,Histoire,"Communication,Gestiondutemps,Adaptabilite,Leadership,Empathie,Espritcritique,Autonomie",Medecine,8,5
 23,el hajeb,Femme,SP,17,"14,4","16,65",Intermediaire,Intermediaire,"Sport,Voyage,Photographie",Physique,Langues,"Travailenequipe,Adaptabilite",Ingenierie,7,4
-32,immouzzer,Femme,SP,"12,4",10,"11,8",Avance,Intermediaire,"Lecture,Sport,Cuisson",Physique,Chimie,"Resolutiondeproblmes,Espritcritique",Physique,7,4
-31,fes,Femme,SM,"12,5",12,"12,5",Fluent,Intermediaire,"Sport,Jeuxvideo",Informatique,Mathematiques,"Communication,Travailenequipe,Adaptabilite,Resolutiondeproblmes,Leadership,Espritcritique",Informatique,8,4
+32,immouzzer,Femme,SP,"12,4",10,"11,8",Avance,Intermediaire,"Lecture,Sport",Physique,Chimie,"Resolutiondeproblemes,Espritcritique",Physique,7,4
+31,fes,Femme,SM,"12,5",12,"12,5",Fluent,Intermediaire,"Sport,Jeuxvideo",Informatique,Mathematiques,"Communication,Travailenequipe,Adaptabilite,Resolutiondeproblemes,Leadership,Espritcritique",Informatique,8,4
 24,rabat,Femme,SP,"15,01","16,31","15,51",Avance,Intermediaire,"Voyage,Artsplastiques,Benevolat,Technologie",Informatique,Histoire,"Communication,Travailenequipe,Gestiondutemps,Creativite,Leadership",Economie,8,5
 19,sale,Homme,SE,"8,4","13,83","10,9",Intermediaire,Avance,"Sport,Musique",Langues,Mathematiques,"Communication,Adaptabilite,Creativite",Langues etrangères,6,2
-21,tantan,Homme,SM,15,"14,5","15,3",Debutant,Debutant,Sport,Mathematiques,Litterature,Resolutiondeproblmes,Mathematiques appliquees,6,3
-20,fes,Homme,SM,"9,31","17,5","13,27",Avance,Avance,"Lecture,Sport,Musique,Voyage,Cinema,Jeuxvideo,Artsplastiques,Technologie,Ecriture,Photographie",Physique,,"Adaptabilite,Resolutiondeproblmes,Espritcritique,Autonomie",Ingenierie,2,5
+21,tantan,Homme,SM,15,"14,5","15,3",Debutant,Debutant,Sport,Mathematiques,Litterature,Resolutiondeproblemes,Mathematiques appliquees,6,3
+20,fes,Homme,SM,"9,31","17,5","13,27",Avance,Avance,"Lecture,Sport,Musique,Voyage,Cinema,Jeuxvideo,Artsplastiques,Technologie,Ecriture,Photographie",Physique,,"Adaptabilite,Resolutiondeproblemes,Espritcritique,Autonomie",Ingenierie,2,5
 19,fes,Homme,SP,"13,5","16,9","14,6",Intermediaire,Intermediaire,"Sport,Musique,Jeuxvideo,Technologie",Informatique,Mathematiques,"Communication,Travailenequipe,Creativite",Informatique,6,5
-22,alhoceima,Femme,SP,"16,63","16,1","16,97",Avance,Intermediaire,"Lecture,Artsplastiques,Technologie",Mathematiques,,"Communication,Travailenequipe,Creativite,Resolutiondeproblmes,Leadership,Espritcritique",Ingenierie,7,4
+22,alhoceima,Femme,SP,"16,63","16,1","16,97",Avance,Intermediaire,"Lecture,Artsplastiques,Technologie",Mathematiques,,"Communication,Travailenequipe,Creativite,Resolutiondeproblemes,Leadership,Espritcritique",Ingenierie,7,4
 19,fes,Homme,SP,"12,66","16,5",15,Intermediaire,Intermediaire,"Sport,Musique,Voyage",Physique,Litterature,"Communication,Espritcritique,Autonomie",Informatique,3,2
 22,mohammedia,Femme,SP,"15,6","13,6","15,64",Intermediaire,Intermediaire,"Lecture,Sport,Voyage,Artsplastiques",Mathematiques,,"Adaptabilite,Creativite",Physique,5,2
 22,agadir,Homme,SP,"17,21","17,31","17,15",Intermediaire,Avance,"Sport,Musique,Voyage,Cinema,Jeuxvideo,Technologie",Physique,Litterature,"Travailenequipe,Gestiondutemps,Creativite,Espritcritique",Informatique,8,4
 19,fes,Femme,SP,"12,01","16,97","14,1",Avance,Intermediaire,"Lecture,Musique,Voyage,Jeuxvideo,Artsplastiques,Technologie",Informatique,Biologie,"Communication,Adaptabilite,Espritcritique",Informatique,7,4
-20,fes,Homme,SP,"14,5","15,5",15,Intermediaire,Intermediaire,"Lecture,Sport",Informatique,,"Travailenequipe,Resolutiondeproblmes,Espritcritique",Informatique,8,5
+20,fes,Homme,SP,"14,5","15,5",15,Intermediaire,Intermediaire,"Lecture,Sport",Informatique,,"Travailenequipe,Resolutiondeproblemes,Espritcritique",Informatique,8,5
 21,sale,Femme,SVT,"15,14","17,2","16,4",Avance,Avance,"Sport,Voyage,Benevolat,Photographie",Biologie,,"Travailenequipe,Adaptabilite,Empathie",Biologie,8,4
-30,el hajeb,Femme,SVT,11,12,11,Intermediaire,Debutant,"Lecture,Voyage,Photographie,Cuisson",Biologie,Physique,"Adaptabilite,Empathie,Ecoute,Gestiondustress",education,6,1
-20,midelt,Femme,SP,"15,37","15,95","15,77",Avance,Intermediaire,"Lecture,Musique,Voyage",Informatique,Histoire,Resolutiondeproblmes,Reseau,9,4
-31,meknes,Femme,SP,"17,4","13,4","16,11",Avance,Intermediaire,Dormir,Chimie,Histoire,"Communication,Travailenequipe,Gestiondutemps,Adaptabilite,Empathie,Autonomie",Chimie,8,4
-24,fes,Femme,SP,"15,84","11,08","14,65",Intermediaire,Intermediaire,"Lecture,Sport,Musique,Voyage,Technologie",Mathematiques,Histoire,"Travailenequipe,Adaptabilite,Resolutiondeproblmes,Leadership,Empathie",Ingenierie,8,4
-21,sidi slimane,Homme,SP,"16,97","17,45","17,24",Avance,Avance,Sport,Physique,Histoire,"Communication,Adaptabilite,Creativite,Resolutiondeproblmes",Ingenierie,8,4
-19,rich,Homme,SP,12,15,14,Intermediaire,Intermediaire,"Sport,Musique,Voyage,Jeuxvideo",Informatique,Litterature,"Travailenequipe,Resolutiondeproblmes",Informatique,7,5
+30,el hajeb,Femme,SVT,11,12,11,Intermediaire,Debutant,"Lecture,Voyage,Photographie",Biologie,Physique,"Adaptabilite,Empathie",education,6,1
+20,midelt,Femme,SP,"15,37","15,95","15,77",Avance,Intermediaire,"Lecture,Musique,Voyage",Informatique,Histoire,Resolutiondeproblemes,Reseau,9,4
+31,meknes,Femme,SP,"17,4","13,4","16,11",Avance,Intermediaire,"Cinema",Chimie,Histoire,"Communication,Travailenequipe,Gestiondutemps,Adaptabilite,Empathie,Autonomie",Chimie,8,4
+24,fes,Femme,SP,"15,84","11,08","14,65",Intermediaire,Intermediaire,"Lecture,Sport,Musique,Voyage,Technologie",Mathematiques,Histoire,"Travailenequipe,Adaptabilite,Resolutiondeproblemes,Leadership,Empathie",Ingenierie,8,4
+21,sidi slimane,Homme,SP,"16,97","17,45","17,24",Avance,Avance,Sport,Physique,Histoire,"Communication,Adaptabilite,Creativite,Resolutiondeproblemes",Ingenierie,8,4
+19,rich,Homme,SP,12,15,14,Intermediaire,Intermediaire,"Sport,Musique,Voyage,Jeuxvideo",Informatique,Litterature,"Travailenequipe,Resolutiondeproblemes",Informatique,7,5
 25,fes,Femme,SP,"12,2","14,85","11,6",Intermediaire,Debutant,Artsplastiques,Langues,Physique,Creativite,Arts et design,7,5
-22,oujda,Homme,STE,"14,34","15,3","14,58",Avance,Avance,"Sport,Musique,Jeuxvideo,Onepiece",Physique,Litterature,"Communication,Travailenequipe,Gestiondutemps,Adaptabilite,Creativite,Resolutiondeproblmes,Leadership,Empathie",Ingenierie,8,4
+22,oujda,Homme,STE,"14,34","15,3","14,58",Avance,Avance,"Sport,Musique,Jeuxvideo",Physique,Litterature,"Communication,Travailenequipe,Gestiondutemps,Adaptabilite,Creativite,Resolutiondeproblemes,Leadership,Empathie",Ingenierie,8,4
 29,azrou,Femme,SP,"15,15","13,25","15,37",Intermediaire,Debutant,"Sport,Musique,Voyage,Artsplastiques,Ecriture",Mathematiques,Langues,"Communication,Gestiondutemps",Ingenierie,7,4
 23,fes,Homme,SP,"13,5","13,5","13,5",Avance,Intermediaire,"Sport,Musique,Voyage,Cinema,Jeuxvideo",Informatique,Biologie,"Empathie,Espritcritique",Physique,7,2
 20,sale,Homme,SE,14,13,15,Avance,Intermediaire,Sport,Mathematiques,Litterature,Travailenequipe,Economie,8,4
 31,el hajeb,Femme,SVT,14,12,13,Intermediaire,Debutant,"Lecture,Musique,Cinema",Informatique,Histoire,Travailenequipe,Biologie,5,2
-22,tetouan,Homme,STE,"16,35",16,"16,35",Fluent,Intermediaire,"Voyage,Artsplastiques,Technologie,Photographie",Sciences d'ingenieur,Chimie,"Travailenequipe,Creativite,Resolutiondeproblmes,Leadership",Ingenierie,9,5
+22,tetouan,Homme,STE,"16,35",16,"16,35",Fluent,Intermediaire,"Voyage,Artsplastiques,Technologie,Photographie",Sciences d'ingenieur,Chimie,"Travailenequipe,Creativite,Resolutiondeproblemes,Leadership",Ingenierie,9,5
 19,fes,Femme,SP,"12,14","14,43","14,02",Intermediaire,Avance,"Lecture,Musique,Cinema",Informatique,Histoire,Communication,Informatique,5,3
-20,taza,Homme,SM,"14,37","14,3","15,37",Intermediaire,Avance,"Lecture,Musique,Jeuxvideo,Technologie",Informatique,Litterature,"Travailenequipe,Adaptabilite,Resolutiondeproblmes,Espritcritique,Autonomie",Informatique,8,5
+20,taza,Homme,SM,"14,37","14,3","15,37",Intermediaire,Avance,"Lecture,Musique,Jeuxvideo,Technologie",Informatique,Litterature,"Travailenequipe,Adaptabilite,Resolutiondeproblemes,Espritcritique,Autonomie",Informatique,8,5
 31,sale,Homme,Lettres,11,10,11,Intermediaire,Avance,"Musique,Voyage",Langues,,"Travailenequipe,Leadership",Droit,4,3
 21,tanger,Femme,SP,"14,28","17,75","19,39",Avance,Intermediaire,"Lecture,Voyage,Technologie,Ecriture,Photographie",Mathematiques,Chimie,"Travailenequipe,Adaptabilite,Creativite,Leadership,Autonomie",Ingenierie,8,4
 20,casa,Homme,SM,13,11,13,Intermediaire,Avance,"Lecture,Technologie",Informatique,,"Travailenequipe,Leadership",Informatique,7,5
-21,rabat,Homme,SP,"13,16","15,3","14,61",Intermediaire,Avance,"Musique,Voyage,Cinema,Jeuxvideo,Technologie,Photographie",Informatique,Litterature,"Communication,Travailenequipe,Adaptabilite,Resolutiondeproblmes,Leadership,Espritcritique,Autonomie",Informatique,9,5
+21,rabat,Homme,SP,"13,16","15,3","14,61",Intermediaire,Avance,"Musique,Voyage,Cinema,Jeuxvideo,Technologie,Photographie",Informatique,Litterature,"Communication,Travailenequipe,Adaptabilite,Resolutiondeproblemes,Leadership,Espritcritique,Autonomie",Informatique,9,5
 22,oujda,Homme,SP,12,"9,96","12,93",Debutant,Intermediaire,"Sport,Voyage,Cinema,Jeuxvideo,Benevolat,Photographie",Informatique,Mathematiques,"Travailenequipe,Adaptabilite,Espritcritique",Physique,5,1
-20,berkane,Femme,SP,"13,58","13,9","14,58",Intermediaire,Intermediaire,"Lecture,Sport",Mathematiques,Histoire,"Travailenequipe,Adaptabilite,Creativite,Resolutiondeproblmes",Informatique,5,4
+20,berkane,Femme,SP,"13,58","13,9","14,58",Intermediaire,Intermediaire,"Lecture,Sport",Mathematiques,Histoire,"Travailenequipe,Adaptabilite,Creativite,Resolutiondeproblemes",Informatique,5,4
 20,meknes,Homme,SP,"14,27","15,2","15,58",Intermediaire,Intermediaire,"Lecture,Musique,Jeuxvideo",Informatique,Langues,"Adaptabilite,Empathie,Autonomie",Informatique,8,5
-22,marrakech,Homme,SP,12,"15,25","13,71",Intermediaire,Avance,"Sport,Voyage,Technologie",Informatique,Physique,"Adaptabilite,Creativite,Resolutiondeproblmes",Informatique,4,5
-20,taza,Femme,SP,"15,78","17,4","16,62",Avance,Avance,"Sport,Technologie",Informatique,,"Communication,Creativite,Resolutiondeproblmes",Informatique,9,5
-20,berkane,Femme,SP,"12,82","17,66","15,5",Avance,Debutant,"Lecture,Sport,Voyage,Artsplastiques,Photographie",Informatique,Histoire,"Communication,Travailenequipe,Gestiondutemps,Adaptabilite,Creativite,Resolutiondeproblmes,Leadership,Autonomie",Informatique,8,5
+22,marrakech,Homme,SP,12,"15,25","13,71",Intermediaire,Avance,"Sport,Voyage,Technologie",Informatique,Physique,"Adaptabilite,Creativite,Resolutiondeproblemes",Informatique,4,5
+20,taza,Femme,SP,"15,78","17,4","16,62",Avance,Avance,"Sport,Technologie",Informatique,,"Communication,Creativite,Resolutiondeproblemes",Informatique,9,5
+20,berkane,Femme,SP,"12,82","17,66","15,5",Avance,Debutant,"Lecture,Sport,Voyage,Artsplastiques,Photographie",Informatique,Histoire,"Communication,Travailenequipe,Gestiondutemps,Adaptabilite,Creativite,Resolutiondeproblemes,Leadership,Autonomie",Informatique,8,5
 21,berkane,Homme,SP,"15,57","15,5","15,54",Avance,Intermediaire,Sport,Informatique,Litterature,"Travailenequipe,Adaptabilite",Informatique,7,4
-21,taourirt,Homme,SP,14,15,15,Avance,Intermediaire,"Sport,Jeuxvideo",Informatique,Langues,"Adaptabilite,Creativite,Resolutiondeproblmes",Informatique,7,4
+21,taourirt,Homme,SP,14,15,15,Avance,Intermediaire,"Sport,Jeuxvideo",Informatique,Langues,"Adaptabilite,Creativite,Resolutiondeproblemes",Informatique,7,4
 18,marrakech,Femme,SP,14,"14,6",15,Intermediaire,Intermediaire,"Lecture,Voyage,Benevolat,Technologie",Informatique,Biologie,"Adaptabilite,Creativite,Espritcritique",Informatique,4,4
-21,sale,Homme,SP,"16,4","17,2","16,8",Avance,Fluent,"Lecture,Musique,Cinema,Jeuxvideo",Mathematiques,Biologie,"Communication,Travailenequipe,Adaptabilite,Resolutiondeproblmes,Espritcritique",Ingenierie,7,4
-19,fes,Femme,STM,13,"14,7",13,Avance,Avance,"Lecture,Musique,Voyage,Technologie,Photographie",Mathematiques,,"Communication,Travailenequipe,Creativite,Resolutiondeproblmes,Leadership",Ingenierie,8,5
-33,mrirt,Femme,SP,12,10,11,Avance,Intermediaire,"Lecture,Sport,Voyage,Artsplastiques,Technologie,Ecriture",Histoire,Biologie,"Communication,Travailenequipe,Gestiondutemps,Adaptabilite,Creativite,Resolutiondeproblmes,Leadership,Empathie,Espritcritique,Autonomie",Chimie,10,4
-28,rabat,Femme,SP,14,16,14,Avance,Intermediaire,"Sport,Voyage,Benevolat,Photographie",Biologie,Physique,"Communication,Creativite,Resolutiondeproblmes,Empathie",Biologie,6,3
+21,sale,Homme,SP,"16,4","17,2","16,8",Avance,Fluent,"Lecture,Musique,Cinema,Jeuxvideo",Mathematiques,Biologie,"Communication,Travailenequipe,Adaptabilite,Resolutiondeproblemes,Espritcritique",Ingenierie,7,4
+19,fes,Femme,STM,13,"14,7",13,Avance,Avance,"Lecture,Musique,Voyage,Technologie,Photographie",Mathematiques,,"Communication,Travailenequipe,Creativite,Resolutiondeproblemes,Leadership",Ingenierie,8,5
+33,mrirt,Femme,SP,12,10,11,Avance,Intermediaire,"Lecture,Sport,Voyage,Artsplastiques,Technologie,Ecriture",Histoire,Biologie,"Communication,Travailenequipe,Gestiondutemps,Adaptabilite,Creativite,Resolutiondeproblemes,Leadership,Empathie,Espritcritique,Autonomie",Chimie,10,4
+28,rabat,Femme,SP,14,16,14,Avance,Intermediaire,"Sport,Voyage,Benevolat,Photographie",Biologie,Physique,"Communication,Creativite,Resolutiondeproblemes,Empathie",Biologie,6,3
 31,meknes,Homme,SM,"12,5","10,5","11,85",Intermediaire,Intermediaire,"Sport,Technologie",Mathematiques,Litterature,Leadership,Ingenierie,7,4
-31,khenifra,Femme,SP,12,"14,05","13,49",Avance,Intermediaire,"Lecture,Sport,Musique,Voyage",Physique,Biologie,"Communication,Travailenequipe,Adaptabilite,Resolutiondeproblmes",Physique,7,2
-21,fès,Homme,SP,"15,28","16,5","16,41",Avance,Avance,"Sport,Musique,Voyage,Cinema,Jeuxvideo,Benevolat",Politiques internationales et publiques,,"Communication,Travailenequipe,Gestiondutemps,Adaptabilite,Creativite,Resolutiondeproblmes,Leadership,Empathie,Espritcritique",Sciences politiques,8,4
-21,larache,Femme,SP,"13,89","16,25","15,75",Avance,Intermediaire,"Musique,Voyage,Cinema",Langues,Histoire,"Travailenequipe,Gestiondutemps,Creativite,Resolutiondeproblmes,Leadership",Informatique,1,2
+31,khenifra,Femme,SP,12,"14,05","13,49",Avance,Intermediaire,"Lecture,Sport,Musique,Voyage",Physique,Biologie,"Communication,Travailenequipe,Adaptabilite,Resolutiondeproblemes",Physique,7,2
+21,fès,Homme,SP,"15,28","16,5","16,41",Avance,Avance,"Sport,Musique,Voyage,Cinema,Jeuxvideo,Benevolat",Politiques internationales et publiques,,"Communication,Travailenequipe,Gestiondutemps,Adaptabilite,Creativite,Resolutiondeproblemes,Leadership,Empathie,Espritcritique",Sciences politiques,8,4
+21,larache,Femme,SP,"13,89","16,25","15,75",Avance,Intermediaire,"Musique,Voyage,Cinema",Langues,Histoire,"Travailenequipe,Gestiondutemps,Creativite,Resolutiondeproblemes,Leadership",Informatique,1,2
 25,meknes,Femme,SP,10,17,13,Fluent,Avance,"Lecture,Benevolat,Ecriture",Chimie,Mathematiques,"Adaptabilite,Creativite,Autonomie",Biologie,8,5
-18,agadir,Femme,SP,12,15,12,Fluent,Fluent,"Lecture,Sport,Musique,Voyage,Cinema,Benevolat,Technologie,Ecriture",Langues,Physique,"Communication,Travailenequipe,Gestiondutemps,Adaptabilite,Creativite,Resolutiondeproblmes,Leadership,Empathie,Espritcritique,Autonomie",Ingenierie,8,3
+18,agadir,Femme,SP,12,15,12,Fluent,Fluent,"Lecture,Sport,Musique,Voyage,Cinema,Benevolat,Technologie,Ecriture",Langues,Physique,"Communication,Travailenequipe,Gestiondutemps,Adaptabilite,Creativite,Resolutiondeproblemes,Leadership,Empathie,Espritcritique,Autonomie",Ingenierie,8,3
 24,rabat,Femme,SM,14,16,15,Avance,Debutant,"Lecture,Ecriture",Litterature,Histoire,"Travailenequipe,Gestiondutemps",Ingenierie,8,4
 19,fez,Homme,SM,15,17,"16,67",Fluent,Avance,"Lecture,Sport,Voyage,Jeuxvideo,Artsplastiques,Technologie",Histoire,Physique,"Communication,Travailenequipe,Gestiondutemps,Adaptabilite,Espritcritique,Autonomie",Economie,8,5
 20,tetouan,Femme,SVT,"7,98","15,7","11,92",Avance,Intermediaire,Voyage,Hydraulique,Statistiques,Creativite,Ingenierie,6,4
-16,fes,Femme,SM,16,"17,5",16,Avance,Avance,"Sport,Musique,Voyage,Cinema,Jeuxvideo,Benevolat,Technologie,Photographie",Chimie,,"Communication,Travailenequipe,Gestiondutemps,Adaptabilite,Creativite,Resolutiondeproblmes,Leadership,Espritcritique,Autonomie",Ingenierie,8,4
+16,fes,Femme,SM,16,"17,5",16,Avance,Avance,"Sport,Musique,Voyage,Cinema,Jeuxvideo,Benevolat,Technologie,Photographie",Chimie,,"Communication,Travailenequipe,Gestiondutemps,Adaptabilite,Creativite,Resolutiondeproblemes,Leadership,Espritcritique,Autonomie",Ingenierie,8,4
 21,fes,Femme,SP,"15,17","17,1","16,13",Avance,Avance,"Artsplastiques,Technologie",Informatique,Histoire,Travailenequipe,Ingenierie,8,4
-20,ain taoujdate,Femme,Lettres,"16,83","12,86","15,86",Intermediaire,Avance,"Musique,Artsplastiques,Photographie",Histoire,Mathematiques,"Creativite,Resolutiondeproblmes,Espritcritique",Arts et design,2,1
-18,casa,Homme,SE,17,"15,98","17,5",Avance,Intermediaire,"Lecture,Sport,Cinema,Ecriture",Litterature,Physique,"Adaptabilite,Creativite,Resolutiondeproblmes,Espritcritique",Economie,8,5
-21,fes,Homme,SE,14,14,15,Avance,Avance,"Sport,Jeuxvideo,Benevolat",Histoire,Mathematiques,"Travailenequipe,Gestiondutemps,Adaptabilite,Resolutiondeproblmes,Leadership",Economie,7,4
-18,el hajeb,Homme,SE,"10,15","13,45","11,77",Intermediaire,Avance,"Musique,Jeuxvideo,Artsplastiques",Art,Histoire,"Creativite,Espritcritique,Aghlabhadchymaandishw3ndirohabjtima3ihhhhh",Economie,3,2
+20,ain taoujdate,Femme,Lettres,"16,83","12,86","15,86",Intermediaire,Avance,"Musique,Artsplastiques,Photographie",Histoire,Mathematiques,"Creativite,Resolutiondeproblemes,Espritcritique",Arts et design,2,1
+18,casa,Homme,SE,17,"15,98","17,5",Avance,Intermediaire,"Lecture,Sport,Cinema,Ecriture",Litterature,Physique,"Adaptabilite,Creativite,Resolutiondeproblemes,Espritcritique",Economie,8,5
+21,fes,Homme,SE,14,14,15,Avance,Avance,"Sport,Jeuxvideo,Benevolat",Histoire,Mathematiques,"Travailenequipe,Gestiondutemps,Adaptabilite,Resolutiondeproblemes,Leadership",Economie,7,4
+18,el hajeb,Homme,SE,"10,15","13,45","11,77",Intermediaire,Avance,"Musique,Jeuxvideo,Artsplastiques",Art,Histoire,"Creativite,Espritcritique",Economie,3,2
 20,fes,Homme,SM,16,"19,15","17,59",Avance,Avance,"Sport,Musique,Jeuxvideo,Ecriture",Physique,,"Communication,Travailenequipe,Adaptabilite,Leadership,Espritcritique",Ingenierie,7,4
-18,fes,Femme,SP,"16,89","17,75","16,34",Intermediaire,Debutant,"Musique,Benevolat,Photographie",Langues,Biologie,"Communication,Travailenequipe,Adaptabilite,Creativite,Resolutiondeproblmes",Economie,7,4
-25,fes,Homme,SVT,"12,7","16,5",12,Fluent,Fluent,"Lecture,Sport,Musique,Voyage,Ecriture",Biologie,Mathematiques,"Communication,Travailenequipe,Creativite,Resolutiondeproblmes,Leadership,Espritcritique,Autonomie",Droit,6,3
+18,fes,Femme,SP,"16,89","17,75","16,34",Intermediaire,Debutant,"Musique,Benevolat,Photographie",Langues,Biologie,"Communication,Travailenequipe,Adaptabilite,Creativite,Resolutiondeproblemes",Economie,7,4
+25,fes,Homme,SVT,"12,7","16,5",12,Fluent,Fluent,"Lecture,Sport,Musique,Voyage,Ecriture",Biologie,Mathematiques,"Communication,Travailenequipe,Creativite,Resolutiondeproblemes,Leadership,Espritcritique,Autonomie",Droit,6,3
 20,mohammedia,Homme,SP,13,"14,8",14,Avance,Debutant,Sport,Physique,Litterature,"Travailenequipe,Gestiondutemps,Autonomie",Ingenierie,6,4
-18,fes,Femme,SM,"11,27","17,45","14,57",Fluent,Intermediaire,"Voyage,Benevolat,Ecriture,Debat-publicspeaking",Mathematiques,Informatique,"Communication,Travailenequipe,Adaptabilite,Creativite,Resolutiondeproblmes,Empathie,Espritcritique,Autonomie",Economie,8,4
+18,fes,Femme,SM,"11,27","17,45","14,57",Fluent,Intermediaire,"Voyage,Benevolat,Ecriture",Mathematiques,Informatique,"Communication,Travailenequipe,Adaptabilite,Creativite,Resolutiondeproblemes,Empathie,Espritcritique,Autonomie",Economie,8,4
 20,fes,Femme,SP,10,16,13,Avance,Intermediaire,"Sport,Voyage,Cinema,Photographie",Physique,Mathematiques,"Communication,Travailenequipe,Creativite,Leadership",Economie,7,5
 23,sale,Homme,SVT,"14,21",9,"13,25",Intermediaire,Intermediaire,"Musique,Voyage,Benevolat",Mathematiques,,"Communication,Travailenequipe,Creativite",Economie,7,4
 28,fes,Homme,SVT,13,15,14,Intermediaire,Fluent,"Lecture,Cinema,Jeuxvideo",Langues,Physique,"Gestiondutemps,Adaptabilite,Leadership",Sciences humaines et sociales,7,5
 18,rabat,Femme,SVT,"7,6","16,9","12,54",Intermediaire,Intermediaire,"Lecture,Sport,Musique",Histoire,Mathematiques,"Communication,Travailenequipe,Adaptabilite,Creativite,Leadership,Empathie",Economie,4,2
 19,tanger,Femme,SE,"11,77","13,65",12,Avance,Avance,"Lecture,Musique,Technologie,Photographie",Langues,Mathematiques,"Communication,Creativite,Leadership,Autonomie",Economie,4,4
-21,rabat,Femme,SP,17,17,"17,8",Avance,Intermediaire,"Lecture,Sport,Voyage,Benevolat,Technologie,Photographie",Informatique,Histoire,"Communication,Travailenequipe,Creativite,Resolutiondeproblmes,Leadership,Empathie,Espritcritique,Autonomie",Ingenierie,8,4
+21,rabat,Femme,SP,17,17,"17,8",Avance,Intermediaire,"Lecture,Sport,Voyage,Benevolat,Technologie,Photographie",Informatique,Histoire,"Communication,Travailenequipe,Creativite,Resolutiondeproblemes,Leadership,Empathie,Espritcritique,Autonomie",Ingenierie,8,4
 22,meknes,Homme,SP,11,"15,75","13,37",Avance,Intermediaire,"Voyage,Jeuxvideo,Benevolat",Biologie,Mathematiques,"Communication,Travailenequipe,Gestiondutemps",Droit,9,5
-24,khouribga,Femme,SP,17,17,17,Avance,Avance,"Lecture,Musique,Technologie",Informatique,Physique,"Communication,Travailenequipe,Gestiondutemps,Creativite,Resolutiondeproblmes,Leadership,Autonomie",Informatique,9,5
-24,agadir,Homme,SVT,"9,26","12,6","10,76",Intermediaire,Intermediaire,"Sport,Technologie",Biologie,Histoire,"Communication,Gestiondutemps,Resolutiondeproblmes,Espritcritique",Biologie,1,3
-23,fes,Homme,SP,"13,5","15,5",13,Avance,Intermediaire,"Lecture,Sport,Musique,Voyage,Photographie",Physique,Mathematiques,"Communication,Travailenequipe,Resolutiondeproblmes,Leadership,Empathie,Espritcritique,Autonomie",Ingenierie,6,4
+24,khouribga,Femme,SP,17,17,17,Avance,Avance,"Lecture,Musique,Technologie",Informatique,Physique,"Communication,Travailenequipe,Gestiondutemps,Creativite,Resolutiondeproblemes,Leadership,Autonomie",Informatique,9,5
+24,agadir,Homme,SVT,"9,26","12,6","10,76",Intermediaire,Intermediaire,"Sport,Technologie",Biologie,Histoire,"Communication,Gestiondutemps,Resolutiondeproblemes,Espritcritique",Biologie,1,3
+23,fes,Homme,SP,"13,5","15,5",13,Avance,Intermediaire,"Lecture,Sport,Musique,Voyage,Photographie",Physique,Mathematiques,"Communication,Travailenequipe,Resolutiondeproblemes,Leadership,Empathie,Espritcritique,Autonomie",Ingenierie,6,4
 20,mohammedia,Homme,SM,"12,35","18,5","14,89",Intermediaire,Intermediaire,"Musique,Cinema,Technologie",Informatique,Chimie,"Travailenequipe,Adaptabilite,Espritcritique",Ingenierie,6,2
-22,sefrou,Femme,SE,"12,6","13,25","13,51",Avance,Debutant,"Musique,Voyage",Langues,Histoire,"Communication,Travailenequipe,Gestiondutemps,Adaptabilite,Resolutiondeproblmes,Leadership",Economie,8,4
-18,safi,Homme,SP,"17,2","16,8","17,32",Avance,Intermediaire,"Sport,Cinema,Jeuxvideo",Physique,,"Communication,Resolutiondeproblmes,Leadership",Medecine,8,5
+22,sefrou,Femme,SE,"12,6","13,25","13,51",Avance,Debutant,"Musique,Voyage",Langues,Histoire,"Communication,Travailenequipe,Gestiondutemps,Adaptabilite,Resolutiondeproblemes,Leadership",Economie,8,4
+18,safi,Homme,SP,"17,2","16,8","17,32",Avance,Intermediaire,"Sport,Cinema,Jeuxvideo",Physique,,"Communication,Resolutiondeproblemes,Leadership",Medecine,8,5
 25,khouribga,Femme,SP,12,"16,9","13,23",Avance,Intermediaire,"Musique,Voyage,Cinema,Photographie",Biologie,,"Creativite,Empathie,Autonomie",Biologie,7,3
 20,oujda,Femme,SP,16,17,16,Avance,Avance,"Cinema,Photographie",Biologie,Mathematiques,"Communication,Gestiondutemps,Adaptabilite,Leadership",Economie,7,3
-21,casa,Homme,SH,16,15,15,Avance,Avance,"Sport,Musique,Voyage,Jeuxvideo,Ecriture",Langues,Physique,"Communication,Travailenequipe,Gestiondutemps,Resolutiondeproblmes,Leadership,Espritcritique",Sciences politiques,6,3
+21,casa,Homme,SH,16,15,15,Avance,Avance,"Sport,Musique,Voyage,Jeuxvideo,Ecriture",Langues,Physique,"Communication,Travailenequipe,Gestiondutemps,Resolutiondeproblemes,Leadership,Espritcritique",Sciences politiques,6,3
 18,rabat,Homme,SE,"12,52","15,95","14,08",Intermediaire,Avance,"Sport,Musique,Voyage",Histoire,Mathematiques,"Travailenequipe,Leadership,Empathie",Economie,8,5
 18,fes,Femme,SE,"15,58","16,98",16,Avance,Intermediaire,"Voyage,Jeuxvideo,Artsplastiques,Photographie",Informatique,Mathematiques,"Travailenequipe,Adaptabilite,Autonomie",Economie,7,4
 18,fes,Femme,SP,"14,2","16,15","15,76",Avance,Intermediaire,"Lecture,Musique,Voyage",Mathematiques,Biologie,"Travailenequipe,Gestiondutemps,Adaptabilite",Economie,8,4
-18,fes,Homme,SM,"11,5","15,8","12,42",Avance,Fluent,"Sport,Jeuxvideo,Technologie",Mathematiques,Philosophie,"Adaptabilite,Creativite,Resolutiondeproblmes,Leadership,Empathie,Espritcritique,Autonomie,Zawordo",Economie,7,2
+18,fes,Homme,SM,"11,5","15,8","12,42",Avance,Fluent,"Sport,Jeuxvideo,Technologie",Mathematiques,Philosophie,"Adaptabilite,Creativite,Resolutiondeproblemes,Leadership,Empathie,Espritcritique,Autonomie",Economie,7,2
 18,fes,Femme,SP,"14,58","17,1","16,06",Avance,Intermediaire,"Lecture,Musique,Photographie",Biologie,Mathematiques,"Travailenequipe,Gestiondutemps,Espritcritique",Economie,7,4
 18,fes,Femme,SP,"15,76","16,35","16,63",Avance,Intermediaire,"Musique,Voyage,Cinema",Biologie,Mathematiques,"Communication,Travailenequipe,Adaptabilite,Leadership,Espritcritique,Autonomie",Economie,5,2
 18,sefrou,Femme,SGC,"14,67","16,48","15,52",Avance,Intermediaire,"Musique,Voyage,Photographie",Comptabilite,Mathematiques,Travailenequipe,Economie,8,4
-18,fes,Homme,SM,"12,5",18,"15,5",Avance,Intermediaire,"Sport,Musique,Voyage,Cinema,Jeuxvideo,Benevolat",Physique,Biologie,"Communication,Travailenequipe,Gestiondutemps,Adaptabilite,Creativite,Resolutiondeproblmes,Leadership,Empathie,Espritcritique,Autonomie",Economie,8,3
-19,ouezzane,Homme,SP,"13,6","17,75","15,41",Intermediaire,Intermediaire,"Sport,Jeuxvideo,Artsplastiques,Ecriture,Chess",Mathematiques,Biologie,"Creativite,Resolutiondeproblmes,Leadership,Espritcritique",Economie,4,2
-19,fes,Femme,SP,"14,35","16,5","15,31",Avance,Intermediaire,"Sport,Musique,Voyage,Technologie,Photographie",Mathematiques,Histoire,"Gestiondutemps,Adaptabilite,Creativite,Resolutiondeproblmes,Autonomie",Economie,8,5
-19,meknes,Femme,SE,"16,18","15,63","16,45",Intermediaire,Intermediaire,autosport,comptabilite,Langues,"Travailenequipe,Gestiondutemps,Resolutiondeproblmes,Espritcritique,Autonomie",Economie,7,5
-18,casa,Femme,SE,"15,46","16,6","16,34",Avance,Fluent,"Lecture,Musique,Cinema,Jeuxvideo,Ecriture,Photographie",Langues,Mathematiques,"Travailenequipe,Gestiondutemps,Resolutiondeproblmes,Espritcritique,Autonomie",Economie,8,5
+18,fes,Homme,SM,"12,5",18,"15,5",Avance,Intermediaire,"Sport,Musique,Voyage,Cinema,Jeuxvideo,Benevolat",Physique,Biologie,"Communication,Travailenequipe,Gestiondutemps,Adaptabilite,Creativite,Resolutiondeproblemes,Leadership,Empathie,Espritcritique,Autonomie",Economie,8,3
+19,ouezzane,Homme,SP,"13,6","17,75","15,41",Intermediaire,Intermediaire,"Sport,Jeuxvideo,Artsplastiques,Ecriture,chess",Mathematiques,Biologie,"Creativite,Resolutiondeproblemes,Leadership,Espritcritique",Economie,4,2
+19,fes,Femme,SP,"14,35","16,5","15,31",Avance,Intermediaire,"Sport,Musique,Voyage,Technologie,Photographie",Mathematiques,Histoire,"Gestiondutemps,Adaptabilite,Creativite,Resolutiondeproblemes,Autonomie",Economie,8,5
+19,meknes,Femme,SE,"16,18","15,63","16,45",Intermediaire,Intermediaire,Sport,comptabilite,Langues,"Travailenequipe,Gestiondutemps,Resolutiondeproblemes,Espritcritique,Autonomie",Economie,7,5
+18,casa,Femme,SE,"15,46","16,6","16,34",Avance,Fluent,"Lecture,Musique,Cinema,Jeuxvideo,Ecriture,Photographie",Langues,Mathematiques,"Travailenequipe,Gestiondutemps,Resolutiondeproblemes,Espritcritique,Autonomie",Economie,8,5
 18,casa,Homme,SP,13,"15,05",14,Avance,Intermediaire,"Sport,Musique,Voyage,Jeuxvideo,Technologie",Mathematiques,Litterature,Communication,Informatique,5,4
 17,marrakech,Homme,SP,"15,55","16,65","16,71",Avance,Intermediaire,"Lecture,Cinema,Artsplastiques",Biologie,Mathematiques,Communication,Biologie,4,1
 21,casa,Femme,SM,"17,18","19,1","18,17",Avance,Fluent,"Lecture,Ecriture",Informatique,,"Travailenequipe,Adaptabilite,Empathie,Espritcritique",Informatique,7,5
-21,tetouan,Homme,SP,16,15,"15,5",Intermediaire,Avance,,Informatique,,"Communication,Empathie",Informatique,7,5
-19,nador,Femme,SP,"10,98",15,"13,16",Intermediaire,Intermediaire,Ecriture,Chimie,,"Communication,Gestiondutemps,Resolutiondeproblmes",Chimie,8,5
-21,casa,Femme,SGC,"11,82","12,12",11,Avance,Intermediaire,Lecture,philosofie,,"Gestiondutemps,Adaptabilite,Creativite,Resolutiondeproblmes,Autonomie",Economie,5,3
+21,tetouan,Homme,SP,16,15,"15,5",Intermediaire,Avance,"Sport",Informatique,"","Communication,Empathie",Informatique,7,5
+19,nador,Femme,SP,"10,98",15,"13,16",Intermediaire,Intermediaire,Ecriture,Chimie,,"Communication,Gestiondutemps,Resolutiondeproblemes",Chimie,8,5
+21,casa,Femme,SGC,"11,82","12,12",11,Avance,Intermediaire,Lecture,philosofie,,"Gestiondutemps,Adaptabilite,Creativite,Resolutiondeproblemes,Autonomie",Economie,5,3
 23,rabat,Homme,SP,"12,88","13,1","12,8",Debutant,Debutant,"Sport,Voyage,Jeuxvideo,Technologie",Informatique,Informatique,Gestiondutemps,Informatique,8,5
-25,oujda,Femme,SP,11,"13,5","12,78",Avance,Avance,"Lecture,Photographie",Langues,,"Communication,Travailenequipe,Adaptabilite,Creativite,Resolutiondeproblmes",Informatique,4,3
+25,oujda,Femme,SP,11,"13,5","12,78",Avance,Avance,"Lecture,Photographie",Langues,,"Communication,Travailenequipe,Adaptabilite,Creativite,Resolutiondeproblemes",Informatique,4,3
 18,nador,Homme,SP,13,14,14,Intermediaire,Intermediaire,"Musique,Jeuxvideo,Technologie",Informatique,Biologie,Gestiondutemps,Informatique,8,4
-18,ksar el kebir,Femme,SM,14,"17,85","16,26",Avance,Intermediaire,"Lecture,Sport,Voyage,Benevolat,Technologie",Mathematiques,Physique,"Communication,Gestiondutemps,Adaptabilite,Creativite,Resolutiondeproblmes,Leadership,Autonomie",Ingenierie,8,5
+18,ksar el kebir,Femme,SM,14,"17,85","16,26",Avance,Intermediaire,"Lecture,Sport,Voyage,Benevolat,Technologie",Mathematiques,Physique,"Communication,Gestiondutemps,Adaptabilite,Creativite,Resolutiondeproblemes,Leadership,Autonomie",Ingenierie,8,5
 20,casa,Homme,SP,16,18,16,Intermediaire,Intermediaire,"Lecture,Sport,Technologie",Physique,Biologie,"Communication,Travailenequipe",Informatique,6,3
 22,casa,Femme,SP,"13,13","17,8","15,11",Avance,Avance,"Lecture,Musique,Cinema,Technologie,Ecriture",Mathematiques,Histoire,"Creativite,Espritcritique",Informatique,7,4
-23,sale,Femme,SP,"16,73",16,"16,67",Avance,Avance,"Lecture,Sport,Benevolat,Technologie",Mathematiques,Chimie,"Travailenequipe,Adaptabilite,Creativite,Resolutiondeproblmes,Espritcritique",Ingenierie,7,3
-30,casa,Femme,SM,"14,3",16,"14,7",Fluent,Fluent,"Sport,Voyage,Ecriture",Informatique,Histoire,"Communication,Travailenequipe,Gestiondutemps,Adaptabilite,Creativite,Resolutiondeproblmes,Leadership",Ingenierie,3,1
-21,marrakech,Homme,SP,"14,25","16,25","15,25",Intermediaire,Intermediaire,,Informatique,Mathematiques,Adaptabilite,Informatique,7,5
-24,agadir,Femme,SM,12,15,13,Avance,Avance,"Lecture,Sport,Technologie,Photographie",Mathematiques,,"Communication,Travailenequipe,Adaptabilite,Creativite,Resolutiondeproblmes,Empathie,Espritcritique,Autonomie",Informatique,8,5
+23,sale,Femme,SP,"16,73",16,"16,67",Avance,Avance,"Lecture,Sport,Benevolat,Technologie",Mathematiques,Chimie,"Travailenequipe,Adaptabilite,Creativite,Resolutiondeproblemes,Espritcritique",Ingenierie,7,3
+30,casa,Femme,SM,"14,3",16,"14,7",Fluent,Fluent,"Sport,Voyage,Ecriture",Informatique,Histoire,"Communication,Travailenequipe,Gestiondutemps,Adaptabilite,Creativite,Resolutiondeproblemes,Leadership",Ingenierie,3,1
+21,marrakech,Homme,SP,"14,25","16,25","15,25",Intermediaire,Intermediaire,"Sport",Informatique,Mathematiques,Adaptabilite,Informatique,7,5
+24,agadir,Femme,SM,12,15,13,Avance,Avance,"Lecture,Sport,Technologie,Photographie",Mathematiques,,"Communication,Travailenequipe,Adaptabilite,Creativite,Resolutiondeproblemes,Empathie,Espritcritique,Autonomie",Informatique,8,5
 21,fes,Homme,SP,"14,75","18,2","16,53",Intermediaire,Intermediaire,"Sport,Musique,Jeuxvideo,Technologie",Informatique,Mathematiques,"Travailenequipe,Adaptabilite,Espritcritique",Ingenierie,7,4
-22,taroudant,Femme,SM,"9,5",15,"11,5",Avance,Intermediaire,"Sport,Voyage,Cinema,Benevolat,Technologie,Photographie",Informatique,Histoire,"Communication,Travailenequipe,Adaptabilite,Resolutiondeproblmes,Empathie,Autonomie",Ingenierie,6,4
-20,tetouan,Homme,SM,12,17,14,Avance,Avance,"Sport,Voyage,Jeuxvideo,Technologie",Informatique,Biologie,"Communication,Travailenequipe,Gestiondutemps,Creativite,Resolutiondeproblmes,Leadership,Espritcritique",Informatique,9,5
+22,taroudant,Femme,SM,"9,5",15,"11,5",Avance,Intermediaire,"Sport,Voyage,Cinema,Benevolat,Technologie,Photographie",Informatique,Histoire,"Communication,Travailenequipe,Adaptabilite,Resolutiondeproblemes,Empathie,Autonomie",Ingenierie,6,4
+20,tetouan,Homme,SM,12,17,14,Avance,Avance,"Sport,Voyage,Jeuxvideo,Technologie",Informatique,Biologie,"Communication,Travailenequipe,Gestiondutemps,Creativite,Resolutiondeproblemes,Leadership,Espritcritique",Informatique,9,5
 20,marrakech,Homme,SP,"13,27","16,9","15,27",Intermediaire,Debutant,"Sport,Voyage",Physique,,"Communication,Travailenequipe,Adaptabilite,Leadership,Espritcritique,Autonomie",Medecine,9,5
-17,benguerir,Femme,SP,17,"17,65","17,2",Intermediaire,Intermediaire,"Lecture,Sport,Artsplastiques,Technologie,Ecriture,Photographie",Physique,Langues,"Communication,Travailenequipe,Gestiondutemps,Creativite,Resolutiondeproblmes,Leadership,Espritcritique,Autonomie",Medecine,10,5
-18,fes,Femme,SP,12,"17,3","14,5",Avance,Intermediaire,"Sport,Musique,Voyage,Photographie",Informatique,,"Communication,Travailenequipe,Resolutiondeproblmes,Espritcritique,Autonomie",Informatique,7,5
+17,benguerir,Femme,SP,17,"17,65","17,2",Intermediaire,Intermediaire,"Lecture,Sport,Artsplastiques,Technologie,Ecriture,Photographie",Physique,Langues,"Communication,Travailenequipe,Gestiondutemps,Creativite,Resolutiondeproblemes,Leadership,Espritcritique,Autonomie",Medecine,10,5
+18,fes,Femme,SP,12,"17,3","14,5",Avance,Intermediaire,"Sport,Musique,Voyage,Photographie",Informatique,,"Communication,Travailenequipe,Resolutiondeproblemes,Espritcritique,Autonomie",Informatique,7,5
 18,agadir,Femme,SE,"14,36","13,51","15,01",Avance,Intermediaire,"Sport,Musique,Voyage,Photographie",Langues,Mathematiques,"Communication,Travailenequipe,Leadership",Economie,6,4
 21,safi,Homme,SP,"12,75","15,7","15,76",Avance,Avance,"Musique,Voyage,Artsplastiques",Informatique,Chimie,Travailenequipe,Informatique,10,5
 18,agadir,Femme,SE,"13,7","12,6",15,Intermediaire,Debutant,"Sport,Musique,Voyage",Comptabilite,Mathematiques,"Travailenequipe,Gestiondutemps,Creativite",Economie,6,5
-19,sale,Homme,SP,9,"14,9","11,82",Avance,Debutant,"Sport,Musique,Voyage,Jeuxvideo",Mathematiques,Langues,"Communication,Travailenequipe,Resolutiondeproblmes",Infirmerie,8,3
-19,sale,Femme,SP,10,"15,67","11,66",Avance,Debutant,"Musique,Voyage,Cinema",Physique,Informatique,"Communication,Travailenequipe,Gestiondutemps,Creativite,Resolutiondeproblmes",Infirmerie,8,4
+19,sale,Homme,SP,9,"14,9","11,82",Avance,Debutant,"Sport,Musique,Voyage,Jeuxvideo",Mathematiques,Langues,"Communication,Travailenequipe,Resolutiondeproblemes",Infirmerie,8,3
+19,sale,Femme,SP,10,"15,67","11,66",Avance,Debutant,"Musique,Voyage,Cinema",Physique,Informatique,"Communication,Travailenequipe,Gestiondutemps,Creativite,Resolutiondeproblemes",Infirmerie,8,4
 20,sale,Femme,SP,"10,45","16,4","11,3",Fluent,Avance,"Lecture,Musique,Voyage,Cinema,Artsplastiques,Benevolat",Biologie,Mathematiques,"Communication,Creativite,Empathie,Espritcritique,Autonomie",Infirmerie,9,5
 18,sale,Homme,SP,8,"15,05","10,73",Intermediaire,Avance,"Sport,Voyage,Cinema,Jeuxvideo",Informatique,Mathematiques,Empathie,Reseau,6,4
-19,sale,Femme,SP,10,15,12,Avance,Fluent,"Lecture,Musique,Voyage,Cinema,Photographie",Physique,Mathematiques,"Communication,Adaptabilite,Resolutiondeproblmes,Empathie",Infirmerie,9,5
-18,sale,Homme,SP,9,16,11,Intermediaire,Avance,"Lecture,Sport,Musique,Voyage,Cinema,Jeuxvideo,",Langues,Biologie,"Communication,Travailenequipe,Gestiondutemps,Adaptabilite,Creativite,Resolutiondeproblmes,Leadership,Empathie,Espritcritique,Autonomie",Infirmerie,10,1
+19,sale,Femme,SP,10,15,12,Avance,Fluent,"Lecture,Musique,Voyage,Cinema,Photographie",Physique,Mathematiques,"Communication,Adaptabilite,Resolutiondeproblemes,Empathie",Infirmerie,9,5
+18,sale,Homme,SP,9,16,11,Intermediaire,Avance,"Lecture,Sport,Musique,Voyage,Cinema,Jeuxvideo,",Langues,Biologie,"Communication,Travailenequipe,Gestiondutemps,Adaptabilite,Creativite,Resolutiondeproblemes,Leadership,Empathie,Espritcritique,Autonomie",Infirmerie,10,1
