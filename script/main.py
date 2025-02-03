@@ -6,7 +6,8 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from sklearn.preprocessing import StandardScaler
 import joblib 
 
-df = pd.read_csv('final.csv') 
+df = pd.read_csv('./script/final.csv') 
+
 
 # features w targets
 X = df.drop(['performance', 'satisfaction'], axis=1)
