@@ -82,11 +82,26 @@ function add_ville_option(villeNom , value){
     ville_option.setAttribute("value" , value)
     ville_select.appendChild(ville_option)
 }
-function submit_data(){
-    let responses = Array.from(document.getElementsByTagName("select"))
-    let user = {}
-    responses.forEach(res =>{
-        user[res.id] = res.value
+function submit_data() {
+    let responses = Array.from(document.getElementsByTagName("select"));
+    let user = {};
+
+    responses.forEach(res => {
+        user[res.id] = res.value;
+    });
+
+    // Send the user data to the backend
+    fetch("http://localhost:5000/submit", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify(user),
     })
-    console.log(user)
+    .then(response => response.json())
+    .then(data => {
+        alert(data.message); // Notify the user
+    })
+    .catch(error => console.error("Error:", error));
 }
+
