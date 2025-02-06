@@ -1,0 +1,162 @@
+ Votre spécialité en 2 BAC
+1 =  Sciences Mathématiques
+2 =  Sciences de la Vie et de la Terre
+3 =  Sciences Agronomiques
+4 =  Sciences Physiques
+5 =  Sciences et Technologies Électriques
+6 =  Sciences et Technologies Mécaniques
+7 =  Sciences Économiques
+8 =  Sciences de Gestion Comptable
+9 =  Lettres
+10 =  Sciences Humaines
+###################################
+0 =  homme
+1 =  femme
+###################################
+Ville
+1 =  Mohammedia
+2 =  Meknes
+3 =  Marrakech
+4 =  Taourirt
+5 =  Salé
+6 =  Casablanca
+7 =  Rabat
+8 =  Fes
+9 =  El Hajeb
+10 =  Sidi Slimane
+11 =  Tanger
+12 =  Taza
+13 =  Tétouan
+14 =  Azrou
+15 =  Oujda
+16 =  Nador
+17 =  Agadir
+18 =  Safi
+19 =  Qatar
+20 =  Khenifra
+21 =  Salè
+22 =  Alhoceima
+23 =  Temara
+24 =  Berkane
+25 =  Mrirt
+26 =  Taroudant
+27 =  Ouazzane
+28 =  Sefrou
+29 =  Midelt
+30 =  Khouribga
+31 =  Ain Taoujdate
+32 =  Ain Dorij
+33 =  Tantan
+34 =  Immouzzer Kandar
+35 =  Larache
+36 =  Rich
+37 =  Béni Mellal
+###################################
+Votre niveau en Français
+1 =  Débutant
+2 =  Intermédiaire
+3 =  Avancé
+4 =  Fluent
+###################################
+Votre niveau en Anglais
+1 =  Débutant
+2 =  Intermédiaire
+3 =  Avancé
+4 =  Fluent
+######################################
+Loisirs
+1 =  Anime
+2 =  Arts plastiques (peinture, dessin, sculpture, etc.)
+3 =  Auto Sport
+4 =  Bénévolat
+5 =  Chess
+6 =  Cinéma
+7 =  Cuisson
+8 =  Débat - public speaking
+9 =  Dormir
+10 =  Ecriture
+11 =  Jeux vidéo
+12 =  Lecture
+13 =  Musique
+14 =  Photographie
+15 =  None
+16 =  Sport
+17 =  Technologie (programmation, bricolage électronique, etc.)
+18 =  Voyage
+####################################### Regave this list with an ordered list starting from 1 
+matière prefere 
+1 =  Art
+2 =  Biologie
+3 =  Chimie
+4 =  Comptabilité
+5 =  Histoire
+6 =  Hydraulique
+7 =  Informatique
+8 =  Langues
+9 =  Littérature
+10 =  Marketing
+11 =  Mathématiques
+12 =  Médecine
+13 =  Philosophie
+14 =  Physique
+15 =  Politiques internationales et publiques
+16 =  Sciences d'ingénieur
+17 =  Comptabilité
+################################
+matière deteste
+1 =  Biologie
+2 =  Chimie
+3 =  Histoire
+4 =  Informatique
+5 =  Langues
+6 =  Littérature
+7 =  Mathématiques
+8 =  None
+9 =  Philosophie
+10 =  Physique
+11 =  Statistiques
+#######################################
+Soft Skills 
+1 =  Adaptabilité
+2 =  None
+3 =  Autonomie
+4 =  Communication
+5 =  Créativité
+6 =  Ecoute
+7 =  Gestion du stress
+8 =  Empathie
+9 =  Esprit critique
+10 =  Gestion du temps
+11 =  Leadership
+12 =  Résolution de problèmes
+13 =  Travail en équipe
+#######################################
+Spécialité 
+1 =  Informatique
+2 =  Ingénierie
+3 =  Médecine
+4 =  Mathématiques appliquées
+5 =  Droit
+6 =  Physique
+7 =  Economie
+8 =  Architecture
+9 =  Sciences humaines et sociales
+10 =  Histoire
+11 =  Arts et design
+12 =  Éducation
+13 =  Langues étrangères
+14 =  Géographie
+15 =  Sciences politiques
+16 =  Biologie
+17 =  Chimie
+18 =  Logistique
+19 =  Réseau
+20 =  Infirmerie
+################################################
+Performance
+1 to 10 
+################################################
+satisfaction 
+1 to 5
+
+
