@@ -10,7 +10,7 @@ def getInpute(ville , sexe , bac_spe , nat , reg , gen , fr ,ang ,hobbies , skil
     
     return 0
 
-df = pd.read_csv('./script/final.csv') 
+df = pd.read_csv('./script/data/final.csv') 
 
 
 # features w targets
@@ -33,6 +33,7 @@ model = RandomForestRegressor(
     n_jobs=-1  # ga3 lcores
 )
 model.fit(X_train, y_train)
+y_pred = model.predict(X_test)
 
 print(y_pred)
 print("true values")
