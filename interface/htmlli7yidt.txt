@@ -1,0 +1,12 @@
+    <div class="note_holder">
+        <label for="note_nat">national</label>
+        <input type="number">
+    </div>
+    <div class="note_holder">
+        <label for="note_nat">regional</label>
+        <input type="number">
+    </div>
+    <div class="note_holder">
+        <label for="note_nat">general</label>
+        <input type="number">
+    </div>

@@ -1,5 +1,5 @@
-let ville_select = document.getElementById('ville')
-let submit_btn = document.getElementById('submit')
+let ville_select = document.getElementById('ville');
+let submit_btn = document.getElementById('submit');
 const villes = [ 
     "Casablanca",
     "Rabat",
@@ -64,44 +64,48 @@ const villes = [
     "Khémisset",
     "Jorf El Melha",
     "Laayoune-Plage"
-]
+];
 
+// Populate the villes dropdown
+villes.forEach((ville, n) => {
+    add_ville_option(ville, n);
+});
 
+// Listen for click on submit button
+submit_btn.addEventListener('click', () => {
+    submit_data();
+});
 
-villes.forEach((ville , n)=>{
-    add_ville_option(ville , n)
-})
-
-submit_btn.addEventListener('click' , ()=>{
-    submit_data()
-})
-
-function add_ville_option(villeNom , value){
-    let ville_option = document.createElement("option")
-    ville_option.textContent = villeNom
-    ville_option.setAttribute("value" , value)
-    ville_select.appendChild(ville_option)
+function add_ville_option(villeNom, value) {
+    let ville_option = document.createElement("option");
+    ville_option.textContent = villeNom;
+    ville_option.setAttribute("value", value);
+    ville_select.appendChild(ville_option);
 }
+
 function submit_data() {
-    let responses = Array.from(document.getElementsByTagName("select"));
-    let user = {};
+    // Collect data from the form
+    const userData = {
+        specialite: document.getElementById('specialite').value,
+        sexe: document.getElementById('sexe').value,
+        ville: document.getElementById('ville').value,
+        niveau_anglais: document.getElementById('niveau_anglais').value,
+        niveau_francais: document.getElementById('niveau_francais').value,
+        matiere_detestee: document.getElementById('matiere_detestee').value,
+        loisirs: Array.from(document.querySelectorAll('input[name="loisirs"]:checked')).map(el => el.value),
+        matiere_preferee: document.getElementById('matiere_preferee').value,
+        soft_skills: Array.from(document.querySelectorAll('input[name="soft_skills"]:checked')).map(el => el.value),
+    };
 
-    responses.forEach(res => {
-        user[res.id] = res.value;
-    });
-
-    // Send the user data to the backend
-    fetch("http://localhost:5000/submit", {
-        method: "POST",
+    // Send POST request to backend
+    fetch('http://localhost:5000/submit', {
+        method: 'POST',
         headers: {
-            "Content-Type": "application/json",
+            'Content-Type': 'application/json',
         },
-        body: JSON.stringify(user),
+        body: JSON.stringify(userData),
     })
     .then(response => response.json())
-    .then(data => {
-        alert(data.message); // Notify the user
-    })
-    .catch(error => console.error("Error:", error));
+    .then(data => alert(data.message)) // Alert with response message
+    .catch(error => console.error('Error:', error)); // Catch any errors
 }
-
