@@ -86,11 +86,15 @@ function add_ville_option(villeNom, value) {
 function submit_data() {
     // Collect data from the form
     const userData = {
+        age: document.getElementById('age').value,
         specialite: document.getElementById('specialite').value,
         sexe: document.getElementById('sexe').value,
         ville: document.getElementById('ville').value,
         niveau_anglais: document.getElementById('niveau_anglais').value,
         niveau_francais: document.getElementById('niveau_francais').value,
+        note_nat: document.getElementById('note_nat').value,
+        note_reg: document.getElementById('note_reg').value,
+        note_gen: document.getElementById('note_gen').value,
         matiere_detestee: document.getElementById('matiere_detestee').value,
         loisirs: Array.from(document.querySelectorAll('input[name="loisirs"]:checked')).map(el => el.value),
         matiere_preferee: document.getElementById('matiere_preferee').value,

@@ -1,3 +1,4 @@
+
 const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
@@ -98,11 +99,15 @@ function createWriter(append = false) {
   return createCsvWriter({
     path: CSV_FILE_PATH,
     header: [
+      { id: 'age', title: 'Age' },
       { id: 'specialite', title: 'Specialite' },
       { id: 'sexe', title: 'Sexe' },
       { id: 'ville', title: 'Ville' },
       { id: 'niveau_anglais', title: 'Niveau_anglais' },
       { id: 'niveau_francais', title: 'Niveau_francais' },
+      { id: 'note_nat', title: 'Nationale' },
+      { id: 'note_reg', title: 'Regionale' },
+      { id: 'note_gen', title: 'Generale' },
       { id: 'matiere_detestee', title: 'Matiere_detestee' },
       { id: 'loisirs', title: 'Loisirs' },
       { id: 'matiere_preferee', title: 'Matiere_preferee' },
@@ -115,11 +120,15 @@ function createWriter(append = false) {
 // Transform numerical data to text
 function transformData(userData) {
   return {
+    age: userData.age,
     specialite: SPECIALITE_MAP[userData.specialite] || '',
     sexe: SEXE_MAP[userData.sexe] || '',
     ville: VILLES[userData.ville] || '',
     niveau_anglais: NIVEAU_LANGUE_MAP[userData.niveau_anglais] || '',
     niveau_francais: NIVEAU_LANGUE_MAP[userData.niveau_francais] || '',
+    note_nat: userData.note_nat,
+    note_reg: userData.note_reg,
+    note_gen: userData.note_gen,
     matiere_detestee: MATIERE_MAP[userData.matiere_detestee] || '',
     loisirs: userData.loisirs.map(id => LOISIRS_MAP[id]).filter(Boolean).join(', '),
     matiere_preferee: MATIERE_MAP[userData.matiere_preferee] || '',
