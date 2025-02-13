@@ -7,20 +7,20 @@ const fs = require('fs');
 
 const app = express();
 const port = 5000;
-const CSV_FILE_PATH = 'user_data.csv';
+const CSV_FILE_PATH = 'data.csv';
 
 // Data mappings
 const SPECIALITE_MAP = {
-  '1': 'Sciences Mathématiques',
-  '2': 'Sciences de la Vie et de la Terre',
-  '3': 'Sciences Agronomiques',
-  '4': 'Sciences Physiques',
-  '5': 'Sciences et Technologies Électriques',
-  '6': 'Sciences et Technologies Mécaniques',
-  '7': 'Sciences Économiques',
-  '8': 'Sciences de Gestion Comptable',
+  '1': 'SM',
+  '2': 'SVT',
+  '3': 'SA',
+  '4': 'SP',
+  '5': 'STE',
+  '6': 'STM',
+  '7': 'SE',
+  '8': 'SGC',
   '9': 'Lettres',
-  '10': 'Sciences Humaines'
+  '10': 'SH'
 };
 
 const SEXE_MAP = {
@@ -38,23 +38,23 @@ const VILLES = [
   "El Kelaa des Sraghna", "Berkane", "Ifrane", "Martil", "Fnideq", "Temara",
   "Ait Melloul", "Ouazzane", "Imzouren", "Sefrou", "Boujdour", "Chichaoua",
   "Azemmour", "Aourir", "Bir Jdid", "Taroudant", "Ait Ourir", "Demnate",
-  "Oulad Teima", "Skhirat", "Tinghir", "Bouarfa", "Khémisset", "Jorf El Melha",
+  "Oulad Teima", "Skhirat", "Tinghir", "Bouarfa", "Khemisset", "Jorf El Melha",
   "Laayoune-Plage"
 ];
 
 const NIVEAU_LANGUE_MAP = {
-  '1': 'Débutant',
-  '2': 'Intermédiaire',
-  '3': 'Avancé',
+  '1': 'Debutant',
+  '2': 'Intermediaire',
+  '3': 'Avance',
   '4': 'Fluent'
 };
 
 const MATIERE_MAP = {
   '0': 'None',
-  '1': 'Mathématiques',
+  '1': 'Mathematiques',
   '2': 'Physique',
   '3': 'Chimie',
-  '4': 'Littérature',
+  '4': 'Litterature',
   '5': 'Histoire',
   '6': 'Langues',
   '7': 'Informatique',
@@ -66,28 +66,28 @@ const LOISIRS_MAP = {
   '2': 'Sport',
   '3': 'Musique',
   '4': 'Voyage',
-  '5': 'Cinéma',
-  '6': 'Jeux vidéo',
-  '7': 'Arts plastiques',
-  '8': 'Bénévolat',
+  '5': 'Cinema',
+  '6': 'Jeuxvideo',
+  '7': 'Artsplastiques',
+  '8': 'Benevolat',
   '9': 'Technologie',
   '10': 'Ecriture',
   '11': 'Photographie'
 };
 
 const SOFT_SKILLS_MAP = {
-  '1': 'Adaptabilité',
-  '2': 'Créativité',
-  '3': 'Résolution de problèmes',
+  '1': 'Adaptabilite',
+  '2': 'Creativite',
+  '3': 'Resolutiondeproblemes',
   '4': 'Autonomie',
-  '5': 'Esprit critique',
+  '5': 'Espritcritique',
   '6': 'Leadership',
   '7': 'Empathie',
-  '8': 'Écoute active',
-  '9': 'Gestion du stress',
+  '8': 'Ecouteactive',
+  '9': 'Gestiondustress',
   '10': 'Communication',
-  '11': 'Gestion du temps',
-  '12': 'Travail en équipe'
+  '11': 'Gestiondutemps',
+  '12': 'Travailenequipe'
 };
 
 // Middleware
@@ -100,18 +100,18 @@ function createWriter(append = false) {
     path: CSV_FILE_PATH,
     header: [
       { id: 'age', title: 'Age' },
-      { id: 'specialite', title: 'Specialite' },
+      { id: 'specialite', title: 'specialite_BAC' },
       { id: 'sexe', title: 'Sexe' },
       { id: 'ville', title: 'Ville' },
-      { id: 'niveau_anglais', title: 'Niveau_anglais' },
-      { id: 'niveau_francais', title: 'Niveau_francais' },
+      { id: 'niveau_anglais', title: 'Anglais' },
+      { id: 'niveau_francais', title: 'Francais' },
       { id: 'note_nat', title: 'Nationale' },
-      { id: 'note_reg', title: 'Regionale' },
+      { id: 'note_reg', title: 'Regional' },
       { id: 'note_gen', title: 'Generale' },
-      { id: 'matiere_detestee', title: 'Matiere_detestee' },
+      { id: 'matiere_detestee', title: 'detestee' },
       { id: 'loisirs', title: 'Loisirs' },
-      { id: 'matiere_preferee', title: 'Matiere_preferee' },
-      { id: 'soft_skills', title: 'Soft_skills' }
+      { id: 'matiere_preferee', title: 'preferee' },
+      { id: 'soft_skills', title: 'Skills' }
     ],
     append: append
   });
