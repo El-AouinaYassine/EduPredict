@@ -66,12 +66,10 @@ const villes = [
     "Laayoune-Plage"
 ];
 
-// Populate the villes dropdown
 villes.forEach((ville, n) => {
     add_ville_option(ville, n);
 });
 
-// Listen for click on submit button
 submit_btn.addEventListener('click', () => {
     submit_data();
 });
@@ -83,8 +81,55 @@ function add_ville_option(villeNom, value) {
     ville_select.appendChild(ville_option);
 }
 
+
+const noteInputs = document.querySelectorAll('#note_nat, #note_reg, #note_gen');
+const ageInput = document.getElementById('age');
+
+function validateNumberInput(input, min, max) {
+    input.addEventListener('input', function() {
+        const value = parseFloat(this.value);
+        
+        if (value > max) {
+            this.value = max;
+            alert(`La valeur maximale autorisée est ${max}`);
+        }
+        if (value < min) {
+            this.value = min;
+            alert(`La valeur minimale autorisée est ${min}`);
+        }
+    });
+}
+
+noteInputs.forEach(input => {
+    validateNumberInput(input, 0, 20);
+});
+
+validateNumberInput(ageInput, 0, 100);
+
+document.getElementById('submit').addEventListener('click', function(e) {
+    let hasError = false;
+    // valider no9ta
+    noteInputs.forEach(input => {
+        const value = parseFloat(input.value);
+        if (value < 0 || value > 20 || isNaN(value)) {
+            hasError = true;
+            alert(`${input.previousElementSibling.textContent} doit être entre 0 et 20`);
+        }
+    });
+    
+    // valider l age
+    const ageValue = parseFloat(ageInput.value);
+    if (ageValue < 0 || ageValue > 100 || isNaN(ageValue)) {
+        hasError = true;
+        alert("L'âge doit être entre 0 et 100");
+    }
+    
+    if (hasError) {
+        e.preventDefault();
+    }
+});
+
 function submit_data() {
-    // Collect data from the form
     const userData = {
         age: document.getElementById('age').value,
         specialite: document.getElementById('specialite').value,
@@ -101,7 +146,6 @@ function submit_data() {
         soft_skills: Array.from(document.querySelectorAll('input[name="soft_skills"]:checked')).map(el => el.value),
     };
 
-    // Send POST request to backend
     fetch('http://localhost:5000/submit', {
         method: 'POST',
         headers: {
@@ -110,6 +154,6 @@ function submit_data() {
         body: JSON.stringify(userData),
     })
     .then(response => response.json())
-    .then(data => alert(data.message)) // Alert with response message
-    .catch(error => console.error('Error:', error)); // Catch any errors
+    .then(data => alert(data.message)) 
+    .catch(error => console.error('Error:', error)); 
 }

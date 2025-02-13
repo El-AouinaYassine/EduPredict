@@ -11,7 +11,7 @@
     <div class="form-group">
         <div class="">
             <label for="age">Age</label>
-            <input type="number" id="age" name="age">
+            <input type="number" id="age" name="age" min="0" max ="100" required>
         </div>
         <label for="specialite">Votre spécialité en 2 BAC:</label>
         <select id="specialite" name="specialite">
@@ -69,15 +69,15 @@
 
     <div class="note_holder">
         <label for="note_nat">national</label>
-        <input id="note_nat" type="number">
+        <input id="note_nat" type="number" min="0" max="20">
     </div>
     <div class="note_holder">
         <label for="note_reg">regional</label>
-        <input id="note_reg" type="number">
+        <input id="note_reg" type="number" min="0" max="20">
     </div>
     <div class="note_holder">
         <label for="note_gen">general</label>
-        <input id="note_gen" type="number">
+        <input id="note_gen" type="number" min="0" max="20">
     </div>
 
 
