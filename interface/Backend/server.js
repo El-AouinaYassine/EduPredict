@@ -90,11 +90,9 @@ const SOFT_SKILLS_MAP = {
   '12': 'Travailenequipe'
 };
 
-// Middleware
 app.use(cors());
 app.use(bodyParser.json());
 
-// Function to create CSV writer
 function createWriter(append = false) {
   return createCsvWriter({
     path: CSV_FILE_PATH,
@@ -136,7 +134,6 @@ function transformData(userData) {
   };
 }
 
-// Handle POST request
 app.post('/submit', async (req, res) => {
   try {
     const userData = req.body;
