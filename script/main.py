@@ -6,10 +6,6 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from sklearn.preprocessing import StandardScaler
 import joblib 
 
-def getInpute(ville , sexe , bac_spe , nat , reg , gen , fr ,ang ,hobbies , skills , prefered , deteste ,target_spec):
-    
-    return 0
-
 df = pd.read_csv('./script/data/final.csv') 
 
 
