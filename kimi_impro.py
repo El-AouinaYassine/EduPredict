@@ -100,7 +100,7 @@ def process_csv(input_file, output_file):
     df = pd.read_csv(input_file, dtype=str, keep_default_na=False)
     
     # Process numerical columns
-    numerical_cols = df[['Age', 'Nationale', 'Regional', 'Generale']]
+    numerical_cols = df[['Nationale', 'Regional', 'Generale']]
     # Convert language levels to numeric
     df['Francais'] = df['Francais'].apply(lambda x: convert_language(x))
     df['Anglais'] = df['Anglais'].apply(lambda x: convert_language(x))

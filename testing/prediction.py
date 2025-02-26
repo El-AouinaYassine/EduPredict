@@ -1,29 +1,32 @@
 import pandas as pd
 import joblib
+import numpy as np
 
-# Load the scaler
 scaler = joblib.load('our_scaler.pkl')
-
-# Load the model
 model = joblib.load('student_performance_model.pkl')
-print("model features :")
-print(model.feature_names_in_)
-print("----------")
 
-# Load your CSV file (replace 'data.csv' with your file path)
 data = pd.read_csv('outpu3t.csv')
-print("-----------cols------------")
-print(data.columns)
-# Example: Assume 'id' and 'target' are not needed
-X = data.drop(columns=['Age'])  # Adjust column names as necessary
 
-# Apply the scaler to the data
-X_scaled = scaler.transform(X)
-# Generate predictions
-predictions = model.predict(X_scaled)
-# Add predictions to the original DataFrame
-data['prediction'] = predictions
+num_cols = ['Nationale', 'Regional', 'Generale', 'Francais', 'Anglais']
 
-# Save results to a new CSV file
+X = pd.DataFrame(columns=model.feature_names_in_)
+
+for col in model.feature_names_in_:
+    if col in data.columns:
+        X[col] = data[col]
+    else:
+        X[col] = 0
+
+X_copy = X.copy()
+X_copy[num_cols] = scaler.transform(X[num_cols])
+
+predictions = model.predict(X_copy)
+
+if predictions.ndim > 1 and predictions.shape[1] == 2:
+    data['predicted_performance'] = predictions[:, 0]
+    data['predicted_satisfaction'] = predictions[:, 1]
+else:
+    data['prediction'] = predictions
+
 data.to_csv('predictions.csv', index=False)
 print("Predictions saved to 'predictions.csv'")
