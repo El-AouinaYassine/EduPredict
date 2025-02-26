@@ -11,7 +11,7 @@ print(model.feature_names_in_)
 print("----------")
 
 # Load your CSV file (replace 'data.csv' with your file path)
-data = pd.read_csv('outpu2t.csv')
+data = pd.read_csv('outpu3t.csv')
 print("-----------cols------------")
 print(data.columns)
 # Example: Assume 'id' and 'target' are not needed

@@ -118,7 +118,7 @@ def process_csv(input_file, output_file):
     # Process comma-separated columns
     preferee = process_comma_column(df['preferee'], CATEGORIES['preferee'], 'preferee')
     detestee = process_comma_column(df['detestee'], CATEGORIES['detestee'], 'detestee')
-    # specialite = process_comma_column(df['specialite'], CATEGORIES['specialite'], 'specialite')
+    specialite = process_comma_column(df['specialite'], CATEGORIES['specialite'], 'specialite')
     loisirs = process_comma_column(df['Loisirs'], CATEGORIES['Loisirs'], 'Loisir')
     skills = process_comma_column(df['Skills'], CATEGORIES['Skills'], 'Skill')
     
@@ -140,4 +140,4 @@ def process_csv(input_file, output_file):
     result.to_csv(output_file, index=False)
 
 if __name__ == "__main__":
-    process_csv('interface/Backend/data.csv', 'outpu2t.csv')
+    process_csv('interface/Backend/data.csv', 'outpu3t.csv')
