@@ -1,3 +1,3 @@
-Age,specialite_BAC,Sexe,Ville,Anglais,Francais,Nationale,Regional,Generale,detestee,Loisirs,preferee,Skills
-12,STE,Femme,Meknes,Avance,Avance,14.5,12,12,Litterature,"Musique, Cinema, Jeuxvideo, Technologie",Chimie,"Resolutiondeproblemes, Espritcritique, Leadership"
-22,SVT,Femme,Beni Mellal,Intermediaire,Debutant,12,12,15,Physique,"Lecture, Musique",Physique,"Adaptabilite, Gestiondustress"
+Age,specialite_BAC,Sexe,Ville,Anglais,Francais,Nationale,Regional,Generale,detestee,Loisirs,preferee,specialite,Skills
+24,SA,Homme,Rabat,Avance,Avance,13,12,12,Physique,Ecriture,Physique,,"Empathie, Gestiondustress"
+19,SA,Femme,Rabat,Debutant,Intermediaire,13,13,13,Chimie,"Artsplastiques, Benevolat, Technologie",Physique,,"Empathie, Ecouteactive"
