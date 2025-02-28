@@ -99,7 +99,6 @@ const SPECIALITE1_MAP = {
   '7': 'Economie',
   '8': 'Architecture'
 };
-
 app.use(cors());
 app.use(bodyParser.json());
 
@@ -129,20 +128,20 @@ function createWriter(append = false) {
 // Transform numerical data to text
 function transformData(userData) {
   return {
-    age: userData.age,
-    specialite: SPECIALITE_MAP[userData.specialite] || '',
-    sexe: SEXE_MAP[userData.sexe] || '',
-    ville: VILLES[userData.ville] || '',
-    niveau_anglais: NIVEAU_LANGUE_MAP[userData.niveau_anglais] || '',
-    niveau_francais: NIVEAU_LANGUE_MAP[userData.niveau_francais] || '',
-    note_nat: userData.note_nat,
-    note_reg: userData.note_reg,
-    note_gen: userData.note_gen,
-    matiere_detestee: MATIERE_MAP[userData.matiere_detestee] || '',
-    loisirs: userData.loisirs.map(id => LOISIRS_MAP[id]).filter(Boolean).join(', '),
-    matiere_preferee: MATIERE_MAP[userData.matiere_preferee] || '',
-    specialite1: SPECIALITE1_MAP[userData.specialite1] || '',
-    soft_skills: userData.soft_skills.map(id => SOFT_SKILLS_MAP[id]).filter(Boolean).join(', ')
+      age: userData.age,
+      specialite: userData.specialite, // Use "SM" directly
+      sexe: SEXE_MAP[userData.sexe] || '',
+      ville: VILLES[userData.ville] || '',
+      niveau_anglais: NIVEAU_LANGUE_MAP[userData.niveau_anglais] || '',
+      niveau_francais: NIVEAU_LANGUE_MAP[userData.niveau_francais] || '',
+      note_nat: userData.note_nat,
+      note_reg: userData.note_reg,
+      note_gen: userData.note_gen,
+      matiere_detestee: userData.matiere_detestee, // Use "Mathematiques" directly
+      loisirs: userData.loisirs.join(', '), // Join "Lecture, Sport" directly
+      matiere_preferee: userData.matiere_preferee, // Use "Physique" directly
+      specialite1: userData.specialite1, // Use "Informatique" directly
+      soft_skills: userData.soft_skills.join(', ') // Join "Creativite, Communication" directly
   };
 }
 

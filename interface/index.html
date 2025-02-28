@@ -2,209 +2,419 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>students</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prédiction de Performance Académique</title>
     <link rel="stylesheet" href="style.css">
-    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="./script.js" defer ></script>
 </head>
-<body>
+<body class="body-style">
+    <nav class="nav-bar">
+        <div class="nav-inner">
+            <div class="nav-brand">
+                <i class="fas fa-graduation-cap icon-large"></i>
+                <h1 class="title">EduPredict</h1>
+            </div>
+            <div class="nav-links">
+                <a href="#" class="nav-link tab-link active" data-tab="form">Formulaire</a>
+                <a href="#" class="nav-link tab-link" data-tab="results">Résultats</a>
+                <a href="#" class="nav-link tab-link" data-tab="stats">Statistiques</a>
+                <a href="#" class="nav-link tab-link" data-tab="about">À propos</a>
+            </div>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars menu-icon"></i>
+            </button>
+        </div>
+    </nav>
 
-    <div class="form-group">
-        <div class="">
-            <label for="age">Age</label>
-            <input type="number" id="age" name="age" min="0" max ="100" required>
+    <div class="main-content">
+        <!-- Form Tab -->
+        <div id="form" class="tab-content active">
+            <div class="card">
+                <h2 class="card-title">Informations personnelles</h2>
+                <div class="form-grid form-grid-md-2">
+                    <div>
+                        <label for="age" class="form-label">Âge</label>
+                        <input type="number" id="age" name="age" min="15" max="30" class="form-input" required>
+                    </div>
+                    <div>
+                        <label for="sexe" class="form-label">Sexe</label>
+                        <select id="sexe" name="sexe" class="form-input" required>
+                            <option value="">Sélectionnez votre sexe</option>
+                            <option value="0">Homme</option>
+                            <option value="1">Femme</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-grid form-grid-md-2">
+                    <div>
+                        <label for="ville" class="form-label">Ville</label>
+                        <select id="ville" name="ville" class="form-input" required>
+                            <option value="">Sélectionnez votre ville</option>
+                            <option value="agadir">Agadir</option>
+                            <option value="casa">Casablanca</option>
+                            <option value="rabat">Rabat</option>
+                            <option value="marrakech">Marrakech</option>
+                            <option value="fes">Fès</option>
+                            <option value="tanger">Tanger</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="specialite" class="form-label">Spécialité en 2 BAC</label>
+                        <select id="specialite" name="specialite" class="form-input" required>
+                            <option value="">Sélectionnez votre spécialité</option>
+                            <option value="SM">Sciences Mathématiques (SM)</option>
+                            <option value="SVT">Sciences de la Vie et de la Terre (SVT)</option>
+                            <option value="SP">Sciences Physiques (SP)</option>
+                            <option value="STE">Sciences et Technologies Électriques (STE)</option>
+                            <option value="STM">Sciences et Technologies Mécaniques (STM)</option>
+                            <option value="SE">Sciences Économiques (SE)</option>
+                            <option value="SGC">Sciences de Gestion Comptable (SGC)</option>
+                            <option value="Lettres">Lettres</option>
+                            <option value="SH">Sciences Humaines (SH)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h2 class="card-title">Parcours académique</h2>
+                <div class="form-grid form-grid-md-3">
+                    <div>
+                        <label for="note_nat" class="form-label">Note National</label>
+                        <input type="number" id="note_nat" name="note_nat" min="0" max="20" step="0.01" class="form-input" required>
+                    </div>
+                    <div>
+                        <label for="note_reg" class="form-label">Note Regional</label>
+                        <input type="number" id="note_reg" name="note_reg" min="0" max="20" step="0.01" class="form-input" required>
+                    </div>
+                    <div>
+                        <label for="note_gen" class="form-label">Note General</label>
+                        <input type="number" id="note_gen" name="note_gen" min="0" max="20" step="0.01" class="form-input" required>
+                    </div>
+                </div>
+                <div class="form-grid form-grid-md-2">
+                    <div>
+                        <label for="niveau_francais" class="form-label">Niveau en Français</label>
+                        <select id="niveau_francais" name="niveau_francais" class="form-input" required>
+                            <option value="">Sélectionnez votre niveau</option>
+                            <option value="1">Débutant</option>
+                            <option value="2">Intermédiaire</option>
+                            <option value="3">Avancé</option>
+                            <option value="4">Courant</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="niveau_anglais" class="form-label">Niveau en Anglais</label>
+                        <select id="niveau_anglais" name="niveau_anglais" class="form-input" required>
+                            <option value="">Sélectionnez votre niveau</option>
+                            <option value="1">Débutant</option>
+                            <option value="2">Intermédiaire</option>
+                            <option value="3">Avancé</option>
+                            <option value="4">Courant</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h2 class="card-title">Préférences et compétences</h2>
+                <div class="form-grid form-grid-md-2">
+                    <div>
+                        <label for="matiere_preferee" class="form-label">Matière préférée</label>
+                        <select id="matiere_preferee" name="matiere_preferee" class="form-input" required>
+                            <option value="">Sélectionnez une matière</option>
+                            <option value="Mathematiques">Mathématiques</option>
+                            <option value="Physique">Physique</option>
+                            <option value="Chimie">Chimie</option>
+                            <option value="Litterature">Littérature</option>
+                            <option value="Histoire">Histoire</option>
+                            <option value="Langues">Langues</option>
+                            <option value="Informatique">Informatique</option>
+                            <option value="Biologie">Biologie</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="matiere_detestee" class="form-label">Matière moins appréciée</label>
+                        <select id="matiere_detestee" name="matiere_detestee" class="form-input" required>
+                            <option value="">Sélectionnez une matière</option>
+                            <option value="0">Aucune</option>
+                            <option value="Mathematiques">Mathématiques</option>
+                            <option value="Physique">Physique</option>
+                            <option value="Chimie">Chimie</option>
+                            <option value="Litterature">Littérature</option>
+                            <option value="Histoire">Histoire</option>
+                            <option value="Langues">Langues</option>
+                            <option value="Informatique">Informatique</option>
+                            <option value="Biologie">Biologie</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="specialite1" class="form-label">Orientation souhaitée</label>
+                    <select id="specialite1" name="specialite" class="form-input" required>
+                        <option value="">Sélectionnez une spécialité</option>
+                        <option value="Informatique">Informatique</option>
+                        <option value="Ingenierie">Ingénierie</option>
+                        <option value="Medecine">Médecine</option>
+                        <option value="Droit">Droit</option>
+                        <option value="Mathematiques appliquees">Mathématiques appliquées</option>
+                        <option value="Physique">Physique</option>
+                        <option value="Economie">Économie</option>
+                        <option value="Architecture">Architecture</option>
+                        <option value="Sciences humaines et sociales">Sciences humaines et sociales</option>
+                        <option value="Biologie">Biologie</option>
+                        <option value="Chimie">Chimie</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Loisirs</label>
+                    <div class="form-grid form-grid-md-4 form-grid-2">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="loisirs" value="Lecture" class="checkbox-input">
+                            <span>Lecture</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="loisirs" value="Sport" class="checkbox-input">
+                            <span>Sport</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="loisirs" value="Musique" class="checkbox-input">
+                            <span>Musique</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="loisirs" value="Voyage" class="checkbox-input">
+                            <span>Voyage</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="loisirs" value="Cinema" class="checkbox-input">
+                            <span>Cinéma</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="loisirs" value="Jeuxvideo" class="checkbox-input">
+                            <span>Jeux vidéo</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="loisirs" value="Artsplastiques" class="checkbox-input">
+                            <span>Arts plastiques</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="loisirs" value="Benevolat" class="checkbox-input">
+                            <span>Bénévolat</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="loisirs" value="Technologie" class="checkbox-input">
+                            <span>Technologie</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="loisirs" value="Ecriture" class="checkbox-input">
+                            <span>Écriture</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="loisirs" value="Photographie" class="checkbox-input">
+                            <span>Photographie</span>
+                        </label>
+                    </div>
+                </div>
+                <div>
+                    <label class="form-label">Soft Skills</label>
+                    <div class="form-grid form-grid-md-4 form-grid-2">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="soft_skills" value="Adaptabilite" class="checkbox-input">
+                            <span>Adaptabilité</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="soft_skills" value="Creativite" class="checkbox-input">
+                            <span>Créativité</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="soft_skills" value="Resolutiondeproblemes" class="checkbox-input">
+                            <span>Résolution de problèmes</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="soft_skills" value="Autonomie" class="checkbox-input">
+                            <span>Autonomie</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="soft_skills" value="Espritcritique" class="checkbox-input">
+                            <span>Esprit critique</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="soft_skills" value="Leadership" class="checkbox-input">
+                            <span>Leadership</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="soft_skills" value="Empathie" class="checkbox-input">
+                            <span>Empathie</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="soft_skills" value="Communication" class="checkbox-input">
+                            <span>Communication</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="soft_skills" value="Gestiondutemps" class="checkbox-input">
+                            <span>Gestion du temps</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="soft_skills" value="Travailenequipe" class="checkbox-input">
+                            <span>Travail en équipe</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="button-container">
+                <button id="submit" onclick= "btn-primary">
+                    <span>Obtenir la prédiction</span>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
         </div>
-        <label for="specialite">Votre spécialité en 2 BAC:</label>
-        <select id="specialite" name="specialite">
-            <option value="">Sélectionnez votre spécialité</option>
-            <option value="1">Sciences Mathématiques</option>
-            <option value="2">Sciences de la Vie et de la Terre</option>
-            <option value="3">Sciences Agronomiques</option>
-            <option value="4">Sciences Physiques</option>
-            <option value="5">Sciences et Technologies Électriques</option>
-            <option value="6">Sciences et Technologies Mécaniques</option>
-            <option value="7">Sciences Économiques</option>
-            <option value="8">Sciences de Gestion Comptable</option>
-            <option value="9">Lettres</option>
-            <option value="10">Sciences Humaines</option>
-        </select>
-    </div>
 
-    <div class="form-group">
-        <label for="sexe">Sexe:</label>
-        <select id="sexe" name="sexe">
-            <option value="">Sélectionnez votre sexe</option>
-            <option value="0">Homme</option>
-            <option value="1">Femme</option>
-        </select>
-    </div>
+        <!-- Results Tab -->
+        <div id="results" class="tab-content">
+            <div class="card">
+                <h2 class="card-title">Résultats de la prédiction</h2>
+                <div class="prediction-container">
+                    <div class="prediction-card performance-card">
+                        <div class="prediction-header">
+                            <div class="icon-circle blue-icon-bg">
+                                <i class="fas fa-chart-line icon-medium blue-icon"></i>
+                            </div>
+                            <h3 class="prediction-title">Performance académique</h3>
+                        </div>
+                        <div class="score indigo-score">7.8</div>
+                        <div class="progress-container">
+                            <div class="progress-label">
+                                <span class="progress-text">Score prédit</span>
+                                <span class="progress-text">7.8/10</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-bar-fill indigo-fill" style="width: 78%"></div>
+                            </div>
+                        </div>
+                        <p class="description">Votre performance prévue est supérieure à la moyenne des étudiants dans cette spécialité.</p>
+                        <div class="info-box blue-info">
+                            <p class="info-title">Facteurs clés influençant cette prédiction :</p>
+                            <ul class="info-list">
+                                <li>Notes académiques</li>
+                                <li>Compétences en résolution de problèmes</li>
+                                <li>Niveau en langues</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="prediction-card satisfaction-card">
+                        <div class="prediction-header">
+                            <div class="icon-circle green-icon-bg">
+                                <i class="fas fa-smile icon-medium green-icon"></i>
+                            </div>
+                            <h3 class="prediction-title">Satisfaction potentielle</h3>
+                        </div>
+                        <div class="score teal-score">8.2</div>
+                        <div class="progress-container">
+                            <div class="progress-label">
+                                <span class="progress-text">Niveau de satisfaction</span>
+                                <span class="progress-text">8.2/10</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-bar-fill teal-fill" style="width: 82%"></div>
+                            </div>
+                        </div>
+                        <p class="description">Vous êtes susceptible d'être satisfait de cette orientation basée sur vos préférences et compétences.</p>
+                        <div class="info-box green-info">
+                            <p class="info-title">Pourquoi cette spécialité vous conviendrait :</p>
+                            <ul class="info-list">
+                                <li>Correspondance avec vos matières préférées</li>
+                                <li>Alignement avec vos loisirs</li>
+                                <li>Adéquation avec vos soft skills</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="recommendation-section">
+                    <h3 class="recommendation-title">Autres spécialités recommandées</h3>
+                    <div class="form-grid form-grid-md-3">
+                        <div class="recommendation-card">
+                            <h4 class="recommendation-name">Ingénierie</h4>
+                            <div class="progress-item">
+                                <span class="progress-text">Performance</span>
+                                <span class="progress-value">7.5/10</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-bar-fill blue-fill" style="width: 75%"></div>
+                            </div>
+                            <div class="progress-item">
+                                <span class="progress-text">Satisfaction</span>
+                                <span class="progress-value">7.8/10</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-bar-fill green-fill" style="width: 78%"></div>
+                            </div>
+                        </div>
+                        <div class="recommendation-card">
+                            <h4 class="recommendation-name">Sciences des données</h4>
+                            <div class="progress-item">
+                                <span class="progress-text">Performance</span>
+                                <span class="progress-value">7.2/10</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-bar-fill blue-fill" style="width: 72%"></div>
+                            </div>
+                            <div class="progress-item">
+                                <span class="progress-text">Satisfaction</span>
+                                <span class="progress-value">7.6/10</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-bar-fill green-fill" style="width: 76%"></div>
+                            </div>
+                        </div>
+                        <div class="recommendation-card">
+                            <h4 class="recommendation-name">Économie</h4>
+                            <div class="progress-item">
+                                <span class="progress-text">Performance</span>
+                                <span class="progress-value">6.9/10</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-bar-fill blue-fill" style="width: 69%"></div>
+                            </div>
+                            <div class="progress-item">
+                                <span class="progress-text">Satisfaction</span>
+                                <span class="progress-value">7.1/10</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-bar-fill green-fill" style="width: 71%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="export-section">
+                    <button id="export-pdf" class="btn-secondary">
+                        <i class="fas fa-download icon-small gray-icon"></i>
+                        <span>Télécharger en PDF</span>
+                    </button>
+                </div>
+            </div>
+        </div>
 
-    <div class="form-group">
-        <label for="ville">Ville:</label>
-        <select id="ville" name="ville">
-            <option value="">Sélectionnez votre ville</option>
-        </select>
-    </div>
-
-    <div class="form-group">
-        <label for="niveau_anglais">Votre niveau en anglais:</label>
-        <select id="niveau_anglais" name="niveau_anglais">
-            <option value="">Sélectionnez votre niveau</option>
-            <option value="1">Débutant</option>
-            <option value="2">Intermédiaire</option>
-            <option value="3">Avancé</option>
-            <option value="4">Fluent</option>
-        </select>
-    </div>
-
-    <div class="form-group">
-        <label for="niveau_francais">Votre niveau en Français:</label>
-        <select id="niveau_francais" name="niveau_francais">
-            <option value="">Sélectionnez votre niveau</option>
-            <option value="1">Débutant</option>
-            <option value="2">Intermédiaire</option>
-            <option value="3">Avancé</option>
-            <option value="4">Fluent</option>
-        </select>
-    </div>
-
-    <div class="note_holder">
-        <label for="note_nat">national</label>
-        <input id="note_nat" type="number" min="0" max="20">
-    </div>
-    <div class="note_holder">
-        <label for="note_reg">regional</label>
-        <input id="note_reg" type="number" min="0" max="20">
-    </div>
-    <div class="note_holder">
-        <label for="note_gen">general</label>
-        <input id="note_gen" type="number" min="0" max="20">
-    </div>
-
-
-    <div class="form-group">
-        <label for="matiere_detestee">Votre matière detestée:</label>
-        <select id="matiere_detestee" name="matiere_detestee">
-            <option value="">Sélectionnez une matière</option>
-            <option value="0">None</option>
-            <option value="1">Mathématiques</option>
-            <option value="2">Physique</option>
-            <option value="3">Chimie</option>
-            <option value="4">Littérature</option>
-            <option value="5">Histoire</option>
-            <option value="6">Langues</option>
-            <option value="7">Informatique</option>
-            <option value="8">Biologie</option>
-        </select>
-    </div>
-
-    <div class="form-group">
-        <label>Vos Loisirs:</label>
-        <div>
-            <label><input type="checkbox" name="loisirs" value="1"> Lecture</label>
-        </div>
-        <div>
-            <label><input type="checkbox" name="loisirs" value="2"> Sport</label>
-        </div>
-        <div>
-            <label><input type="checkbox" name="loisirs" value="3"> Musique</label>
-        </div>
-        <div>
-            <label><input type="checkbox" name="loisirs" value="4"> Voyage</label>
-        </div>
-        <div>
-            <label><input type="checkbox" name="loisirs" value="5"> Cinéma</label>
-        </div>
-        <div>
-            <label><input type="checkbox" name="loisirs" value="6"> Jeux vidéo</label>
-        </div>
-        <div>
-            <label><input type="checkbox" name="loisirs" value="7"> Arts plastiques</label>
-        </div>
-        <div>
-            <label><input type="checkbox" name="loisirs" value="8"> Bénévolat</label>
-        </div>
-        <div>
-            <label><input type="checkbox" name="loisirs" value="9"> Technologie</label>
-        </div>
-        <div>
-            <label><input type="checkbox" name="loisirs" value="10"> Ecriture</label>
-        </div>
-        <div>
-            <label><input type="checkbox" name="loisirs" value="11"> Photographie</label>
+        <!-- Statistics Tab -->
+        <div id="stats" class="tab-content">
+            <div class="card">
+                <h2 class="card-title">Statistiques et tendances</h2>
+                <div class="form-grid form-grid-md-2">
+                    <div>
+                        <h3 class="stats-title">Distribution des performances par spécialité</h3>
+                        <div class="graph-placeholder">
+                            <img src="/api/placeholder/800/400" alt="Graphique de performance" class="graph-image">
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="stats-title">Satisfaction moyenne par spécialité</h3>
+                        <div class="graph-placeholder">
+                            <img src="/api/placeholder/800/400" alt="Graphique de satisfaction" class="graph-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-
-    <div class="form-group">
-        <label for="matiere_preferee">Votre matière préférée:</label>
-        <select id="matiere_preferee" name="matiere_preferee">
-            <option value="">Sélectionnez une matière</option>
-            <option value="1">Mathématiques</option>
-            <option value="2">Physique</option>
-            <option value="3">Chimie</option>
-            <option value="4">Littérature</option>
-            <option value="5">Histoire</option>
-            <option value="6">Langues</option>
-            <option value="7">Informatique</option>
-            <option value="8">Biologie</option>
-        </select>
-    </div>
- 
-    <div class="form-group">
-        <label for="specialite1">specialite:</label>
-        <select id="specialite1" name="specialite">
-            <option value="">Sélectionnez une specialite</option>
-            <option value="1">Informatique</option>
-            <option value="2">Ingenierie</option>
-            <option value="3">Medecine</option>
-            <option value="4">Droit</option>
-            <option value="5">Mathematiques appliquees</option>
-            <option value="6">Physique</option>
-            <option value="7">Economie</option>
-            <option value="8">Architecture</option>
-        </select>
-    </div>
-    
-    <div class="form-group">
-        <label>Vos Soft Skills:</label>
-        <div>
-            <label><input type="checkbox" name="soft_skills" value="1"> Adaptabilité</label>
-        </div>
-        <div>
-            <label><input type="checkbox" name="soft_skills" value="2"> Créativité</label>
-        </div>
-        <div>
-            <label><input type="checkbox" name="soft_skills" value="3"> Résolution de problèmes</label>
-        </div>
-        <div>
-            <label><input type="checkbox" name="soft_skills" value="4"> Autonomie</label>
-        </div>
-        <div>
-            <label><input type="checkbox" name="soft_skills" value="5"> Esprit critique</label>
-        </div>
-        <div>
-            <label><input type="checkbox" name="soft_skills" value="6"> Leadership</label>
-        </div>
-        <div>
-            <label><input type="checkbox" name="soft_skills" value="7"> Empathie</label>
-        </div>
-        <div>
-            <label><input type="checkbox" name="soft_skills" value="8"> Écoute active</label>
-        </div>
-        <div>
-            <label><input type="checkbox" name="soft_skills" value="9"> Gestion du stress</label>
-        </div>
-        <div>
-            <label><input type="checkbox" name="soft_skills" value="10"> Communication</label>
-        </div>
-        <div>
-            <label><input type="checkbox" name="soft_skills" value="11"> Gestion du temps</label>
-        </div>
-        <div>
-            <label><input type="checkbox" name="soft_skills" value="12"> Travail en équipe</label>
-        </div>
-    </div>
-
-    <button id="submit">Soumettre</button>
-
 </body>
 </html>
