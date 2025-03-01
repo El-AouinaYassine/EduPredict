@@ -147,6 +147,8 @@ function submit_data() {
         soft_skills: Array.from(document.querySelectorAll('input[name="soft_skills"]:checked')).map(el => el.value),
     };
 
+    //console.log('Ville selected:', userData.ville); 
+
     fetch('http://localhost:5000/submit', {
         method: 'POST',
         headers: {
