@@ -226,7 +226,7 @@ def apply_realistic_constraints(df):
 # Main function to generate the dataset
 def generate_dataset(n_samples=1000, output_file="synthetic_student_data.csv"):
     # Load existing data or create mock data
-    base_data = load_existing_data()
+    base_data = load_existing_data('./script/data/basedData.csv')
     
     # Generate synthetic data by bootstrapping
     synthetic_data = generate_synthetic_data(base_data, n_samples)

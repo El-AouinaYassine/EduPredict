@@ -3,9 +3,9 @@ import joblib
 import numpy as np
 
 scaler = joblib.load('our_scaler.pkl')
-model = joblib.load('student_performance_model.pkl')
+model = joblib.load('student_performance_model_2.0.pkl')
 
-data = pd.read_csv('outpu3t.csv')
+data = pd.read_csv('newDataCleaned.csv')
 
 num_cols = ['Nationale', 'Regional', 'Generale', 'Francais', 'Anglais']
 

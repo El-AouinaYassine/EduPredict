@@ -6,7 +6,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from sklearn.preprocessing import StandardScaler
 import joblib 
 
-df = pd.read_csv('./script/data/final.csv') 
+df = pd.read_csv('./script/data/newDataCleaned.csv') 
 
 
 # features w targets
@@ -58,4 +58,4 @@ for result_item in results.items():
 
 # Save the model 
 joblib.dump(scaler, 'our_scaler.pkl')
-joblib.dump(model, 'student_performance_model.pkl')
+joblib.dump(model, 'student_performance_model_2.0.pkl')
