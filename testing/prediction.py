@@ -1,13 +1,13 @@
 import pandas as pd
 import joblib
 import numpy as np
+# models/feature_scaler.pkl
+scaler = joblib.load('models/feature_scaler.pkl')
+model = joblib.load('models/student_performance_model.pkl')
 
-scaler = joblib.load('our_scaler.pkl')
-model = joblib.load('student_performance_model_2.0.pkl')
-
-data = pd.read_csv('newDataCleaned.csv')
-
-num_cols = ['Nationale', 'Regional', 'Generale', 'Francais', 'Anglais']
+# data/synthetic/synthetic_student_data.csv
+data = pd.read_csv('data/processed/processed_student_data.csv')
+num_cols = ['Nationale', 'regional', 'General', 'Francais', 'Anglais']
 
 X = pd.DataFrame(columns=model.feature_names_in_)
 

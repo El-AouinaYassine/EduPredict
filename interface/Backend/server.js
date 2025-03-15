@@ -89,15 +89,19 @@ const SOFT_SKILLS_MAP = {
   '11': 'Gestiondutemps',
   '12': 'Travailenequipe'
 };
-const SPECIALITE1_MAP = {
-  '1': 'Informatisue',
-  '2': 'Ingenierie',
-  '3': 'Medecine',
-  '4': 'Droit',
-  '5': 'Mathematiques appliquees',
-  '6': 'Physique',
-  '7': 'Economie',
-  '8': 'Architecture'
+const SPECIALITE_MAP1 = {
+  '1': 'Réseaux et télécommunication',
+  '2': 'Statistique et informatique décisionnelle',
+  '3': 'Génie mécanique et productique',
+  '4': 'Génie électrique',
+  '5': 'Génie des procédés',
+  '6': 'Gestion des ressources humaines',
+  '7': 'Technique de gestion commerciale',
+  '8': 'Technique de management',
+  '9': 'Gestion logistique et transport',
+  '10': 'Génie thermique et énergétique',
+  '11': 'Génie Informatique',
+  '12': 'Génie industriel et maintenance'
 };
 app.use(cors());
 app.use(bodyParser.json());
@@ -113,8 +117,8 @@ function createWriter(append = false) {
       { id: 'niveau_anglais', title: 'Anglais' },
       { id: 'niveau_francais', title: 'Francais' },
       { id: 'note_nat', title: 'Nationale' },
-      { id: 'note_reg', title: 'Regional' },
-      { id: 'note_gen', title: 'Generale' },
+      { id: 'note_reg', title: 'regional' },
+      { id: 'note_gen', title: 'General' },
       { id: 'matiere_detestee', title: 'detestee' },
       { id: 'loisirs', title: 'Loisirs' },
       { id: 'matiere_preferee', title: 'preferee' },
