@@ -1,4 +1,3 @@
-
 const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
@@ -46,7 +45,7 @@ const NIVEAU_LANGUE_MAP = {
   '1': 'Debutant',
   '2': 'Intermediaire',
   '3': 'Avance',
-  '4': 'Fluent'
+  '4': 'Courant'
 };
 
 const MATIERE_MAP = {
@@ -106,26 +105,27 @@ const SPECIALITE_MAP1 = {
 app.use(cors());
 app.use(bodyParser.json());
 
-function createWriter(append = false) {
+function createWriter() {
+  // Always create a new file (no append option = overwrite)
   return createCsvWriter({
     path: CSV_FILE_PATH,
     header: [
       { id: 'age', title: 'Age' },
       { id: 'specialite', title: 'specialite_BAC' },
       { id: 'sexe', title: 'Sexe' },
-      { id: 'ville', title: 'Ville' },
+      { id: 'ville', title: 'ville' },
       { id: 'niveau_anglais', title: 'Anglais' },
       { id: 'niveau_francais', title: 'Francais' },
       { id: 'note_nat', title: 'Nationale' },
       { id: 'note_reg', title: 'regional' },
       { id: 'note_gen', title: 'General' },
-      { id: 'matiere_detestee', title: 'detestee' },
-      { id: 'loisirs', title: 'Loisirs' },
+      { id: 'matiere_detestee', title: 'deteste' },
+      { id: 'loisirs', title: 'loisirs' },
       { id: 'matiere_preferee', title: 'preferee' },
       { id: 'specialite1', title: 'specialite' },
-      { id: 'soft_skills', title: 'Skills' }
-    ],
-    append: append
+      { id: 'soft_skills', title: 'skills' }
+    ]
+    // Removed append option - this will always overwrite
   });
 }
 
@@ -154,16 +154,13 @@ app.post('/submit', async (req, res) => {
     const userData = req.body;
     const formattedData = transformData(userData);
     
-    // Check if file exists
-    const fileExists = fs.existsSync(CSV_FILE_PATH);
-    
-    // Create CSV writer with appropriate append setting
-    const csvWriter = createWriter(fileExists);
+    // Create CSV writer - will overwrite existing file
+    const csvWriter = createWriter();
 
     // Write the data
     await csvWriter.writeRecords([formattedData]);
     
-    res.json({ message: 'Data submitted and saved to CSV' });
+    res.json({ message: 'Data submitted and saved to CSV (overwritten if existed)' });
   } catch (error) {
     console.error('Error writing to CSV:', error);
     res.status(500).json({ message: 'Error saving data to CSV' });

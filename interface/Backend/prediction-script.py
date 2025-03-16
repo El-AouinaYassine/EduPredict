@@ -242,10 +242,8 @@ def predict_student_performance(input_file, output_file='prediction_results.csv'
     print("\n==== Student Performance Prediction ====")
     print(f"Input file: {input_file}")
     
-    # Step 1: Load models
     model, scaler = load_models(model_path, scaler_path)
     
-    # Step 2: Process input data
     processed_data = process_input_data(input_file, reference_file)
     print(f"Processed data shape: {processed_data.shape}")
     

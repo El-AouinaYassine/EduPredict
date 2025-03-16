@@ -112,7 +112,7 @@ if __name__ == "__main__":
     # output_file = "processed_student_data.csv"
     
     input_file = "interface/Backend/data.csv"
-    output_file = "interface/Backend/data_pre_result.csv"
+    output_file = "interface/Backend/xx.csv"
     processed_df = preprocess_data(input_file, output_file)
     
     # Display information about the processed data

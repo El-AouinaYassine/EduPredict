@@ -6,7 +6,7 @@ scaler = joblib.load('models/feature_scaler.pkl')
 model = joblib.load('models/student_performance_model.pkl')
 
 # data/synthetic/synthetic_student_data.csv
-data = pd.read_csv('data/processed/processed_student_data.csv')
+data = pd.read_csv("interface/Backend/tr1.csv")
 num_cols = ['Nationale', 'regional', 'General', 'Francais', 'Anglais']
 
 X = pd.DataFrame(columns=model.feature_names_in_)
