@@ -1,3 +1,4 @@
+const { exec } = require('child_process');
 const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
@@ -161,18 +162,19 @@ app.post('/submit', async (req, res) => {
     await csvWriter.writeRecords([formattedData]);
     
     res.json({ message: 'Data submitted and saved to CSV (overwritten if existed)' });
-    const { exec } = require('child_process');
 
     exec('./script/run_web_data.sh', (error, stdout, stderr) => {
         if (error) {
             console.error(`Error: ${error.message}`);
-            return;
         }
         if (stderr) {
             console.error(`Stderr: ${stderr}`);
-            return;
         }
-        console.log(`Output: ${stdout}`);
+        const lines = stdout.trim().split('\n');
+        const lastTwoNumbers = lines[lines.length - 1]; 
+        console.log(`Last two numbers as string: "${lastTwoNumbers}"`);
+        const [num1, num2] = lastTwoNumbers.split(',');
+        console.log(`Number 1: ${num1}, Number 2: ${num2}`);
     });
   } catch (error) {
     console.error('Error writing to CSV:', error);
