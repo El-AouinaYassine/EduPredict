@@ -6,7 +6,7 @@ const fs = require('fs');
 
 const app = express();
 const port = 5000;
-const CSV_FILE_PATH = 'data.csv';
+const CSV_FILE_PATH = './interface/Backend/data.csv';
 
 // Data mappings
 const SPECIALITE_MAP = {
@@ -161,6 +161,19 @@ app.post('/submit', async (req, res) => {
     await csvWriter.writeRecords([formattedData]);
     
     res.json({ message: 'Data submitted and saved to CSV (overwritten if existed)' });
+    const { exec } = require('child_process');
+
+    exec('./script/run_web_data.sh', (error, stdout, stderr) => {
+        if (error) {
+            console.error(`Error: ${error.message}`);
+            return;
+        }
+        if (stderr) {
+            console.error(`Stderr: ${stderr}`);
+            return;
+        }
+        console.log(`Output: ${stdout}`);
+    });
   } catch (error) {
     console.error('Error writing to CSV:', error);
     res.status(500).json({ message: 'Error saving data to CSV' });
