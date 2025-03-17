@@ -258,7 +258,7 @@
                 </div>
             </div>
             <div class="button-container">
-                <button id="submit" onclick= "btn-primary">
+                <button id="submit" type="button" >
                     <span>Obtenir la prédiction</span>
                     <i class="fas fa-arrow-right"></i>
                 </button>
@@ -277,7 +277,7 @@
                             </div>
                             <h3 class="prediction-title">Performance académique</h3>
                         </div>
-                        <div class="score indigo-score">7.8</div>
+                        <div class="score indigo-score" id="performance_res">7.8</div>
                         <div class="progress-container">
                             <div class="progress-label">
                                 <span class="progress-text">Score prédit</span>
@@ -287,15 +287,6 @@
                                 <div class="progress-bar-fill indigo-fill" style="width: 78%"></div>
                             </div>
                         </div>
-                        <p class="description">Votre performance prévue est supérieure à la moyenne des étudiants dans cette spécialité.</p>
-                        <div class="info-box blue-info">
-                            <p class="info-title">Facteurs clés influençant cette prédiction :</p>
-                            <ul class="info-list">
-                                <li>Notes académiques</li>
-                                <li>Compétences en résolution de problèmes</li>
-                                <li>Niveau en langues</li>
-                            </ul>
-                        </div>
                     </div>
                     <div class="prediction-card satisfaction-card">
                         <div class="prediction-header">
@@ -304,7 +295,7 @@
                             </div>
                             <h3 class="prediction-title">Satisfaction potentielle</h3>
                         </div>
-                        <div class="score teal-score">8.2</div>
+                        <div class="score teal-score" id="satisfaction_res">8.2</div>
                         <div class="progress-container">
                             <div class="progress-label">
                                 <span class="progress-text">Niveau de satisfaction</span>
@@ -313,15 +304,6 @@
                             <div class="progress-bar">
                                 <div class="progress-bar-fill teal-fill" style="width: 82%"></div>
                             </div>
-                        </div>
-                        <p class="description">Vous êtes susceptible d'être satisfait de cette orientation basée sur vos préférences et compétences.</p>
-                        <div class="info-box green-info">
-                            <p class="info-title">Pourquoi cette spécialité vous conviendrait :</p>
-                            <ul class="info-list">
-                                <li>Correspondance avec vos matières préférées</li>
-                                <li>Alignement avec vos loisirs</li>
-                                <li>Adéquation avec vos soft skills</li>
-                            </ul>
                         </div>
                     </div>
                 </div>

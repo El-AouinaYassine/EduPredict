@@ -1,162 +1,193 @@
-let ville_select = document.getElementById('ville');
-let submit_btn = document.getElementById('submit');
-const villes = [ 
-    "Casablanca",
-    "Rabat",
-    "Fes",
-    "Marrakech",
-    "Tangier",
-    "Agadir",
-    "Meknes",
-    "Oujda",
-    "Kenitra",
-    "Tetouan",
-    "Safi",
-    "Mohammedia",
-    "El Jadida",
-    "Nador",
-    "Beni Mellal",
-    "Taza",
-    "Laayoune",
-    "Dakhla",
-    "Essaouira",
-    "Al Hoceima",
-    "Settat",
-    "Ksar El Kebir",
-    "Tiznit",
-    "Errachidia",
-    "Guercif",
-    "Sidi Kacem",
-    "Taourirt",
-    "Sidi Slimane",
-    "Azrou",
-    "Ouarzazate",
-    "Tan-Tan",
-    "Guelmim",
-    "Smara",
-    "Larache",
-    "Midelt",
-    "Zagora",
-    "Chefchaouen",
-    "Khouribga",
-    "El Kelaa des Sraghna",
-    "Berkane",
-    "Ifrane",
-    "Martil",
-    "Fnideq",
-    "Temara",
-    "Ait Melloul",
-    "Ouazzane",
-    "Imzouren",
-    "Sefrou",
-    "Boujdour",
-    "Chichaoua",
-    "Azemmour",
-    "Aourir",
-    "Bir Jdid",
-    "Taroudant",
-    "Ait Ourir",
-    "Demnate",
-    "Oulad Teima",
-    "Skhirat",
-    "Tinghir",
-    "Bouarfa",
-    "Khémisset",
-    "Jorf El Melha",
-    "Laayoune-Plage"
-];
-
-villes.forEach((ville, n) => {
-    add_ville_option(ville, n);
-});
-
-submit_btn.addEventListener('click', () => {
-    submit_data();
-});
-
-function add_ville_option(villeNom, value) {
-    let ville_option = document.createElement("option");
-    ville_option.textContent = villeNom;
-    ville_option.setAttribute("value", value);
-    ville_select.appendChild(ville_option);
-}
-
-
-const noteInputs = document.querySelectorAll('#note_nat, #note_reg, #note_gen');
-const ageInput = document.getElementById('age');
-
-function validateNumberInput(input, min, max) {
-    input.addEventListener('input', function() {
-        const value = parseFloat(this.value);
+document.addEventListener('DOMContentLoaded', function() {
+    const tabLinks = document.querySelectorAll('.tab-link');
+    const tabContents = document.querySelectorAll('.tab-content');
+    
+    tabLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+            
+            tabLinks.forEach(l => l.classList.remove('active'));
+            tabContents.forEach(c => c.classList.remove('active'));
+            
+            this.classList.add('active');
+            const tabId = this.getAttribute('data-tab');
+            document.getElementById(tabId).classList.add('active');
+        });
+    });
+    
+    const menuBtn = document.querySelector('.mobile-menu-btn');
+    const navLinks = document.querySelector('.nav-links');
+    
+    if (menuBtn) {
+        menuBtn.addEventListener('click', function() {
+            navLinks.classList.toggle('show');
+        });
+    }
+    const villeSelect = document.getElementById('ville');
+    if (villeSelect) {
+        const villes = [ 
+            "Casablanca",
+            "Rabat",
+            "Fes",
+            "Marrakech",
+            "Tangier",
+            "Agadir",
+            "Meknes",
+            "Oujda",
+            "Kenitra",
+            "Tetouan",
+            "Safi",
+            "Mohammedia",
+            "El Jadida",
+            "Nador",
+            "Beni Mellal",
+            "Taza",
+            "Laayoune",
+            "Dakhla",
+            "Essaouira",
+            "Al Hoceima",
+            "Settat",
+            "Ksar El Kebir",
+            "Tiznit",
+            "Errachidia",
+            "Guercif",
+            "Sidi Kacem",
+            "Taourirt",
+            "Sidi Slimane",
+            "Azrou",
+            "Ouarzazate",
+            "Tan-Tan",
+            "Guelmim",
+            "Smara",
+            "Larache",
+            "Midelt",
+            "Zagora",
+            "Chefchaouen",
+            "Khouribga",
+            "El Kelaa des Sraghna",
+            "Berkane",
+            "Ifrane",
+            "Martil",
+            "Fnideq",
+            "Temara",
+            "Ait Melloul",
+            "Ouazzane",
+            "Imzouren",
+            "Sefrou",
+            "Boujdour",
+            "Chichaoua",
+            "Azemmour",
+            "Aourir",
+            "Bir Jdid",
+            "Taroudant",
+            "Ait Ourir",
+            "Demnate",
+            "Oulad Teima",
+            "Skhirat",
+            "Tinghir",
+            "Bouarfa",
+            "Khémisset",
+            "Jorf El Melha",
+            "Laayoune-Plage"
+        ];
         
-        if (value > max) {
-            this.value = max;
-            alert(`La valeur maximale autorisée est ${max}`);
-        }
-        if (value < min) {
-            this.value = min;
-            alert(`La valeur minimale autorisée est ${min}`);
-        }
-    });
-}
-
-noteInputs.forEach(input => {
-    validateNumberInput(input, 0, 20);
-});
-
-validateNumberInput(ageInput, 0, 100);
-
-document.getElementById('submit').addEventListener('click', function(e) {
-    let hasError = false;
-    // valider no9ta
-    noteInputs.forEach(input => {
-        const value = parseFloat(input.value);
-        if (value < 0 || value > 20 || isNaN(value)) {
-            hasError = true;
-            alert(`${input.previousElementSibling.textContent} doit être entre 0 et 20`);
-        }
-    });
-    
-    // valider l age
-    const ageValue = parseFloat(ageInput.value);
-    if (ageValue < 0 || ageValue > 100 || isNaN(ageValue)) {
-        hasError = true;
-        alert("L'âge doit être entre 0 et 100");
+        villes.forEach((ville, index) => {
+            const option = document.createElement('option');
+            option.value = index;
+            option.textContent = ville;
+            villeSelect.appendChild(option);
+        });
     }
     
-    if (hasError) {
-        e.preventDefault();
+    const submitBtn = document.getElementById('submit');
+    if (submitBtn) {
+        submitBtn.addEventListener('click', function(e) {
+            e.preventDefault(); 
+            const formData = {
+                age: document.getElementById('age').value,
+                sexe: document.getElementById('sexe').value,
+                ville: document.getElementById('ville').value,
+                specialite: document.getElementById('specialite').value,
+                note_nat: document.getElementById('note_nat').value,
+                note_reg: document.getElementById('note_reg').value,
+                note_gen: document.getElementById('note_gen').value,
+                niveau_francais: document.getElementById('niveau_francais').value,
+                niveau_anglais: document.getElementById('niveau_anglais').value,
+                matiere_preferee: document.getElementById('matiere_preferee').value,
+                matiere_detestee: document.getElementById('matiere_detestee').value,
+                specialite1: document.getElementById('specialite1').value,
+                loisirs: Array.from(document.querySelectorAll('input[name="loisirs"]:checked')).map(el => el.value),
+                soft_skills: Array.from(document.querySelectorAll('input[name="soft_skills"]:checked')).map(el => el.value)
+            };
+            
+            fetch('http://localhost:5000/submit', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(formData)
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Success:', data);
+                
+                setTimeout(() => {
+                    fetch('http://localhost:5000/result')
+                    .then(response => response.json())
+                    .then(resultData => {
+                        console.log('Prediction results:', resultData);
+                        
+                        if (resultData && resultData.result && resultData.result.length >= 2) {
+                            const performanceElement = document.getElementById('performance_res');
+                            const satisfactionElement = document.getElementById('satisfaction_res');
+                            
+                            if (performanceElement) {
+                                performanceElement.textContent = parseFloat(resultData.result[0]).toFixed(2);
+                                const progressBarFill = performanceElement.parentElement.querySelector('.progress-bar-fill');
+                                if (progressBarFill) {
+                                    progressBarFill.style.width = `${resultData.result[0] * 10}%`;
+                                }
+                                
+                                const progressText = performanceElement.parentElement.querySelector('.progress-label .progress-text:last-child');
+                                if (progressText) {
+                                    progressText.textContent = `${resultData.result[0]}/10`;
+                                }
+                            }
+                            
+                            if (satisfactionElement) {
+                                satisfactionElement.textContent = parseFloat(resultData.result[1]).toFixed(2);
+                                const progressBarFill = satisfactionElement.parentElement.querySelector('.progress-bar-fill');
+                                if (progressBarFill) {
+                                    progressBarFill.style.width = `${resultData.result[1] * 10}%`;
+                                }
+                                
+                                const progressText = satisfactionElement.parentElement.querySelector('.progress-label .progress-text:last-child');
+                                if (progressText) {
+                                    progressText.textContent = `${resultData.result[1]}/10`;
+                                }
+                            }
+                            
+                            const resultsTabLink = document.querySelector('.tab-link[data-tab="results"]');
+                            if (resultsTabLink) {
+                                resultsTabLink.click();
+                            } else {
+                                tabContents.forEach(c => c.classList.remove('active'));
+                                const resultsTab = document.getElementById('results');
+                                if (resultsTab) {
+                                    resultsTab.classList.add('active');
+                                }
+                            }
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error fetching results:', error);
+                        alert('Erreur lors de la récupération des résultats. Veuillez réessayer.');
+                    });
+                }, 1000); 
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Erreur lors de l\'envoi des données. Veuillez réessayer.');
+            });
+        });
     }
 });
-
-function submit_data() {
-    const userData = {
-        age: document.getElementById('age').value,
-        specialite: document.getElementById('specialite').value,
-        sexe: document.getElementById('sexe').value,
-        ville: document.getElementById('ville').value,
-        niveau_anglais: document.getElementById('niveau_anglais').value,
-        niveau_francais: document.getElementById('niveau_francais').value,
-        note_nat: document.getElementById('note_nat').value,
-        note_reg: document.getElementById('note_reg').value,
-        note_gen: document.getElementById('note_gen').value,
-        matiere_detestee: document.getElementById('matiere_detestee').value,
-        loisirs: Array.from(document.querySelectorAll('input[name="loisirs"]:checked')).map(el => el.value),
-        matiere_preferee: document.getElementById('matiere_preferee').value,
-        specialite1: document.getElementById('specialite1').value, // Add this
-        soft_skills: Array.from(document.querySelectorAll('input[name="soft_skills"]:checked')).map(el => el.value),
-    };
-
-    //console.log('Ville selected:', userData.ville); 
-
-    fetch('http://localhost:5000/submit', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(userData),
-    })
-    .then(response => response.json())
-    .then(data => alert(data.message)) 
-    .catch(error => console.error('Error:', error)); 
-}

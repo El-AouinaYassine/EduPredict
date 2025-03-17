@@ -4,7 +4,9 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 const fs = require('fs');
-
+const { spawn } = require('child_process');
+const path = require('path');
+const { parse } = require('csv-parse/sync');
 const app = express();
 const port = 5000;
 const CSV_FILE_PATH = './interface/Backend/data.csv';
@@ -163,25 +165,31 @@ app.post('/submit', async (req, res) => {
     
     res.json({ message: 'Data submitted and saved to CSV (overwritten if existed)' });
 
-    exec('./script/run_web_data.sh', (error, stdout, stderr) => {
-        if (error) {
-            console.error(`Error: ${error.message}`);
-        }
-        if (stderr) {
-            console.error(`Stderr: ${stderr}`);
-        }
-        const lines = stdout.trim().split('\n');
-        const lastTwoNumbers = lines[lines.length - 1]; 
-        console.log(`Last two numbers as string: "${lastTwoNumbers}"`);
-        const [num1, num2] = lastTwoNumbers.split(',');
-        console.log(`Number 1: ${num1}, Number 2: ${num2}`);
+    exec('./.venv/bin/python ./script/data_preprocessing/clean_website.py', (error, stdout, stderr) => {
+      if(error){
+        console.error(`error=>${error}`)
+      }
     });
+    exec('./.venv/bin/python ./testing/prediction.py ', (error, stdout, stderr) => {
+      if(error){
+        console.error(`error=>${error}`)
+      }
+    });
+    
   } catch (error) {
     console.error('Error writing to CSV:', error);
     res.status(500).json({ message: 'Error saving data to CSV' });
   }
 });
-
+app.get('/result', async (req, res) => {
+    const csvFilePath = 'predictions.csv'
+    const csvData = fs.readFileSync(csvFilePath, 'utf8');
+    const records = parse(csvData, { columns: true, trim: true });
+    console.log('CSV Records:', records);
+    const lastRow = records[records.length - 1];
+    const satisfactio_performance = Object.values(lastRow).slice(-2);
+    res.status(200).json({result:satisfactio_performance})
+})
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
