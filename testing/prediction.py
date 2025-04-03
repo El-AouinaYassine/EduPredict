@@ -1,6 +1,17 @@
 import pandas as pd
 import joblib
 import numpy as np
+cats = ['Réseaux et télécommunication', 'Statistique et informatique décisionnelle', 
+                   'Génie mécanique et productique', 'Génie électrique', 'Génie des procédés', 
+                   'Gestion des ressources humaines', 'Technique de gestion commerciale', 
+                   'Technique de management', 'Gestion logistique et transport', 
+                   'Génie thermique et énergétique', 'Informatique', 'Génie industriel et maintenance']
+
+def turn_all_zero_but_spe(df, spe):
+    for cat in cats:
+        df[f"specialite_{cat}"]=0
+    df[f"specialite_{spe}"]=1
+
 # models/feature_scaler.pkl
 scaler = joblib.load('models/feature_scaler.pkl')
 model = joblib.load('models/student_performance_model.pkl')
@@ -18,6 +29,7 @@ for col in model.feature_names_in_:
         X[col] = 0
 
 X_copy = X.copy()
+
 X_copy[num_cols] = scaler.transform(X[num_cols])
 
 predictions = model.predict(X_copy)
