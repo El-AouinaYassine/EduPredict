@@ -186,8 +186,11 @@ app.get('/result', async (req, res) => {
     const csvData = fs.readFileSync(csvFilePath, 'utf8');
     const records = parse(csvData, { columns: true, trim: true });
     console.log('CSV Records:', records);
-    const lastRow = records[records.length - 1];
-    const satisfactio_performance = Object.values(lastRow).slice(-2);
+    const lastRow = records[0];
+    const satisfactio_performance = Object.values(lastRow).slice(-3,-1);
+    console.log("-------------------")
+    console.log(satisfactio_performance)
+    console.log("-------------------")
     res.status(200).json({result:satisfactio_performance})
 })
 app.listen(port, () => {

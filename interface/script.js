@@ -1,10 +1,31 @@
+const inject_reco_card = (title , per_n , sat_n)=>{
+    const cardHTML = `
+                    <div class="recommendation-card">
+                        <h4 class="recommendation-name">${specialty}</h4>
+                        <div class="progress-item">
+                            <span class="progress-text">Performance</span>
+                            <span class="progress-value">${performance}/10</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-bar-fill blue-fill" style="width: ${performance * 10}%"></div>
+                        </div>
+                        <div class="progress-item">
+                            <span class="progress-text">Satisfaction</span>
+                            <span class="progress-value">${satisfaction}/10</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-bar-fill green-fill" style="width: ${satisfaction * 10}%"></div>
+                        </div>
+                    </div>
+                `;
+}
 document.addEventListener('DOMContentLoaded', function() {
     const tabLinks = document.querySelectorAll('.tab-link');
     const tabContents = document.querySelectorAll('.tab-content');
     
+    // Tab navigation logic
     tabLinks.forEach(link => {
         link.addEventListener('click', function(e) {
-            
             tabLinks.forEach(l => l.classList.remove('active'));
             tabContents.forEach(c => c.classList.remove('active'));
             
@@ -14,6 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
+    // Mobile menu toggle
     const menuBtn = document.querySelector('.mobile-menu-btn');
     const navLinks = document.querySelector('.nav-links');
     
@@ -22,71 +44,20 @@ document.addEventListener('DOMContentLoaded', function() {
             navLinks.classList.toggle('show');
         });
     }
+
+    // Populate ville select dropdown
     const villeSelect = document.getElementById('ville');
     if (villeSelect) {
         const villes = [ 
-            "Casablanca",
-            "Rabat",
-            "Fes",
-            "Marrakech",
-            "Tangier",
-            "Agadir",
-            "Meknes",
-            "Oujda",
-            "Kenitra",
-            "Tetouan",
-            "Safi",
-            "Mohammedia",
-            "El Jadida",
-            "Nador",
-            "Beni Mellal",
-            "Taza",
-            "Laayoune",
-            "Dakhla",
-            "Essaouira",
-            "Al Hoceima",
-            "Settat",
-            "Ksar El Kebir",
-            "Tiznit",
-            "Errachidia",
-            "Guercif",
-            "Sidi Kacem",
-            "Taourirt",
-            "Sidi Slimane",
-            "Azrou",
-            "Ouarzazate",
-            "Tan-Tan",
-            "Guelmim",
-            "Smara",
-            "Larache",
-            "Midelt",
-            "Zagora",
-            "Chefchaouen",
-            "Khouribga",
-            "El Kelaa des Sraghna",
-            "Berkane",
-            "Ifrane",
-            "Martil",
-            "Fnideq",
-            "Temara",
-            "Ait Melloul",
-            "Ouazzane",
-            "Imzouren",
-            "Sefrou",
-            "Boujdour",
-            "Chichaoua",
-            "Azemmour",
-            "Aourir",
-            "Bir Jdid",
-            "Taroudant",
-            "Ait Ourir",
-            "Demnate",
-            "Oulad Teima",
-            "Skhirat",
-            "Tinghir",
-            "Bouarfa",
-            "Khémisset",
-            "Jorf El Melha",
+            "Casablanca", "Rabat", "Fes", "Marrakech", "Tangier", "Agadir", "Meknes", "Oujda", 
+            "Kenitra", "Tetouan", "Safi", "Mohammedia", "El Jadida", "Nador", "Beni Mellal", 
+            "Taza", "Laayoune", "Dakhla", "Essaouira", "Al Hoceima", "Settat", "Ksar El Kebir", 
+            "Tiznit", "Errachidia", "Guercif", "Sidi Kacem", "Taourirt", "Sidi Slimane", "Azrou", 
+            "Ouarzazate", "Tan-Tan", "Guelmim", "Smara", "Larache", "Midelt", "Zagora", 
+            "Chefchaouen", "Khouribga", "El Kelaa des Sraghna", "Berkane", "Ifrane", "Martil", 
+            "Fnideq", "Temara", "Ait Melloul", "Ouazzane", "Imzouren", "Sefrou", "Boujdour", 
+            "Chichaoua", "Azemmour", "Aourir", "Bir Jdid", "Taroudant", "Ait Ourir", "Demnate", 
+            "Oulad Teima", "Skhirat", "Tinghir", "Bouarfa", "Khémisset", "Jorf El Melha", 
             "Laayoune-Plage"
         ];
         
@@ -149,20 +120,20 @@ document.addEventListener('DOMContentLoaded', function() {
                                 
                                 const progressText = performanceElement.parentElement.querySelector('.progress-label .progress-text:last-child');
                                 if (progressText) {
-                                    progressText.textContent = `${resultData.result[0]}/10`;
+                                    progressText.textContent = `${(resultData.result[0])}/10`;
                                 }
                             }
                             
                             if (satisfactionElement) {
-                                satisfactionElement.textContent = parseFloat(resultData.result[1]).toFixed(2);
+                                satisfactionElement.textContent = parseFloat(resultData.result[1]*2).toFixed(2);
                                 const progressBarFill = satisfactionElement.parentElement.querySelector('.progress-bar-fill');
                                 if (progressBarFill) {
-                                    progressBarFill.style.width = `${resultData.result[1] * 10}%`;
+                                    progressBarFill.style.width = `${resultData.result[1]*2 * 10}%`;
                                 }
                                 
                                 const progressText = satisfactionElement.parentElement.querySelector('.progress-label .progress-text:last-child');
                                 if (progressText) {
-                                    progressText.textContent = `${resultData.result[1]}/10`;
+                                    progressText.textContent = `${(resultData.result[1]*2).toFixed(2)}/10`;
                                 }
                             }
                             
