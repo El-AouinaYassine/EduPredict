@@ -1,23 +1,26 @@
 const inject_reco_card = (title , per_n , sat_n)=>{
     const cardHTML = `
                     <div class="recommendation-card">
-                        <h4 class="recommendation-name">${specialty}</h4>
+                        <h4 class="recommendation-name">${title}</h4>
                         <div class="progress-item">
                             <span class="progress-text">Performance</span>
-                            <span class="progress-value">${performance}/10</span>
+                            <span class="progress-value">${parseFloat(per_n).toFixed(2)}/10</span>
                         </div>
                         <div class="progress-bar">
-                            <div class="progress-bar-fill blue-fill" style="width: ${performance * 10}%"></div>
+                            <div class="progress-bar-fill blue-fill" style="width: ${per_n * 10}%"></div>
                         </div>
                         <div class="progress-item">
                             <span class="progress-text">Satisfaction</span>
-                            <span class="progress-value">${satisfaction}/10</span>
+                            <span class="progress-value">${parseFloat(sat_n).toFixed(2)}/10</span>
                         </div>
                         <div class="progress-bar">
-                            <div class="progress-bar-fill green-fill" style="width: ${satisfaction * 10}%"></div>
+                            <div class="progress-bar-fill green-fill" style="width: ${sat_n * 10}%"></div>
                         </div>
                     </div>
                 `;
+    const cards_container = document.getElementById('cards_container');
+    cards_container.insertAdjacentHTML('beforeend', cardHTML);
+
 }
 document.addEventListener('DOMContentLoaded', function() {
     const tabLinks = document.querySelectorAll('.tab-link');
@@ -120,7 +123,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                 
                                 const progressText = performanceElement.parentElement.querySelector('.progress-label .progress-text:last-child');
                                 if (progressText) {
-                                    progressText.textContent = `${(resultData.result[0])}/10`;
+                                    progressText.textContent = `${parseFloat(resultData.result[0]).toFixed(2)}/10`;
                                 }
                             }
                             
@@ -147,12 +150,21 @@ document.addEventListener('DOMContentLoaded', function() {
                                     resultsTab.classList.add('active');
                                 }
                             }
+
                         }
                     })
                     .catch(error => {
                         console.error('Error fetching results:', error);
                         alert('Erreur lors de la récupération des résultats. Veuillez réessayer.');
                     });
+                    fetch('http://localhost:5000/getTopThree')
+                    .then(response => response.json())
+                    .then((response)=>{
+                         cards_container.innerHTML = ''; // Clear the container first
+                        inject_reco_card(response.result[0][0],response.result[0][1],response.result[0][2])
+                        inject_reco_card(response.result[1][0],response.result[1][1],response.result[1][2])
+                        inject_reco_card(response.result[2][0],response.result[2][1],response.result[2][2])
+                    })
                 }, 1000); 
             })
             .catch(error => {

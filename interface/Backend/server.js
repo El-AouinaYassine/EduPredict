@@ -193,6 +193,17 @@ app.get('/result', async (req, res) => {
     console.log("-------------------")
     res.status(200).json({result:satisfactio_performance})
 })
+app.get('/getTopThree' , async (req,  res)=>{
+  const csvFilePath = 'predictions.csv'
+  const csvData = fs.readFileSync(csvFilePath, 'utf8');
+  const records = parse(csvData, { columns: true, trim: true });
+  console.log('CSV Records:', records);
+  const first = Object.values(records[1]).slice(-4,-1);
+  const second = Object.values(records[2]).slice(-4,-1);
+  const third = Object.values(records[3]).slice(-4,-1);
+  // const satisfactio_performance = Object.values(lastRow).slice(-3,-1);
+  res.status(200).json({result:[first,second,third]})
+})
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
