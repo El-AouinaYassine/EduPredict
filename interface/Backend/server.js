@@ -8,7 +8,7 @@ const { spawn } = require('child_process');
 const path = require('path');
 const { parse } = require('csv-parse/sync');
 const app = express();
-const port = 5000;
+const port = 3000;
 const CSV_FILE_PATH = './interface/Backend/data.csv';
 
 // Data mappings

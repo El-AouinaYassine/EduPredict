@@ -166,22 +166,4 @@ if __name__ == "__main__":
     prediction_df = preprocess_data_robust(prediction_input, prediction_output, is_prediction_data=True)
     
     # Example of processing a single data point (e.g., from a web form)
-    single_data = {
-        'Sexe': 'M',
-        'Anglais': 'Intermédiaire',
-        'Francais': 'Avancé',
-        'Nationale': 15.6,
-        'regional': 16.2,
-        'General': 15.8,
-        'specialite_BAC': 'SM',
-        'ville': 'fes',
-        'deteste': 'Histoire',
-        'preferee': 'Mathématiques',
-        'specialite': 'Informatique',
-        'skills': 'Resolutiondeproblemes, Travailenequipe, Communication',
-        'loisirs': 'Sport, Technologie'
-    }
     
-    single_processed = preprocess_single_datapoint(single_data, "processed_single_datapoint.csv")
-    print("\nSample of processed single datapoint:")
-    print(f"Shape: {single_processed.shape}")

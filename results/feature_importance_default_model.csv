@@ -1,0 +1,11 @@
+Feature,Importance,Model
+Nationale,0.09795552145746544,Default Model
+regional,0.08424057555348853,Default Model
+General,0.0721231532036285,Default Model
+Francais,0.038917316328310365,Default Model
+Anglais,0.03334318214768416,Default Model
+specialite_Gestion logistique et transport,0.020028866247581795,Default Model
+specialite_Réseaux et télécommunication,0.019815266679077816,Default Model
+Sexe,0.019533183951738378,Default Model
+BAC_SVT,0.017440277123432962,Default Model
+deteste_Anglais,0.016177069289817495,Default Model

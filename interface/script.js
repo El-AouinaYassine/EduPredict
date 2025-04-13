@@ -11,10 +11,10 @@ const inject_reco_card = (title , per_n , sat_n)=>{
                         </div>
                         <div class="progress-item">
                             <span class="progress-text">Satisfaction</span>
-                            <span class="progress-value">${parseFloat(sat_n).toFixed(2)}/10</span>
+                            <span class="progress-value">${parseFloat(sat_n*2).toFixed(2)}/10</span>
                         </div>
                         <div class="progress-bar">
-                            <div class="progress-bar-fill green-fill" style="width: ${sat_n * 10}%"></div>
+                            <div class="progress-bar-fill green-fill" style="width: ${sat_n * 20}%"></div>
                         </div>
                     </div>
                 `;
@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 soft_skills: Array.from(document.querySelectorAll('input[name="soft_skills"]:checked')).map(el => el.value)
             };
             
-            fetch('http://localhost:5000/submit', {
+            fetch('http://localhost:3000/submit', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 console.log('Success:', data);
                 
                 setTimeout(() => {
-                    fetch('http://localhost:5000/result')
+                    fetch('http://localhost:3000/result')
                     .then(response => response.json())
                     .then(resultData => {
                         console.log('Prediction results:', resultData);
@@ -157,7 +157,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         console.error('Error fetching results:', error);
                         alert('Erreur lors de la récupération des résultats. Veuillez réessayer.');
                     });
-                    fetch('http://localhost:5000/getTopThree')
+                    fetch('http://localhost:3000/getTopThree')
                     .then(response => response.json())
                     .then((response)=>{
                          cards_container.innerHTML = ''; // Clear the container first

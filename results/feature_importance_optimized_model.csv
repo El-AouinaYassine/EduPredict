@@ -1,0 +1,11 @@
+Feature,Importance,Model
+Nationale,0.0929848290863498,Optimized Model
+regional,0.08498858106302208,Optimized Model
+General,0.06741328048000975,Optimized Model
+Francais,0.04046956473021042,Optimized Model
+Anglais,0.03586652709311444,Optimized Model
+specialite_Gestion logistique et transport,0.023186776662721932,Optimized Model
+specialite_Réseaux et télécommunication,0.020593689550719607,Optimized Model
+Sexe,0.01805181496628127,Optimized Model
+BAC_SVT,0.018042231587075793,Optimized Model
+deteste_Anglais,0.017046536800789405,Optimized Model

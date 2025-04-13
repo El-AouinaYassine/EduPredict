@@ -1,0 +1,5 @@
+,MAE,MSE,RMSE,R2,Model
+performance,1.317,2.779,1.667,0.716,Default Model
+satisfation,0.861,1.044,1.022,0.646,Default Model
+performance,1.359,2.85,1.688,0.709,Optimized Model
+satisfation,0.932,1.188,1.09,0.597,Optimized Model
