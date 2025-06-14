@@ -53,6 +53,9 @@ Ce dépôt est également conçu pour servir de ressource éducative aux débuta
 
 ```bash
 # Exemple
+git clone https://github.com/El-AouinaYassine/EduPredict.git
+cd EduPredict
 pip install -r requirements.txt
-python train_model.py
-python predict.py
+node interface/Backend/server.js 
+(open interface/index.html)
+
