@@ -66,4 +66,3 @@ python train_model.py
 python predict.py
 Captures d’écran
 À compléter avec des images du dataset, des visualisations, de l’interface (si web), ou des résultats du modèle.
-
