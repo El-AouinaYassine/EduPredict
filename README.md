@@ -6,7 +6,9 @@ Il se base sur des données personnelles et académiques pour suggérer une orie
 Ce dépôt est également conçu pour servir de ressource éducative aux débutants souhaitant apprendre à développer un projet de machine learning complet, depuis la collecte des données jusqu'à la prédiction finale.
 
 ---
+![Screenshot from 2025-06-14 07-30-39](https://github.com/user-attachments/assets/c6d4541b-d2d4-4dcf-90e4-228407104255)
 ![Screenshot from 2025-06-14 07-30-11](https://github.com/user-attachments/assets/6fa2840c-092f-461e-a8d9-9272f5d9c17b)
+![Screenshot from 2025-06-14 07-30-24](https://github.com/user-attachments/assets/e77191c0-b6bd-4af7-809f-4d1105d2a386)
 
 ## Stack technique
 
