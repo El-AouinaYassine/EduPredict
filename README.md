@@ -11,9 +11,7 @@ Ce dépôt est également conçu pour servir de ressource éducative aux débuta
 
 - **Backend** : Node.js + Express.js (API pour interagir avec le modèle)
 - **Machine Learning** : Python (Pandas, Scikit-learn, NumPy, Matplotlib)
-- **Manipulation des données** : CSV contenant plus de 160 profils d'étudiants
-- **Environnement de travail** : Jupyter Notebook, Visual Studio Code
-
+- **Manipulation des données** : CSV contenant plus de 10000 profils d'étudiants
 ---
 
 ## Fonctionnement du projet
